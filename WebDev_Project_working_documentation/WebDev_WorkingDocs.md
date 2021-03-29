@@ -43,11 +43,10 @@ Some other nice websites built mainly on Ruby’s Jekyll/ Liquid & GH Pages:
 https://www.ismoothblog.com/2016/11/top-example-blogs-hosted-on-github-jekyll.html 
 
 
+### Misc. - Website layout ideas
 
+[Jekyll Showroom](https://jekyllrb.com/showcase/)
 
-
-
-Misc. - Website layout ideas
 
 https://rits.github-pages.ucl.ac.uk/software-carpentry/ 
 
