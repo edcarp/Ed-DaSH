@@ -58,3 +58,6 @@ https://github.blog/2018-06-04-github-microsoft/
 
 
 If needed some rich text input on the webpage might consider [TINY](https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v5).
+
+
+Maybe add personal stories of key people behind EdDaSH
