@@ -61,3 +61,8 @@ If needed some rich text input on the webpage might consider [TINY](https://www.
 
 
 Maybe add personal stories of key people behind Ed-DaSH
+
+Add appropriate license:
+ * Added GNU GPL v3.0
+ * [Choose a license](https://choosealicense.com/)
+
