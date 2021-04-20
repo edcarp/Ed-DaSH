@@ -45,8 +45,8 @@ Learn more about [the project](project_overview.md).
 * Reference page
 
 ---
-Project [funders]( {{ page.funders }})
-[Key stakeholders](  {{ page.stakeholders }} )
+Project [funders]( {{ site.funders }})
+[Key stakeholders](  {{ site.stakeholders }} )
 
 ---
 
@@ -59,7 +59,7 @@ You can cite the project as:
 ---
 ## Contact us
 
-- Email: [team@carpentries.org](mailto:team@carpentries.org)
+- Email: [team@carpentries.org](mailto:{{ site.email }} )
 - Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
 
 
