@@ -1,5 +1,5 @@
 
-**Workshop development & delivery**
+# Workshop development & delivery
 
 Our workshops will teach a mix of existing and new content, including new material developed
 in parallel by other initiatives, to address the skills gaps most frequently identified by health and
@@ -15,8 +15,9 @@ Mozilla Open Source Support Program) and further financed by membership subscrip
 workshops will be in Carpentries format, with open-source materials deposited in The Carpentries
 Incubator (hosted on GitHub) for sharing, peer review, and archiving. Mr G Peru (Edinburgh
 Carpentries [EdCarp], Edinburgh Parallel Computing Centre [EPCC]) will facilitate this process as
-Programme Liaison (WP4.1, 4.2).
+Programme Liaison (WP4.1, 4.2).  
 
+<br></br>
 
 | Block  | Workshop  | Duration (haf days)|  Repo |   |   |   |
 |---|---|---|---|---|---|---|
