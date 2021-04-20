@@ -11,7 +11,7 @@ themselves must be carefully and securely managed throughout their life cycles, 
 producers and consumers. Computational analysis of large datasets must be portable, scalable
 and reproducible, which calls for virtual environments and workflow management systems.
 Intersecting these requirements is a move towards open science, exemplified by the [FAIR
-principles][fair]{target="_blank"} (Findable-Accessible-Interoperable-Reproducible). Our proposed training programme
+principles][fair]{:target="_blank"} (Findable-Accessible-Interoperable-Reproducible). Our proposed training programme
 will develop and deliver workshops to disseminate best practices for data science in ‘omics (here
 defined as the analysis of DNA and RNA sequencing, and of subcellular components such as
 RNA, proteins and metabolites) with training packages covering statistics, computation, and data
@@ -35,7 +35,7 @@ sustainable network of health and bioscience data science training for the UK.
 ## Objectives
 
 1. Develop peer-reviewed training modules for biological data science that address identified skill
-gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{target="_blank"} & data
+gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} & data
 management; Data science computing with workflows) using The Carpentries platform.
 
 2. Deliver 98 days of remote training of our new workshops, plus established introductory material,
