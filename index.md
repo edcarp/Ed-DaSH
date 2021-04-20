@@ -45,7 +45,8 @@ Learn more about [the project](project_overview.md).
 * Reference page
 
 ---
-Project [funders]( {{ site.funders }})
+Project [funders]( {{ site.funders }})  
+
 [Key stakeholders](  {{ site.stakeholders }} )
 
 ---
