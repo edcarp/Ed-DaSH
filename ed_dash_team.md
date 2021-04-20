@@ -1,5 +1,4 @@
 ---
-layout:
 title: "Ed-DaSH Who's Who"
 ---
 
