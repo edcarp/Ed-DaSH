@@ -1,2 +1,11 @@
 title: "Edinburgh Data Science Training for Healthcare & Biosciences (Ed-DaSH)"
 email: "team@carpentries.org"
+
+
+# Build settings
+markdown: kramdown
+future: true
+show_downloads: false
+google_analytics:
+plugins:
+  - jekyll-feed
