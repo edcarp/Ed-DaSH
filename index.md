@@ -62,4 +62,7 @@ You can cite the project as:
 - Email: [team@carpentries.org](mailto:{{ site.email }} )
 - Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
 
+---
+
+Curent time is {{ site.time }}
 
