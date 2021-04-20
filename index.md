@@ -9,6 +9,12 @@ Developed by: Link to learning material page.
 
 People profiles page.
 
-### 3. 
+### 3. Ed-DaSH Workshops
 
-Delivered by: Ed-DaSH Workshops page.
+**Upcoming workshops**
+
+* Reference page
+
+**Past workshops**
+
+* Reference page
