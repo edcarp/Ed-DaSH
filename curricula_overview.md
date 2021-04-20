@@ -1,6 +1,6 @@
 ---
 layout:
-title: Overview of Ed-DaSH curricula: workshop materials
+title: "Overview of Ed-DaSH curricula: workshop materials"
 ---
 
 # {{ page.title }}
