@@ -45,7 +45,7 @@ Learn more about [the project](project_overview.md).
 * Reference page
 
 ---
-Project [funders]( {{ site.funders }})  
+We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
 
 [Key stakeholders](  {{ site.stakeholders }} )
 
