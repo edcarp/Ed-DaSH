@@ -17,9 +17,9 @@ Computational Biology as priority areas for further investment and development, 
 and bioinformatics especially vulnerable. The NERC Environmental Omics: A Community Vision
 report (2019) also highlighted the need for bioinformatics training to maximize the uses of new
 genomics technologies to solve major environmental issues. This is not just a UK challenge: A
-recent OECD report noted: “The COVID-19 pandemic ... has underscored the critical importance of
+recent OECD report noted: _“The COVID-19 pandemic ... has underscored the critical importance of
 data-intensive science and the need for strategic approaches to strengthening the digital capacity
-and skills of the scientific enterprise as a whole.” Demand for digital training far outstrips supply.
+and skills of the scientific enterprise as a whole._” Demand for digital training far outstrips supply.
 
 Learn more about [the project](project_overview.md).
 
