@@ -17,7 +17,7 @@ Incubator (hosted on GitHub) for sharing, peer review, and archiving. Mr G Peru 
 Carpentries [EdCarp], Edinburgh Parallel Computing Centre [EPCC]) will facilitate this process as
 Programme Liaison (WP4.1, 4.2).  
 
-<br></br>
+<br><br>
 
 | Block  | Workshop  | Duration (haf days)|  Repo |   |   |   |
 |---|---|---|---|---|---|---|
@@ -29,7 +29,7 @@ Programme Liaison (WP4.1, 4.2).
 |  Workflows |  Workflows w Snakemake |  6 |   |   |   |   |
 |   | Workflows w Nextflow  | 6  |   |   |   |   |
 
-<br></br>
+<br><br>
 
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
@@ -39,7 +39,7 @@ Programme Liaison (WP4.1, 4.2).
 |   |  Good Practices |  1 |   |  Ed-DaSH |
 |   |  Snakemake  |  4 | https://github.com/carpentries-incubator/snakemake-novice-bioinformatics  |  Ed-DaSH |
 
-<br></br>
+<br><br>
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ Programme Liaison (WP4.1, 4.2).
 |   |  Good Practices |  1 |   |  Ed-DaSH |
 |   |  Nextflow |  4 |  https://carpentries-incubator.github.io/workflows-nextflow/ |  Ed-DaSH |
 
-<br></br>
+<br><br>
 
 
 ## library of Ed-DaSH workshops
@@ -61,3 +61,6 @@ Programme Liaison (WP4.1, 4.2).
 | Open Science Leadership| #x+1  | OS-PI  |   |   |   |   |
 | Data Science Workflows with Snakemake | #x+1  | DSW-SM  |
 | Data Science Workflows with Nextflow  | #x+1  | DSW-NF  |  
+
+
+
