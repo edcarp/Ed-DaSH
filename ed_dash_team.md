@@ -1,4 +1,9 @@
-# Ed-DaSH Who's Who
+---
+layout:
+title: "Ed-DaSH Who's Who"
+---
+
+# 
 
 ## Co-Investigators
 * Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
