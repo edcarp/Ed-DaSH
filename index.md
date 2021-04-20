@@ -65,5 +65,7 @@ You can cite the project as:
 
 ---
 
-Curent time is {{ site.time }}
+Curent time is {{ site.time }}  
+
+All pages: {{ site.pages }}
 
