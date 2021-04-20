@@ -1,5 +1,4 @@
 ---
-layout:
 title: "Overview of Ed-DaSH curricula: workshop materials"
 ---
 
