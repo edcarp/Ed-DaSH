@@ -60,7 +60,7 @@ You can cite the project as:
 ---
 ## Contact us
 
-- Email: [team@carpentries.org](mailto:{{ site.email }} )
+- Email: [{{ site.email }}](mailto:{{ site.email }} )
 - Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
 
 ---
