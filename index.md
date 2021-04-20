@@ -7,7 +7,7 @@ Developed by: Link to learning material page.
 
 ### 2. People behind the Ed-DaSH project
 
-People profiles page.
+[People profiles page](ed_dash_team.md).
 
 ### 3. Ed-DaSH Workshops
 
