@@ -2,6 +2,8 @@
 
 ## Data driven life science skills development - equipping society for the future
 
+**The motivation: addressing unmet data-skills needs**
+
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
 cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
 years, the fraction of data-rich science in research grant applications to BBSRC has grown from
@@ -18,6 +20,9 @@ genomics technologies to solve major environmental issues. This is not just a UK
 recent OECD report noted: “The COVID-19 pandemic ... has underscored the critical importance of
 data-intensive science and the need for strategic approaches to strengthening the digital capacity
 and skills of the scientific enterprise as a whole.” Demand for digital training far outstrips supply.
+
+Learn more about [the project](project_overview.md).
+
 
 ### 1. Learning materials developed by Ed-DaSH
 
