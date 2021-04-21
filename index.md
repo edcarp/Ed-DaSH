@@ -1,4 +1,4 @@
-# {{ site.title }}
+![Founder parners banner](./images/project_funders_stakeholders.png)
 
 ## Data driven life science skills development - equipping society for the future
 
