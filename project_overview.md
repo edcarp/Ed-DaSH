@@ -1,3 +1,5 @@
+{% include banner.md %}
+
 # Overview of the Ed-DaSH project  
 
 ## Scientific Value and Quality of Training  
