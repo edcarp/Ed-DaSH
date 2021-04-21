@@ -35,19 +35,19 @@ Programme Liaison (WP4.1, 4.2).
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
-|   |  Unix Shell |  2 | https://github.com/swcarpentry/shell-novice  |  Software Carpentry |
+|   |  Unix Shell |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }})  |  Software Carpentry |
 |   |  Conda |  1 |   |  Ed-DaSH |
 |   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  Snakemake  |  4 | https://github.com/carpentries-incubator/snakemake-novice-bioinformatics  |  Ed-DaSH |
+|   |  Snakemake  |  4 | [{{ site.ws_snakemake }}]({{ site.ws_unix_shell }})  |  Ed-DaSH |
 
 <br><br>
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
-|   |  Unix Shell |  2 | https://github.com/swcarpentry/shell-novice  |  Software Carpentry |
+|   |  Unix Shell |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }})  |  Software Carpentry |
 |   |  Conda |  1 |   |  Ed-DaSH |
 |   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  Nextflow |  4 |  https://carpentries-incubator.github.io/workflows-nextflow/ |  Ed-DaSH |
+|   |  Nextflow |  4 |  [{{ site.ws_nextflow }}]({{ site.ws_nextflow }}) |  Ed-DaSH |
 
 <br><br>
 
