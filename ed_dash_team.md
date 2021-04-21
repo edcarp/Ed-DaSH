@@ -2,7 +2,6 @@
 title: "Ed-DaSH Who's Who"
 ---
 
-{% include banner.md %}
 
 # {{ page.title }}
 
