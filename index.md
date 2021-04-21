@@ -67,3 +67,7 @@ You can cite the project as:
 
 Curent time is {{ site.time }}  
 
+{{ page.date | date: "%-d %B %Y" }}  
+
+
+
