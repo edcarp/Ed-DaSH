@@ -30,12 +30,12 @@ social_twitter: "@ed_dash"
 social_linkedin: ""
 social_facebook: ""
 email: "team@carpentries.org"
-github_username: "ed_dash_web"
+github_username: "ed_dash_web" # Use this alias in combination with 'theme: minima' active (uncomment!)
 
 # Build settings
 
 markdown: kramdown
-theme: minima
+# theme: minima
 future: true
 show_downloads: false
 google_analytics:
