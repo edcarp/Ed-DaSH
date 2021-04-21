@@ -36,7 +36,6 @@ Programme Liaison (WP4.1, 4.2).
 
 <br><br>
 
-
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
 |   |  [Unix Shell]({{ site.ws_unix_shell_lesson }}){:target="_blank"} |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
@@ -66,7 +65,5 @@ Programme Liaison (WP4.1, 4.2).
 | Open Science Leadership| #x+1  | OS-PI  |   |   |   |   |
 | Data Science Workflows with Snakemake | #x+1  | DSW-SM  |
 | Data Science Workflows with Nextflow  | #x+1  | DSW-NF  |
-
-
 
 
