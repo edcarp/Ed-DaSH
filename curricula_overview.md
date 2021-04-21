@@ -2,8 +2,6 @@
 title: "Overview of Ed-DaSH curricula: workshop materials"
 ---
 
-{% include banner.md %}
-
 # {{ page.title }}
 
 # Links to materials repositories
