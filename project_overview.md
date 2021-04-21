@@ -4,6 +4,8 @@ title: "Overview of the Ed-DaSH project"
 
 {% include banner.md %} 
 
+# {{ page.title }}
+
 ## Scientific Value and Quality of Training  
 
 The currency of modern health and bioscience is big, complex data: diverse in origin and
