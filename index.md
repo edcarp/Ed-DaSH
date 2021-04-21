@@ -63,7 +63,7 @@ You can cite the project as:
 
 ---
 
-Curent date is {{ site.time | date_to_string }}  
+Current date is {{ site.time | date_to_long_string }}  
 
 {{ page.date | date: "%-d %B %Y" }}  
 
