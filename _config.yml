@@ -2,7 +2,9 @@
 # Global site variables
 
 title: "Edinburgh Data Science Training for Healthcare & Biosciences (Ed-DaSH)"
-
+description: >
+  This is a brief description of the Ed-DaSH website.
+  This is another placeholder line.
 
 # Workshop lessons
 
@@ -16,6 +18,11 @@ ws_unix_shell: https://github.com/swcarpentry/shell-novice
 ws_snakemake: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
 ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/ 
 
+
+# Web navi:
+
+baseurl: ""
+url: ""
 
 # Social media & email
 
