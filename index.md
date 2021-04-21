@@ -63,9 +63,5 @@ You can cite the project as:
 
 ---
 
-{% include contact.md %}
-
----
-
 {% include date.md %}  
 
