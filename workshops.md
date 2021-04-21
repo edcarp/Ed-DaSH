@@ -38,7 +38,7 @@ Programme Liaison (WP4.1, 4.2).
 |   |  Unix Shell |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
 |   |  Conda |  1 |   |  Ed-DaSH |
 |   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  Snakemake  |  4 | [{{ site.ws_snakemake }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Ed-DaSH |
+|   |  Snakemake  |  4 | [{{ site.ws_snakemake }}]({{ site.ws_snakemake }}){:target="_blank"}  |  Ed-DaSH |
 
 <br><br>
 
