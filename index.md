@@ -1,6 +1,10 @@
-{% include banner.md %}
+---
+layout: page
+title: "Data driven life science skills development - equipping society for the future"
+---  
 
-## Data driven life science skills development - equipping society for the future
+
+## {{ page.title }}
 
 **The motivation: addressing unmet data-skills needs**
 
