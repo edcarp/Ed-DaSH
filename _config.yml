@@ -1,8 +1,15 @@
 title: "Edinburgh Data Science Training for Healthcare & Biosciences (Ed-DaSH)"
 email: "team@carpentries.org"
 
+# Workshop repos
+
+ws_unix_shell: https://github.com/swcarpentry/shell-novice 
+ws_snakemake: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
+ws_nextflow: https://carpentries-incubator.github.io/workflows-nextflow/ 
+
 
 # Build settings
+
 markdown: kramdown
 future: true
 show_downloads: false
