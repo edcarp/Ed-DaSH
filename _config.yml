@@ -35,7 +35,7 @@ github_username: "ed_dash_web"
 # Build settings
 
 markdown: kramdown
-# theme: minima
+theme: minima
 future: true
 show_downloads: false
 google_analytics:
