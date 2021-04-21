@@ -1,8 +1,7 @@
 ---
 title: "Workshop development & delivery"
 ---  
-
-{% include banner.md %}  
+  
 
 # {{ page.title }}
 
