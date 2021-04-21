@@ -26,7 +26,7 @@ Learn more about [the project](project_overview.md).
 
 ### 1. Learning materials developed by Ed-DaSH
 
-[Developed by Ed-Dash](curricula_overview.md)   
+[Developed by Ed-DaSH](curricula_overview.md)   
 
 ### 2. People behind the Ed-DaSH project
 
