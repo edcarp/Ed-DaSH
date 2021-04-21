@@ -2,7 +2,6 @@
 title: "Overview of the Ed-DaSH project"
 ---  
 
-{% include banner.md %} 
 
 # {{ page.title }}
 
