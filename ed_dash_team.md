@@ -3,8 +3,6 @@ title: "Ed-DaSH Who's Who"
 ---
 
 
-# {{ page.title }}
-
 ## Co-Investigators
 * Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
 * Alex Twyford, Lecturer in Botany, SBS, Academic Lead to Edinburgh Genomics
