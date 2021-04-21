@@ -2,7 +2,7 @@
 # Global site variables
 
 title: "Edinburgh Data Science Training for Healthcare & Biosciences (Ed-DaSH)"
-description: >
+description: > # this is for RSS feed
   This is a brief description of the Ed-DaSH website.
   This is another placeholder line.
 
@@ -21,8 +21,8 @@ ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/
 
 # Web navi:
 
-baseurl: ""
-url: ""
+# baseurl: ""
+# url: "" # if hosted from local machine/ webserver
 
 # Social media & email
 
