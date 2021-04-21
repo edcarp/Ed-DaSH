@@ -1,6 +1,8 @@
-{% include banner.md %}
+---
+title: "Overview of the Ed-DaSH project"
+---  
 
-# Overview of the Ed-DaSH project  
+{% include banner.md %} 
 
 ## Scientific Value and Quality of Training  
 
