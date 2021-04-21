@@ -1,6 +1,8 @@
-{% include banner.md %}
+---
+title: "Workshop development & delivery"
+---  
 
-# Workshop development & delivery
+{% include banner.md %}  
 
 Our workshops will teach a mix of existing and new content, including new material developed
 in parallel by other initiatives, to address the skills gaps most frequently identified by health and
