@@ -1,3 +1,4 @@
+{% include banner.md %}
 
 # Workshop development & delivery
 
@@ -50,8 +51,8 @@ Programme Liaison (WP4.1, 4.2).
 
 <br><br>
 
+## library of Ed-DaSH workshops  
 
-## library of Ed-DaSH workshops
 | Title |  Instance |  Short |   |   |   |   |
 |---|---|---|---|---|---|---|
 | Introductory Statistics |  #x+1 | Intro-Stats  |   |   |   |   |
@@ -60,7 +61,8 @@ Programme Liaison (WP4.1, 4.2).
 | Open Science Hand-on  | #x+1  | OS-Hand |   |   |   |   |
 | Open Science Leadership| #x+1  | OS-PI  |   |   |   |   |
 | Data Science Workflows with Snakemake | #x+1  | DSW-SM  |
-| Data Science Workflows with Nextflow  | #x+1  | DSW-NF  |  
+| Data Science Workflows with Nextflow  | #x+1  | DSW-NF  |
+
 
 
 
