@@ -51,7 +51,7 @@ Programme Liaison (WP4.1, 4.2).
 
 <br><br>
 
-## library of Ed-DaSH workshops  
+## Library of Ed-DaSH workshops  
 
 | Title |  Instance |  Short |   |   |   |   |
 |---|---|---|---|---|---|---|
