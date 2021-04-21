@@ -35,19 +35,19 @@ Programme Liaison (WP4.1, 4.2).
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
-|   |  Unix Shell |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
+|   |  [Unix Shell]({{ site.ws_unix_shell_lesson }}){:target="_blank"} |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
 |   |  Conda |  1 |   |  Ed-DaSH |
 |   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  Snakemake  |  4 | [{{ site.ws_snakemake }}]({{ site.ws_snakemake }}){:target="_blank"}  |  Ed-DaSH |
+|   |  [Snakemake]({{ site.ws_snakemake_lesson }}){:target="_blank"} |  4 | [{{ site.ws_snakemake }}]({{ site.ws_snakemake }}){:target="_blank"}  |  Ed-DaSH |
 
 <br><br>
 
 | Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
 |---|---|---|---|---|
-|   |  Unix Shell |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
+|   |  [Unix Shell]({{ site.ws_unix_shell_lesson }}){:target="_blank"} |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
 |   |  Conda |  1 |   |  Ed-DaSH |
 |   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  Nextflow |  4 |  [{{ site.ws_nextflow }}]({{ site.ws_nextflow }}){:target="_blank"} |  Ed-DaSH |
+|   |  [Nextflow]({{ site.ws_nextflow_lesson }}){:target="_blank"} |  4 |  [{{ site.ws_nextflow }}]({{ site.ws_nextflow }}){:target="_blank"} |  Ed-DaSH |
 
 <br><br>
 
