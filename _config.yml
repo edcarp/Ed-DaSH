@@ -2,7 +2,7 @@
 # Global site variables
 
 title: "Edinburgh Data Science Training for Healthcare & Biosciences (Ed-DaSH)"
-email: "team@carpentries.org"
+
 
 # Workshop lessons
 
@@ -17,12 +17,12 @@ ws_snakemake: https://github.com/carpentries-incubator/snakemake-novice-bioinfor
 ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/ 
 
 
-# Social media
+# Social media & email
 
 social_twitter: ""
 social_linkedin: ""
 social_facebook: ""
-
+email: "team@carpentries.org"
 
 # Build settings
 
