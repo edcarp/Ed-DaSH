@@ -4,8 +4,6 @@ title: "Data driven life science skills development - equipping society for the 
 ---  
 
 
-## {{ page.title }}
-
 **The motivation: addressing unmet data-skills needs**
 
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
