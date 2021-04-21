@@ -21,8 +21,8 @@ ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/
 
 # Web navi:
 
-# baseurl: ""
-# url: ""
+baseurl: ""
+url: ""
 
 # Social media & email
 
