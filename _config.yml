@@ -17,6 +17,13 @@ ws_snakemake: https://github.com/carpentries-incubator/snakemake-novice-bioinfor
 ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/ 
 
 
+# Social media
+
+social_twitter: ""
+social_linkedin: ""
+social_facebook: ""
+
+
 # Build settings
 
 markdown: kramdown
