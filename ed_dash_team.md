@@ -13,7 +13,8 @@ title: "Ed-DaSH Who's Who"
 * Programme coordinator: Giacomo Peru, EPCC @gperu
 * Development assistant: Flic Anderson, SBS
 
-## Development Teams
+## Development Teams  
+
 ### Computational workflows
 * Lead: Alison Meynert, Alex Twyford
 * Tim Booth, Edinburgh Genomics @tbooth - Snakemake curriculum
@@ -32,6 +33,10 @@ title: "Ed-DaSH Who's Who"
 * Joint Lead: Ailith Ewing, Chancellor's Fellow at MRC Human Genetics Unit and CRUK Edinburgh Centre
 * Alan O'Callaghan, MRC Human Genetics Unit @Alanocallaghan
 * Gail Robertson, Statistical Consultancy Unit
+
+### Website development
+* Flic Anderson, SBS - Development assistant
+* Robert Nagy, CMVM: IGC ECRC & ETCU EHE @robertn01
 
 ## Steering Group
 * Co-Investigators as above
