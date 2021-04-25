@@ -60,7 +60,7 @@ web_development:  [
     {name: "Robert Nagy", role: "Website developer", affiliate: "IGC ECRC & ECTU - Edinburgh Health Economics Group", social_handler: "@robertn01"}
 ]
 
-steering_group:  [ # Some members are hand coded
+steering_group:  [
     {name: "Ailith Ewing", role: "Joint Statistics Lead", affiliate: "MRC Human Genetics Unit and CRUK Edinburgh Centre", curriculum: "", social_handler: ""},
     {name: "Giacomo Peru", role: "Programme Coordinator", affiliate: "EPCC", curriculum: "", social_handler: ""},
     {name: "Neil Chue Hong", role: "Director", affiliate: "the Software Sustainability Institute", curriculum: "", social_handler: "@npch"},
