@@ -22,7 +22,7 @@ title: "Ed-DaSH Who's Who"
 * Flic Anderson, SBS - Nextflow curriculum
 
 ### Data management & FAIR principles
-* Lead: Edward Wallace - whole team working on both data management curriculum
+* Lead: Edward Wallace - whole team working on both data management curricula
 * Andrew Millar, Chair of Systems Biology, SBS; Business Owner of University Research Data Service
 * Andrew Romanowski, SBS @aromanowski
 * Tomasz Zielinski, SBS @tzielins
