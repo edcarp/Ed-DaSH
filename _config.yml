@@ -32,7 +32,7 @@ edcarp_coordination: [
 ]
 
 dev_computational_workflows: [
-  {name:"Alison Meynert", role:"Lead", affiliate:"", curriculum:"", social_handler:"@ameynert"},
+  {name:"Alison Meynert", role:"Lead", affiliate:"MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager", curriculum:"Snakemake & Nextflow curricula", social_handler:"@ameynert"},
   {name:"Alex Twyford", role:"Lead", affiliate:"", curriculum:"", social_handler:""},
   {name:"Tim Booth", role:"", affiliate:"Edinburgh Genomics", curriculum:"Snakemake curriculum", social_handler:"@tbooth"},
   {name:"Nathan Medd", role:"", affiliate:"Edinburgh Genomics", curriculum:"Snakemake curriculum", social_handler:""},
@@ -41,44 +41,45 @@ dev_computational_workflows: [
 ]
 
 dev_data_man_FAIR_principles: [
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+  {name:"Edward Wallace", role:"Lead", affiliate:"", curriculum:"Data management & FAIR principles curricula", social_handler:""},
+  {name:"Andrew Millar", role:"Chair of Systems Biology & Business Owner of University Research Data Service", affiliate:"SBS", curriculum:"Data management & FAIR principles curricula", social_handler:""},
+  {name:"Andrew Romanowski", role:"SBS", affiliate:"", curriculum:"Data management & FAIR principles", social_handler:"@aromanowski"},
+  {name:"Tomasz Zielinski", role:"SBS", affiliate:"", curriculum:"Data management & FAIR principles", social_handler:"@tzielins"}
 ]
 
 dev_statistics: [
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+{name:"Catalina Vallejos", role:"Lead", affiliate:"MRC Human Genetics Unit", curriculum:"high dimensional statistics curriculum", social_handler:"@catavallejos"},
+{name:"Ailith Ewing", role:"Chancellor's Fellow & Joint Lead", affiliate:"MRC Human Genetics Unit and CRUK Edinburgh Centre", curriculum:"high dimensional statistics curriculum", social_handler:""},
+{name:"Alan O'Callaghan", role:"", affiliate:"MRC Human Genetics Unit", curriculum:"high dimensional statistics curriculum", social_handler:"@Alanocallaghan"},
+{name:"Gail Robertson", role:"", affiliate:"Statistical Consultancy Unit", curriculum:"high dimensional statistics curriculum", social_handler:""}
 ]
 
 web_development: [
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+{name:"Giacomo Peru", role:"Programme Coordinator", affiliate:"EPCC", social_handler:"@gperu"},
+{name:"Flic Anderson", role:"Development Assistant", affiliate:"SBS", social_handler:""},
+{name:"Robert Nagy", role:"Website developer", affiliate:"IGC ECRC & ECTU - Edinburgh Health Economics Group", social_handler:"@robertn01"}
 ]
 
 steering_group: [ # Some members are hand coded
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+{name:"Ailith Ewing", role:"Joint Statistics Lead", affiliate:"MRC Human Genetics Unit and CRUK Edinburgh Centre", curriculum:"", social_handler:""},
+{name:"Giacomo Peru", role:"Programme Coordinator", affiliate:"EPCC", curriculum:"", social_handler:""},
+{name:"Neil Chue Hong", role:"Director", affiliate:"the Software Sustainability Institute", curriculum:"", social_handler:"@npch"},
+{name:"Mick Watson", role:"Professor of Bioinformatics and Computational Biology", affiliate:"The Roslin Institute", curriculum:"", social_handler:""},
+{name:"Karen Halliday", role:"Dean of Systematic Inclusion & Professor and Chair of Systems Physiology", affiliate:"The College of Science and Engineering", curriculum:"", social_handler:""},
+{name:"Malcolm Macleod", role:"Professor of Neurology and Translational Neuroscience & UoE Academic Lead for Research Improvement and Research Integrity", affiliate:"", curriculum:"", social_handler:""}
+{name:"Nicola Cuthbert", role:"Researcher Development Manager", affiliate:"Institute for Academic Development", curriculum:"", social_handler:""},
 ]
 
 di_funded_members: [
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+{name:"Flic Anderson", role:"", affiliate:"SBS", curriculum:"", social_handler:""},
+{name:"Andrew Romanowski", role:"", affiliate:"SBS", curriculum:"", social_handler:""},
+{name:"Tomasz Zielinski", role:"", affiliate:"SBS", curriculum:"", social_handler:""},
+{name:"Tim Booth", role:"", affiliate:"Edinburgh Genomics", curriculum:"", social_handler:""},
+{name:"Nathan Medd", role:"", affiliate:"Edinburgh Genomics", curriculum:"", social_handler:""},
+{name:"Graeme Grimes", role:"", affiliate:"IGC", curriculum:"", social_handler:""},
+{name:"Alan O'Callaghan", role:"", affiliate:"IGC", curriculum:"", social_handler:""},
+{name:"Giacomo Peru", role:"", affiliate:"EPCC", curriculum:"", social_handler:""},
+{name:"Gail Robertson", role:"", affiliate:"School of Mathematics/ SCU", curriculum:"", social_handler:""}
 ]
 
 # Web navi:
