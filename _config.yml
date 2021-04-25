@@ -18,6 +18,68 @@ ws_unix_shell: https://github.com/swcarpentry/shell-novice
 ws_snakemake: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
 ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/ 
 
+# Ed(-)DaSH Team members - for now some members are manually added
+
+co_investigators: [
+  {name:"Alison Meynert", role:"Senior Research Fellow", affiliate:"MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager", social_handler:"@ameynert"},
+  {name:"Alex Twyford", role:"Lecturer in Botany & Academic Lead to Edinburgh Genomics", affiliate:"SBS", social_handler:""},
+  {name:"Catalina Vallejos", role:"Chancellor’s Fellow & Fellow of the Turing Institute", affiliate:"MRC Human Genetics Unit", social_handler:"@catavallejos"},
+  {name:"Edward Wallace", role:"Sir Henry Dale Fellow", affiliate:"SBS", social_handler:"@ewallace"}
+]
+edcarp_coordination: [
+  {name:"Giacomo Peru", role:"Programme Coordinator", affiliate:"EPCC", social_handler:"@gperu"},
+  {name:"Flic Anderson", role:"Development Assistant", affiliate:"SBS", social_handler:""}
+]
+
+dev_computational_workflows: [
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
+
+dev_data_man_FAIR_principles: [
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
+
+dev_statistics: [
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
+
+web_development: [
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
+
+steering_group: [ # Some members are hand coded
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
+
+di_funded_members: [
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
+{name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+]
 
 # Web navi:
 
