@@ -32,12 +32,12 @@ edcarp_coordination: [
 ]
 
 dev_computational_workflows: [
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""},
-  {name:"", role:"", affiliate:"", curriculum:"", social_handler:""}
+  {name:"Alison Meynert", role:"Lead", affiliate:"", curriculum:"", social_handler:"@ameynert"},
+  {name:"Alex Twyford", role:"Lead", affiliate:"", curriculum:"", social_handler:""},
+  {name:"Tim Booth", role:"", affiliate:"Edinburgh Genomics", curriculum:"Snakemake curriculum", social_handler:"@tbooth"},
+  {name:"Nathan Medd", role:"", affiliate:"Edinburgh Genomics", curriculum:"Snakemake curriculum", social_handler:""},
+  {name:"Graeme Grimes", role:"", affiliate:"MRC HGU", curriculum:"Nextflow curriulum", social_handler:"@ggrimes"},
+  {name:"Flic Anderson", role:"", affiliate:"SBS", curriculum:"Nextflow curriculum", social_handler:""}
 ]
 
 dev_data_man_FAIR_principles: [
