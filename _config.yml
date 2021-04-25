@@ -44,7 +44,7 @@ dev_data_man_FAIR_principles:  [
     {name: "Edward Wallace", role: "Lead", affiliate: "", curriculum: "Data management & FAIR principles curricula", social_handler: ""},
     {name: "Andrew Millar", role: "Chair of Systems Biology & Business Owner of University Research Data Service", affiliate: "SBS", curriculum: "Data management & FAIR principles curricula", social_handler: ""},
     {name: "Andrew Romanowski", role: "SBS", affiliate: "", curriculum: "Data management & FAIR principles", social_handler: "@aromanowski"},
-    {name: "Tomasz Zielinski", role: "SBS", affiliate:"", curriculum: "Data management & FAIR principles", social_handler: "@tzielins"}
+    {name: "Tomasz Zielinski", role: "SBS", affiliate: "", curriculum: "Data management & FAIR principles", social_handler: "@tzielins"}
 ]
 
 dev_statistics:  [
