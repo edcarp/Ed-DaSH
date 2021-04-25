@@ -33,6 +33,10 @@ title: "Ed-DaSH Who's Who"
 * Alan O'Callaghan, MRC Human Genetics Unit @Alanocallaghan
 * Gail Robertson, Statistical Consultancy Unit
 
+### Website development
+* Flic Anderson, SBS - Development assistant
+* Robert Nagy, CMVM: IGC ECRC [@robertn01]( {{site.rob_github}} ){:target="_blank"} 
+
 ## Steering Group
 * Co-Investigators as above
 * Ailith Ewing as Joint Statistics Lead
