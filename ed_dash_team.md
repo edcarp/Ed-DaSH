@@ -14,6 +14,10 @@ title: "Ed-DaSH Who's Who"
  </table>
  <br><br>
 
+* Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
+* Alex Twyford, Lecturer in Botany, SBS, Academic Lead to Edinburgh Genomics
+* Catalina Vallejos, Chancellor’s Fellow at the MRC Human Genetics Unit, Fellow of the Turing Institute @catavallejos
+* Edward Wallace, Sir Henry Dale Fellow, SBS, @ewallace 
 
 ## Carpentries coordination
 * Programme coordinator: Giacomo Peru, EPCC @gperu
