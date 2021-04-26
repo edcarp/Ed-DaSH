@@ -22,7 +22,7 @@ ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/
 # Ed(-)DaSH Team members - for now some members are manually added
 
 co_investigators:  [
-    {name: "Alison Meynert", role: "Senior Research Fellow", affiliate: "MRC Human Genetics Unit & IGMM Bioinformatics Analysis Core Manager", social_handler: "@ameynert"},
+    {name: "Alison Meynert", role: "Senior Research Fellow & IGC Bioinformatics Analysis Core Manager", affiliate: "MRC Human Genetics Unit", social_handler: "@ameynert"},
     {name: "Alex Twyford", role: "Lecturer in Botany & Academic Lead to Edinburgh Genomics", affiliate: "SBS", social_handler: ""},
     {name: "Catalina Vallejos", role: "Chancellor’s Fellow & Fellow of the Turing Institute", affiliate: "MRC Human Genetics Unit", social_handler: "@catavallejos"},
     {name: "Edward Wallace", role: "Sir Henry Dale Fellow", affiliate: "SBS", social_handler: "@ewallace"}
