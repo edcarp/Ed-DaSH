@@ -7,20 +7,20 @@ layout: page
 ## Co-Investigators
 
  <table>
-  <tr>
-   <th>Name</th>
-   <th>Role</th>
-   <th>Affiliate</th>
-   <th>Social</th>
-  </tr>
-  {% for team_member in site.co_investigators %}
-  <tr>
-     <td>{{ team_member.name }}</td>
-     <td>{{ team_member.role }}</td>
-     <td>{{ team_member.affiliate }}</td>
-     <td>{{ team_member.social_handler }}</td>
-  </tr>
-  {% endfor %}
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for team_member in site.co_investigators %}
+    <tr>
+        <td>{{ team_member.name }}</td>
+        <td>{{ team_member.role }}</td>
+        <td>{{ team_member.affiliate }}</td>
+        <td>{{ team_member.social_handler }}</td>
+    </tr>
+    {% endfor %}
  </table>
  
  <br><br>
