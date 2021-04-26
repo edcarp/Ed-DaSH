@@ -9,7 +9,7 @@ layout: page
  <table>
  <tr><th>Name</th><th>Role</th><th>Affiliate</th><th>Social</th></tr>
  {% for team_member in site.co_investigators %}
- <tr><td>{{ co_investigators.name }}</td><td>{{ co_investigators.role }}</td><td>{{ co_investigators.affiliate }}</td><td>{{ co_investigators.social_handler }}</td></tr>
+ <tr><td>{{ team_member.name }}</td><td>{{ team_member.role }}</td><td>{{ team_member.affiliate }}</td><td>{{ team_member.social_handler }}</td></tr>
  {% endfor %}
  </table>
  
