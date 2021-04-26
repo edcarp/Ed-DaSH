@@ -60,15 +60,15 @@ web_development:  [
     {name: "Robert Nagy", role: "Website developer", affiliate: "IGC ECRC & ECTU - Edinburgh Health Economics Group", social_handler: "@robertn01"}
 ]
 
-# steering_group:  [
-#    {name: "Ailith Ewing", role: "Joint Statistics Lead", affiliate: "MRC Human Genetics Unit and CRUK Edinburgh Centre", curriculum: "", social_handler: ""},
-#    {name: "Giacomo Peru", role: "Programme Coordinator", affiliate: "EPCC", curriculum: "", social_handler: ""},
-#    {name: "Neil Chue Hong", role: "Director", affiliate: "the Software Sustainability Institute", curriculum: "", social_handler: "@npch"},
-#    {name: "Mick Watson", role: "Professor of Bioinformatics and Computational Biology", affiliate: "The Roslin Institute", curriculum: "", social_handler: ""},
-#    {name: "Karen Halliday", role: "Dean of Systematic Inclusion & Professor and Chair of Systems Physiology", affiliate: "The College of Science and Engineering", curriculum: "", social_handler: ""},
-#    {name: "Malcolm Macleod", role: "Professor of Neurology and Translational Neuroscience & UoE Academic Lead for Research Improvement and Research Integrity", affiliate: "", curriculum: "", social_handler: ""}
-#    {name: "Nicola Cuthbert", role: "Researcher Development Manager", affiliate: "Institute for Academic Development", curriculum: "", social_handler: ""}
-#]
+ steering_group:  [
+    {name: "Ailith Ewing", role: "Joint Statistics Lead", affiliate: "MRC Human Genetics Unit and CRUK Edinburgh Centre", curriculum: "", social_handler: ""},
+    {name: "Giacomo Peru", role: "Programme Coordinator", affiliate: "EPCC", curriculum: "", social_handler: ""},
+    {name: "Neil Chue Hong", role: "Director", affiliate: "the Software Sustainability Institute", curriculum: "", social_handler: "@npch"},
+    {name: "Mick Watson", role: "Professor of Bioinformatics and Computational Biology", affiliate: "The Roslin Institute", curriculum: "", social_handler: ""},
+    {name: "Karen Halliday", role: "Dean of Systematic Inclusion & Professor and Chair of Systems Physiology", affiliate: "The College of Science and Engineering", curriculum: "", social_handler: ""},
+    {name: "Malcolm Macleod", role: "Professor of Neurology and Translational Neuroscience & UoE Academic Lead for Research Improvement and Research Integrity", affiliate: "", curriculum: "", social_handler: ""},
+    {name: "Nicola Cuthbert", role: "Researcher Development Manager", affiliate: "Institute for Academic Development", curriculum: "", social_handler: ""}
+]
 
 di_funded_members:  [
     {name: "Flic Anderson", role: "", affiliate: "SBS", curriculum: "", social_handler: ""},
