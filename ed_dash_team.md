@@ -1,5 +1,6 @@
 ---
 title: "Ed-DaSH Who's Who"
+layout: page
 ---
 
 
