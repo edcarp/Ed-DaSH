@@ -5,13 +5,13 @@ title: "Ed-DaSH Who's Who"
 
 ## Co-Investigators
 
-
  <table>
  <tr><th>Name</th><th>Role</th><th>Affiliate</th><th>Social</th></tr>
  {% for team_member in site.co_investigators %}
  <tr><td>{{ co_investigators.name }}</td><td>{{ co_investigators.role }}</td><td>{{ co_investigators.affiliate }}</td><td>{{ co_investigators.social_handler }}</td></tr>
  {% endfor %}
  </table>
+ 
  <br><br>
 
 * Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
