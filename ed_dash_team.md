@@ -14,12 +14,12 @@ layout: page
   <th>Social</th>
  </tr>
 {% for team_member in site.co_investigators %}
- <tr>
+  <tr>
      <td>{{ team_member.name }}</td>
      <td>{{ team_member.role }}</td>
      <td>{{ team_member.affiliate }}</td>
      <td>{{ team_member.social_handler }}</td>
- </tr>
+  </tr>
 {% endfor %}
  </table>
  
