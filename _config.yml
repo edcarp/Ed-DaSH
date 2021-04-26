@@ -67,7 +67,7 @@ steering_group:  [
     {name: "Mick Watson", role: "Professor of Bioinformatics and Computational Biology", affiliate: "The Roslin Institute", curriculum: "", social_handler: ""},
     {name: "Karen Halliday", role: "Dean of Systematic Inclusion & Professor and Chair of Systems Physiology", affiliate: "The College of Science and Engineering", curriculum: "", social_handler: ""},
     {name: "Malcolm Macleod", role: "Professor of Neurology and Translational Neuroscience & UoE Academic Lead for Research Improvement and Research Integrity", affiliate: "", curriculum: "", social_handler: ""}
-    {name: "Nicola Cuthbert", role: "Researcher Development Manager", affiliate: "Institute for Academic Development", curriculum: "", social_handler: ""},
+    {name: "Nicola Cuthbert", role: "Researcher Development Manager", affiliate: "Institute for Academic Development", curriculum: "", social_handler: ""}
 ]
 
 di_funded_members:  [
