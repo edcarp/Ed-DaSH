@@ -74,7 +74,7 @@ di_funded_members:  [
     {name: "Flic Anderson", role: "", affiliate: "SBS", curriculum: "", social_handler: ""},
     {name: "Andrew Romanowski", role: "", affiliate: "SBS", curriculum: "", social_handler: ""},
     {name: "Tomasz Zielinski", role: "", affiliate: "SBS", curriculum: "", social_handler: ""},
-    {name: "Tim Booth", role:" ", affiliate: "Edinburgh Genomics", curriculum: "", social_handler: ""},
+    {name: "Tim Booth", role: "", affiliate: "Edinburgh Genomics", curriculum: "", social_handler: ""},
     {name: "Nathan Medd", role: "", affiliate: "Edinburgh Genomics", curriculum: "", social_handler: ""},
     {name: "Graeme Grimes", role: "", affiliate: "IGC", curriculum: "", social_handler: ""},
     {name: "Alan O'Callaghan", role: "", affiliate: "IGC", curriculum: "", social_handler: ""},
