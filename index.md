@@ -4,24 +4,33 @@ title: "Data driven life science skills development - equipping society for the 
 ---  
 
 
-**The motivation: addressing unmet data-skills needs**
+## Aims
 
-Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
-cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
-years, the fraction of data-rich science in research grant applications to BBSRC has grown from
-20% to over 50%, according to the BBSRC Review Data-Intensive Bioscience (chaired by Prof A
-Millar, Nov 2020), which made bioscience data training its Recommendation. This reflects that
-many researchers across all career stages continue to feel poorly equipped to analyze, interpret,
-manage, visualize, integrate, store, source and share the resulting ‘big data’ sets. This need for
-enhanced biosciences data skills was reported in 2015, when the BBSRC and MRC Joint Review
-of Vulnerable Skills and Capabilities (updated 2017) identified Mathematics, Statistics and
-Computational Biology as priority areas for further investment and development, with data analytics
-and bioinformatics especially vulnerable. The NERC Environmental Omics: A Community Vision
-report (2019) also highlighted the need for bioinformatics training to maximize the uses of new
-genomics technologies to solve major environmental issues. This is not just a UK challenge: A
-recent OECD report noted: _“The COVID-19 pandemic ... has underscored the critical importance of
-data-intensive science and the need for strategic approaches to strengthening the digital capacity
-and skills of the scientific enterprise as a whole._” Demand for digital training far outstrips supply.
+Our aim is to enable researchers at all career stages to harness the power of data-driven
+research and innovation for health and bioscience, by providing training in the management and
+analysis of biological data. We will address this aim by scaling up our successful and
+oversubscribed training programs, by engaging with The Carpentries’ open platform (see below),
+adding new curricula, and training new instructors. Our remotely delivered training programme will
+be piloted locally and made available nationally, publicized via our strong links to organizations
+involved in data science UK-wide. Our team will bring together subject-matter expertise in ’omics,
+statistics, and computation, with strengths in research data management and the UK’s largest
+Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and
+sustainable network of health and bioscience data science training for the UK.  
+
+
+## Objectives
+
+1. Develop peer-reviewed training modules for biological data science that address identified skill
+gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} & data
+management; Data science computing with workflows) using The Carpentries platform.
+
+2. Deliver 98 days of remote training of our new workshops, plus established introductory material,
+to a diverse community of researchers in academia and industry across all career stages.
+
+3. Offer a clinic after every workshop for learners to ask advice regarding their own projects.
+
+4. Train 30 new instructors to deliver these workshops, building a scalable training community.
+
 
 Learn more about [the project](project_overview.md).
 
@@ -60,3 +69,4 @@ You can cite the project as:
 > *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*
 
 
+[fair]: https://www.nature.com/articles/sdata201618
