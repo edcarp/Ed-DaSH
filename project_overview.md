@@ -20,7 +20,7 @@ defined as the analysis of DNA and RNA sequencing, and of subcellular components
 RNA, proteins and metabolites) with training packages covering statistics, computation, and data
 management.  
 
-
+<br><br>
 *Read more about [further project details](further_project_details.md)*.  
 
 ---
