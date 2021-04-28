@@ -55,18 +55,12 @@ Learn more about [the project](project_overview.md).
 
 * Reference page
 
----
+
 We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
 
 [Key stakeholders](  {{ site.stakeholders }} )
 
----
 
-**Cite us**
-
-You can cite the project as:
-
-> *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*
 
 
 [fair]: https://www.nature.com/articles/sdata201618
