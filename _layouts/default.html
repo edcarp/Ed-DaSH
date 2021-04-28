@@ -5,10 +5,18 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> {{ page.title }} </title>
    <link rel="stylesheet" type="text/css" href="/assets/css/style.scss" media="all" />
+   <style>
+      div {
+            padding: 25px 50px 75px 100px;
+            text-align:justify;
+      }
+   </style>
 </head>
 <body>
    <font face = "arial">
-      <span style="margin-left:50px; padding:10x, 20px, 20px, 50px; width=80%">
+      <!--span style="margin-left:50px; padding:10x, 20px, 20px, 50px; width=80%"-->
+      <div>
+         
          {% include banner.html %}
          <h1>
          {{ site.title }}</h2>
@@ -19,7 +27,8 @@
          <footer>
             {% include footer.html %}
          </footer>
-      </span>
+       </div>
+      <!--/span-->
    </font>
 </body>
 </html>
