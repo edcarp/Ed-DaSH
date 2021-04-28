@@ -9,15 +9,17 @@
   </head>
   <body>
     <font face = "arial">
-      {% include banner.html %}
-      <h1>{{ site.title }}</h2>
-      <h2>{{ page.title }}</h2>
-      <section>
-        {{ content }}
-      </section>
-      <footer>
-      {% include footer.html %}
-      </footer>
+      <span style="padding: 0px 10px 20px 0;flex: 3;">
+        {% include banner.html %}
+        <h1>{{ site.title }}</h2>
+        <h2>{{ page.title }}</h2>
+        <section>
+           {{ content }}
+        </section>
+        <footer>
+        {% include footer.html %}
+        </footer>
+       </span>
      </font>
   </body>
 </html>
