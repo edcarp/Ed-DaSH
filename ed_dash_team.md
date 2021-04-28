@@ -29,8 +29,7 @@ layout: page
    - {{ team_member.name }}, 
    - {{ team_member.role }}, 
    - {{ team_member.affiliate }}, 
-   - {{ team_member.social_handler }}  
- 
+   - {{ team_member.social_handler }}
 {% endfor %}
  
  <br><br>
