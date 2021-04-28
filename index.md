@@ -20,16 +20,16 @@ sustainable network of health and bioscience data science training for the UK.
 
 ## Objectives
 
-1. Develop peer-reviewed training modules for biological data science that address identified skill
+1. To develop peer-reviewed training modules for biological data science that address identified skill
 gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} & data
 management; Data science computing with workflows) using The Carpentries platform.
 
-2. Deliver 98 days of remote training of our new workshops, plus established introductory material,
+2. To deliver 98 days of remote training of our new workshops, plus established introductory material,
 to a diverse community of researchers in academia and industry across all career stages.
 
-3. Offer a clinic after every workshop for learners to ask advice regarding their own projects.
+3. To offer a clinic after every workshop for learners to ask advice regarding their own projects.
 
-4. Train 30 new instructors to deliver these workshops, building a scalable training community.
+4. To train 30 new instructors to deliver these workshops, building a scalable training community.
 
 
 Learn more about [the project](project_overview.md).
