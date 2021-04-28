@@ -21,32 +21,7 @@ RNA, proteins and metabolites) with training packages covering statistics, compu
 management.  
 
 
-## Aims
-
-Our aim is to enable researchers at all career stages to harness the power of data-driven
-research and innovation for health and bioscience, by providing training in the management and
-analysis of biological data. We will address this aim by scaling up our successful and
-oversubscribed training programs, by engaging with The Carpentries’ open platform (see below),
-adding new curricula, and training new instructors. Our remotely delivered training programme will
-be piloted locally and made available nationally, publicized via our strong links to organizations
-involved in data science UK-wide. Our team will bring together subject-matter expertise in ’omics,
-statistics, and computation, with strengths in research data management and the UK’s largest
-Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and
-sustainable network of health and bioscience data science training for the UK.  
-
-
-## Objectives
-
-1. Develop peer-reviewed training modules for biological data science that address identified skill
-gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} & data
-management; Data science computing with workflows) using The Carpentries platform.
-
-2. Deliver 98 days of remote training of our new workshops, plus established introductory material,
-to a diverse community of researchers in academia and industry across all career stages.
-
-3. Offer a clinic after every workshop for learners to ask advice regarding their own projects.
-
-4. Train 30 new instructors to deliver these workshops, building a scalable training community.
+*Read more about [further project details](further_project_details.md)*.  
 
 ---
 
