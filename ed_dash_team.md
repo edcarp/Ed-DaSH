@@ -23,6 +23,11 @@ layout: page
  {% endfor %}
  </table>
  
+ ### Below is a test for loop
+ {% for team_member in site.co_investigators %}
+ {{ team_member.name }}, {{ team_member.role }}, {{ team_member.affiliate }}, {{ team_member.social_handler }}
+ {% endfor %}
+ 
  <br><br>
 
 * Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
