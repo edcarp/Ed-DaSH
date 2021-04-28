@@ -21,7 +21,7 @@ RNA, proteins and metabolites) with training packages covering statistics, compu
 management.  
 
 <br><br>
-*Read more about [further project details](further_project_details.md)*.  
+*Read about [further project details](further_project_details.md)*.  
 
 ---
 
