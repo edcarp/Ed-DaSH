@@ -31,6 +31,13 @@ layout: page
    - {{ team_member.affiliate }}, 
    - {{ team_member.social_handler }}
 {% endfor %}
+
+<table>
+ <tr><th>Name</th><th>Role</th></tr>
+ {% for team_member in site.team_members %}
+ <tr><td>{{ team_member.name }}</td><td>{{ team_member.role }}</td></tr>
+ {% endfor %}
+ </table>
  
  <br><br>
 
