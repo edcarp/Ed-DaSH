@@ -25,6 +25,15 @@ ws_nextflow: https://github.com/carpentries-incubator/workflows-nextflow/
 
 # Ed(-)DaSH Team members - for now some members are manually added
 
+# Test:
+
+team_members: [
+    {name: "Sarah Becker", role: "project lead", start_date: "2016-02-01"},
+    {name: "Jane Smith", role: "maintainer", start_date: "2018-03-15"},
+    {name: "Albert Hamilton", role: "editor", start_date: "2017-12-01"},
+]
+
+
 co_investigators:  [
     {name: "Alison Meynert", role: "Senior Research Fellow & IGC Bioinformatics Analysis Core Manager", affiliate: "MRC Human Genetics Unit", social_handler: "@ameynert"},
     {name: "Alex Twyford", role: "Lecturer in Botany & Academic Lead to Edinburgh Genomics", affiliate: "SBS", social_handler: ""},
