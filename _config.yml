@@ -127,3 +127,10 @@ plugins:
 # allow page redirection
 plugins:
   - jekyll-redirect-from
+  
+  # Where things are
+
+collections:
+    posts:
+        output: true
+        permalink: Ed_DaSH_website_prototyping/:collection/:name
