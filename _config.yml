@@ -5,6 +5,11 @@
  description: > # this is for RSS feed
     This is a brief description of the Ed-DaSH website.
     This is another placeholder line.
+    
+    
+# Misc
+
+repository: https://github.com/edcarp/Ed_DaSH_website_prototyping
 
 # Workshop lessons
 
@@ -110,3 +115,6 @@ plugins:
 #  - Gemfile
 #  - Gemfile.lock
 
+# allow page redirection
+plugins:
+  - jekyll-redirect-from
