@@ -13,7 +13,7 @@ layout: page
         <th>Affiliate</th>
         <th>Social</th>
     </tr>
- {% for team_member in site.co_investigators %}
+   {% for team_member in site.co_investigators %}
     <tr>
         <td>{{ team_member.name }}</td>
         <td>{{ team_member.role }}</td>
