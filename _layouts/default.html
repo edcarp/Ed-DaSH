@@ -1,7 +1,6 @@
 
 
 <!doctype html>
-
 <html lang="{{ site.lang | default: "en-GB" }}">
 <head>
    <meta charset="utf-8">
@@ -26,34 +25,47 @@
 <body>
    <font face = "arial">
       <header>
-			<div class="container">
-				<nav class="main-nav">
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/blog.html">Blog</a></li>
-					</ul>
-				</nav>
-				<h1><a href="/">Something<strong>Something</strong></a></h1>
-			</div>
+         <div class="container">
+            <nav class="main-nav">
+               <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/blog.html">Blog</a></li>
+               </ul>
+            </nav>
+            <h1><a href="/">Something<strong>Something</strong></a></h1>
+         </div>
       </header>
       <!--span style="margin-left:50px; padding:10x, 20px, 20px, 50px; width=80%"-->
       <div>
          <div class="center"> {% include banner.html %} </div>
-	      {% if page.show_heading %}
-         	<h1><font color="#000066">{{ site.title }}</font></h1>
-	      {% endif %}
+         {% if page.show_heading %}
+         <h1><font color="#000066">{{ site.title }}</font></h1>
+         {% endif %}
          <h2>{{ page.title }}</h2>
          <div class="content">
-			{{ content }}
-		</div>
+            {{ content }}
+         </div>
          <footer>
-		 <div class="center">
-			<a> {% include contact.html %} </a><br>
-           		<a> {% include footer.html %} </a>
-		 </div>
+            <div class="center">
+               <table style="width:100%">
+                  <tr>
+                     <th>Cite us</th>
+                     <th>Contact us</th>
+                  </tr>
+                  <tr>
+                     <td>{% include contact.html %}</td>
+			  <td>{% include footer.html %}</td>
+                  </tr>
+               </table>
+               /* <a> {% include contact.html %} </a><br>
+               <a> {% include footer.html %} </a> */
+            </div>
          </footer>
       </div>
       <!--/span-->
    </font>
 </body>
 </html>
+
+© FreeFormatter.com - FREEFORMATTER is a d/b/a of 10174785 Canada Inc. - Copyright Notice - Privacy Statement - Terms of Use
+
