@@ -1,4 +1,12 @@
-**The motivation behind: addressing unmet data-skills needs**
+---
+title: "The motivation behind: addressing unmet data-skills needs"
+show_heading: false
+---  
+
+
+
+
+**{{page.title}}**
 
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
 cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
