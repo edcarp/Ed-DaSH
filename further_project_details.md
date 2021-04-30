@@ -5,9 +5,6 @@ show_heading: false
 
 
 
-
-**{{ page.title }}**
-
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
 cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
 years, the fraction of data-rich science in research grant applications to BBSRC has grown from
