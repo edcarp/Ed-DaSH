@@ -1,6 +1,7 @@
 ---
 title: "Ed-DaSH Who's Who"
 layout: page
+show_heading: false
 ---
 
 
