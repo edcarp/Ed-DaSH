@@ -6,7 +6,7 @@ show_heading: false
 
 
 
-**{{page.title}}**
+**{{ page.title }}**
 
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
 cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
