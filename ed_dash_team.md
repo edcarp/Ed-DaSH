@@ -26,7 +26,6 @@ layout: page
         <td>{{ team_member.affiliate }}</td>
         <td>{{ team_member.social_handler }}</td>
     </tr>
-    {% endfor %}
  </table>
  
  REMOVE THIS SECTION from source: below is a test for loop
