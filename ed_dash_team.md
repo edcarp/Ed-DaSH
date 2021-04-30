@@ -13,29 +13,16 @@ layout: page
         <th>Affiliate</th>
         <th>Social</th>
     </tr>
-    <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>C</td>
-        <td>D</td>
+ {% for team_member in site.co_investigators %}
+    <tr> 
+       <td>{{ team_member.name }}</td>
+       <td>{{ team_member.role }}</td>
+       <td>{{ team_member.affiliate }}</td>
+       <td>{{ team_member.social_handler }}</td>
     </tr>
+  {% endfor %}
  </table>
- 
- REMOVE THIS SECTION from source: below is a test for loop
- 
-{% for team_member in site.co_investigators %}
-   - {{ team_member.name }}, 
-   - {{ team_member.role }}, 
-   - {{ team_member.affiliate }}, 
-   - {{ team_member.social_handler }}
-{% endfor %}
 
-<table>
- <tr><th>Name</th><th>Role</th></tr>
- {% for team_member in site.team_members %}
- <tr><td>{{ team_member.name }}</td><td>{{ team_member.role }}</td></tr>
- {% endfor %}
- </table>
  
  <br><br>
 
