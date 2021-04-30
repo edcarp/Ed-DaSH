@@ -35,11 +35,13 @@
          <h1><font color="#000066">
          {{ site.title }}</font></h1>
          <h2>{{ page.title }}</h2>
-         <section>
-            {{ content }}
-         </section>
+         <div class="content">
+			{{ content }}
+		</div>
          <footer>
-            {% include footer.html %}
+		 <div class="container">
+           		<p class="center-text"> {% include footer.html %} </p>
+		 </div>
          </footer>
       </div>
       <!--/span-->
