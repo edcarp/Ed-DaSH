@@ -5,7 +5,9 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> {{ page.title }} </title>
-   <link rel="stylesheet" href="/css/style.css" media="all" />
+	
+   <!-- link rel="stylesheet" href="/css/style.css" media="all" -->
+   <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
    <style>
       div {
       padding: 10px 50px 5px 100px; /*top-right-bottom-left*/
