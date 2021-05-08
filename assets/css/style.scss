@@ -110,7 +110,7 @@ a:hover, a:focus { text-decoration: none; font-weight: normal; }
 
   .header-tab {
     //display: inline-block;
-    color: #fff;
+    color: #3d3d3d;
     /*background-color: $uom-purple;*/
     font-size: 18px;
     //box-shadow: 0 0 10px #111;
@@ -131,7 +131,7 @@ a:hover, a:focus { text-decoration: none; font-weight: normal; }
     &:hover {
       /*background-color: $uom-purple-light;*/
       text-decoration: none;
-      border-bottom: 2px solid #ffffff;
+      border-bottom: 2px solid #3d3d3d;
     }
   }
 }
@@ -141,7 +141,7 @@ a:hover, a:focus { text-decoration: none; font-weight: normal; }
   margin: 0 20px;
   padding-top: 50px;
   font-size: 24px;
-  color: #ffffff;
+  color: #3d3d3d;
   text-shadow: none;
   display: inline-block;
   vertical-align: top;
