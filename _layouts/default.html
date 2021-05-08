@@ -10,7 +10,7 @@
    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
    <style>
       text_content { /* was div{} */
-      padding: 10px 50px 5px 100px; /*top-right-bottom-left*/
+      padding: 10px 50px 10px 50px; /*top-right-bottom-left*/
       text-align:justify;
       width=80%;
       }
@@ -60,6 +60,9 @@
 	      <text_content>
          	    {{ content }}
 	      </text_content>
+	      <section id="posts">
+            	{% include latest_news.html %}
+              </section>
       </div>
       
       
