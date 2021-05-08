@@ -2,6 +2,15 @@
 layout: default
 ---  
 
+<div id="main_content_wrap" class="outer">
+    <div class="inner flex-wrapper">
+        <section id="main_content">
+            {{ content }}
+        </section>
+        <section id="posts">
+            {% include latest_news.html %}
+        </section>
+    </div>
+</div>
 
-{{ content }}
 
