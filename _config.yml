@@ -89,7 +89,7 @@ di_funded_members:  [
 
 # Web navi:
 
- baseurl: "/" # the subpath of your site, e.g. /blog
+ baseurl: "/Ed_DaSH_website_prototyping/" # the subpath of your site, e.g. /blog
  url: "https://edcarp.github.io/Ed_DaSH_website_prototyping/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social media & email - REPLACE with correct details!
@@ -117,7 +117,7 @@ plugins:
 
 # allow page redirection
 plugins:
-  - jekyll-redirect-from
+  # - jekyll-redirect-from
   
   # Where things are
 
