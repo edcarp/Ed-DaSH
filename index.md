@@ -1,5 +1,6 @@
 ---
 layout: page
+theme: home
 title: "Data driven life science skills development - equipping society for the future"
 ---  
 
