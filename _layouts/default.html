@@ -37,7 +37,7 @@
 			      <!-- <ul> -->
 				 <!-- <li> -->
 				{% for item in site.data.pagelist.docs %}
-      					{% if page.theme != "home" %}
+      					{% if page.theme != item.title %}
 						<a class="header-tab" href="{{ item.url }}">{{ item.title }}</a>
 					{% endif %}
    				{% endfor %}
