@@ -36,10 +36,15 @@
 		    
 			      <!-- <ul> -->
 				 <!-- <li> -->
-				  <a class="header-tab" href="{{ '/contact' | relative_url }}">Contact</a>
-				  <a class="header-tab" href="/Ed_DaSH_website_prototyping">Home</a>
-				  <a class="header-tab" href="/Ed_DaSH_website_prototyping/media.html">Publicity</a>
-				 <!-- </li> -->
+				{% for item in site.data.samplelist.docs %}
+      					{% if page.theme != "home" %}
+						<a class="header-tab" href="{{ item.url }}">{{ item.title }}</a>
+					{% endif %}
+   				{% endfor %}
+				  <!-- <a class="header-tab" href="{{ '/contact' | relative_url }}">Contact</a>
+				  <!-- a class="header-tab" href="/Ed_DaSH_website_prototyping">Home</a> -->
+				  <!-- a class="header-tab" href="/Ed_DaSH_website_prototyping/media.html">Publicity</a -->
+				  <!-- </li> -->
 				  <!--li><a href="/Ed_DaSH_website_prototyping">Home</a></li-->
 				  <!--li><a href="/Ed_DaSH_website_prototyping/media.html">Publicity</a></li-->
 				<!-- </ul> -->
