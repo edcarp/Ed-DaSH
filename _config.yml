@@ -125,3 +125,7 @@ collections:
     posts:
         output: true
         permalink: Ed_DaSH_website_prototyping/:collection/:name
+        
+# Turn on built-in syntax highlighting.
+
+highlighter: rouge
