@@ -1,5 +1,6 @@
 ---
 title: "Ed-DaSH Who's Who"
+theme: Team
 layout: page
 show_heading: false
 ---
