@@ -1,5 +1,6 @@
 ---
 title: "Workshop development & delivery"
+theme: Workshops
 show_heading: false
 ---  
 
