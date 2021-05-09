@@ -1,5 +1,6 @@
 ---
 title: "Overview of the Ed-DaSH project"
+theme: "Project overview"
 show_heading: false
 ---  
 
