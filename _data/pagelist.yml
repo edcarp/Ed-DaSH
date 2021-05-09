@@ -3,13 +3,13 @@ docs_list_title: Pages
 docs:
 
 - title: Home
-  url: index.md
+  url: index.html
 
 - title: Project overview
-  url: project_overwiew.md
+  url: project_overwiew.html
 
 - title: Curricula overview
-  url: curricula_overview.md
+  url: curricula_overview.html
   
 - title: Workshops
-  url: workshops.md
+  url: workshops.html
