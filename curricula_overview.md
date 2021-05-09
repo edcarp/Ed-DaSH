@@ -1,5 +1,6 @@
 ---
 title: "Overview of Ed-DaSH curricula: workshop materials"
+theme: "Curricula overview"
 show_heading: false
 ---  
 
