@@ -11,6 +11,16 @@
 
 repository: https://github.com/edcarp/Ed_DaSH_website_prototyping
 
+# Author Settings
+author: Ed-DaSH # add your name
+# author-img: Ed_DaSH_blue_circle.svg # add your photo
+about-author: Data driven life science skills development - equipping society for the future. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: edcarp # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: "team@carpentries.org" # add your Email address
+
 # Workshop lessons
 
 ws_unix_shell_lesson: https://swcarpentry.github.io/shell-novice/
@@ -92,15 +102,6 @@ di_funded_members:  [
  baseurl: "/Ed_DaSH_website_prototyping/" # the subpath of your site, e.g. /blog
  url: "https://edcarp.github.io/Ed_DaSH_website_prototyping/" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Social media & email - REPLACE with correct details!
-
-social_twitter: "@ed_dash"
-social_linkedin: ""
-social_facebook: ""
-email: "team@carpentries.org"
-github_username: "ed_dash_web" # Use this alias in combination with 'theme: minima' active (uncomment!)
-twitter_username: ""
-rob_github: https://github.com/robertn01
 
 # Build settings
 
