@@ -59,7 +59,7 @@ show_heading: false
 
 ### Website development
 * Flic Anderson, SBS - Development assistant
-* Robert Nagy, CMVM: IGC ECRC [@robertn01]( {{site.rob_github}} ){:target="_blank"} 
+* Robert Nagy, CMVM: IGC ECRC @robertn01
 
 ## Steering Group
 * Co-Investigators as above
