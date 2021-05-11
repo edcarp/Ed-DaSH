@@ -35,10 +35,11 @@ to a diverse community of researchers in academia and industry across all career
 ===
 
 <div class="mainblock" id="blockname-firstblock" markdown="1">
-    This is a new section
+This is a new section
 </div>
 
-===
+====
+---
 
 Learn more about [the project](project_overview.md).
 
