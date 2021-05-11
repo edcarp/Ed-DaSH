@@ -32,6 +32,13 @@ to a diverse community of researchers in academia and industry across all career
 
 4. To train 30 new instructors to deliver these workshops, building a scalable training community.
 
+===
+
+<div class="mainblock" id="blockname-firstblock" markdown="1">
+    This is a new section
+</div>
+
+===
 
 Learn more about [the project](project_overview.md).
 
