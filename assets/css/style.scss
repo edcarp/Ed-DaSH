@@ -24,6 +24,17 @@ section {
   display: block;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+} 
 
 html, body {
   height: 100%;
@@ -197,11 +208,11 @@ a:hover, a:focus {
 #header_wrap {
   .inner {
     padding: 5px;
-    background: url(//images/UKRI-Logo_Horiz-RGB.jpg) top center; /*  */
+    background: url(../images/UKRI-Logo_Horiz-RGB.jpg) top center; /*  */
     background-size: cover;
   }
   background-color: #262626;
-  //background-image: url(//assets.manchester.ac.uk/staffnet/images/circles.png);
+  //background-image: url(//.../images/circles.png);
   background-repeat: no-repeat;
   background-position: bottom;
   //border-bottom: 1px solid #eeeeee;
