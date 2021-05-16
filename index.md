@@ -2,9 +2,9 @@
 layout: page
 theme: Home
 title: "Ed-DaSH"
+subtitle: Edinburgh - Data Science Training in Health & Bioscience
 ---  
 
-## Edinburgh - Data Science Training in Health & Bioscience (Ed - DaSH)
 
 ### Aims & Objectives
 
