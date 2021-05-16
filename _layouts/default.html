@@ -87,10 +87,15 @@
       	{% endif %}
       	
       	<h2>{{ page.title }}</h2>
+	      
+	
       	
       <!-- MAIN CONTENT -->
       
       <div class="content">
+	{% if page.subtitle %}
+	<h2><font color="#2e2e2e">{{ page.subtitle }}</font></h2>
+	{% endif %}
 	      <textcontent>
          	    {{ content }}
 	      </textcontent>
