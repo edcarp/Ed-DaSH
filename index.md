@@ -1,11 +1,12 @@
 ---
 layout: page
 theme: Home
-title: "Data driven life science skills development - equipping society for the future"
+title: "Ed-DaSH"
 ---  
 
+## Edinburgh - Data Science Training in Health & Bioscience (Ed - DaSH)
 
-## Aims
+### Aims & Objectives
 
 Our aim is to enable researchers at all career stages to harness the power of data-driven
 research and innovation for health and bioscience, by providing training in the management and
@@ -19,11 +20,8 @@ Carpentries chapter, to build an extensive cohort of confident practitioners and
 sustainable network of health and bioscience data science training for the UK.  
 
 
-## Objectives
-
 1. To develop peer-reviewed training modules for biological data science that address identified skill
-gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} (Findable, Accessible, Interoperable and Reusable) & data
-management; Data science computing with workflows) using The Carpentries platform.
+gaps in health and bioscience researchers (Statistics; Open science, [FAIR principles][fair]{:target="_blank"} [_Findable, Accessible, Interoperable and Reusable_] & Data Management; Data Science computing with workflows) using The Carpentries platform.
 
 2. To deliver 98 days of remote training of our new workshops, plus established introductory material,
 to a diverse community of researchers in academia and industry across all career stages.
@@ -44,16 +42,12 @@ This way can infuse HTML code into a markdown document and can apply CSS styling
 Learn more about [the project](project_overview.md).
 
 
-### 1. Learning materials developed by Ed-DaSH
+## Curriculum development
 
 [Developed by Ed-DaSH](curricula_overview.md)   
 
-### 2. People behind the Ed-DaSH project
 
-[Meet the Team](ed_dash_team.md).
-
-### 3. Ed-DaSH Workshops
-
+### Workshops
 [Workshops overview](workshops.md)
 
 **Upcoming workshops**
@@ -64,6 +58,13 @@ Learn more about [the project](project_overview.md).
 
 * Reference page
 
+
+## Ed-DaSH Team
+
+[Meet the Team](ed_dash_team.md).
+
+
+## Partners & Funding
 
 We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
 
