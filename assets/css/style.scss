@@ -166,8 +166,11 @@ a:hover, a:focus {
     //margin-left: 10px;
     float: right;
     transition: 0s background-color;
+    transition:all .5s ease;
+	  transition-delay:2s;
     text-decoration: none;
     border-bottom: 2px solid transparent;
+     //opacity:0;
 
     @media screen and (max-width: 960px) {
       padding: 2px 10px;
@@ -180,6 +183,8 @@ a:hover, a:focus {
       border-bottom: 2px solid $dark; //#3d3d3d
       color: $dark;
       transition-delay:1s;
+      transition:all .2s ease;
+	    //opacity:1;
     }
   }
 }
