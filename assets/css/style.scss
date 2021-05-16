@@ -29,6 +29,10 @@ img {
     vertical-align: middle;
 }
 
+.pagetitle {
+text-align: center;
+}
+
 /**
  * Figures
  */
@@ -43,7 +47,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-    background: #eef0f2; // #ffffff
+    background: 2f3133; // #ffffff
 }
 
 a:hover, a:focus { 
@@ -82,11 +86,11 @@ a:hover, a:focus {
 
 #main_content_wrap {
   flex: 1 0 auto;
-  background: #ffffff;
+  background: #868b91; // #ffffff;
   border-top: none;
 
   .inner {
-    background: #fff;
+    background: #f0f0f0; // #fff;
     /*padding: 10px 30px;*/
     height: 100%;
   }
@@ -208,7 +212,7 @@ a:hover, a:focus {
 #header_wrap {
   .inner {
     padding: 5px;
-    background: url(../images/UKRI-Logo_Horiz-RGB.jpg) top center; /*  */
+    background: url("/images/UKRI-Logo_Horiz-RGB.jpg") top center; /*  */
     background-size: cover;
   }
   background-color: #262626;
