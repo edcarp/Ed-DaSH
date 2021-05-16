@@ -47,7 +47,7 @@ Learn more about [the project](project_overview.md).
 [Developed by Ed-DaSH](curricula_overview.md)   
 
 
-### Workshops
+## Workshops
 [Workshops overview](workshops.md)
 
 **Upcoming workshops**
