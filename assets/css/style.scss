@@ -178,6 +178,7 @@ a:hover, a:focus {
       text-decoration: none;
       border-bottom: 2px solid $dark; //#3d3d3d
       color: $dark;
+      transition-delay:1s;
     }
   }
 }
