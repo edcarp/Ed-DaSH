@@ -30,7 +30,8 @@ img {
 }
 
 .pagetitle {
-text-align: center;
+  text-align: center;
+  color: #dark;
 }
 
 /**
@@ -86,7 +87,7 @@ a:hover, a:focus {
 
 #main_content_wrap {
   flex: 1 0 auto;
-  background: #868b91; // #ffffff;
+  background: #f0f0f0; // #ffffff;
   border-top: none;
 
   .inner {
