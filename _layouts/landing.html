@@ -6,11 +6,12 @@ layout: default
     <div class="inner flex-wrapper">
         <section id="main_content">
             {{ content }}
-	    {% include banner.html %}
+	    
         </section>
        
 	<section id="posts">
             {% include latest_news.html %}
         </section>
+	{% include banner.html %}
     </div>
 </div>
