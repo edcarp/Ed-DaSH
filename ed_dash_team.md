@@ -58,7 +58,6 @@ show_heading: false
 * Gail Robertson, Statistical Consultancy Unit
 
 ### Website development
-* Flic Anderson, SBS - Development assistant
 * Robert Nagy, CMVM: IGC ECRC @robertn01
 
 ## Steering Group
