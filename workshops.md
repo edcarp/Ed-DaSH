@@ -25,6 +25,47 @@ Programme Liaison (WP4.1, 4.2).
 
 <br><br>
 
+### Data Science Workflows with Snakemake and Nextflow
+
+<table>
+    <tr>
+        <th>Instance</th>
+        <th>Tool</th>
+        <th>Date</th>
+        <th>Repository</th>
+        <th>Webpage</th>
+        <th>Registration</th>
+    </tr>
+    {% for workflow in site.data_sci_workflows %}
+    <tr> 
+       <td>{{ workflow.instance }}</td>
+       <td>{{ workflow.tool }}</td>
+       <td>{{ workflow.date | "%B %Y" }}</td>
+       <td>[{{ workflow.repo }}]({{ workflow.repo }}){:target="_blank"}</td>
+       <td>[{{ workflow.lesson }}]({{ workflow.lesson }}){:target="_blank"}</td>
+       <td>[{{ workflow.registration }}]({{ workflow.registration }}){:target="_blank"}</td>
+    </tr>
+    {% endfor %}
+ </table>
+
+ 
+ <br><br>
+
+
+### Statistics
+
+
+
+
+
+### FAIR Principles in Action
+
+
+
+
+
+
+
 | Block  | Workshop  | Duration (haf days)|  Repo |   |   |   |
 |---|---|---|---|---|---|---|
 |  Statistics | Introductory Statistics  |  4 |   |   |   |   |
