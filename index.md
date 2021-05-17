@@ -41,11 +41,13 @@ This way can infuse HTML code into a markdown document and can apply CSS styling
 
 Learn more about [the project](project_overview.md).
 
+<hr style="width:40%">
 
 ### Curriculum development
 
 [Developed by Ed-DaSH](curricula_overview.md)   
 
+<hr style="width:40%">
 
 ### Workshops
 [Workshops overview](workshops.md)
@@ -58,11 +60,13 @@ Learn more about [the project](project_overview.md).
 
 * Reference page
 
+<hr style="width:40%">
 
 ### Ed-DaSH Team
 
 [Meet the Team](ed_dash_team.md).
 
+<hr style="width:40%">
 
 ### Funding & Partners
 
