@@ -41,7 +41,9 @@ This way can infuse HTML code into a markdown document and can apply CSS styling
 
 Learn more about [the project](project_overview.md).
 
-<hr style="width:40%" markdown="1">
+<div class="mainblock" id="blockname-firstblock" markdown="1">
+<hr style="width:40%">
+</div?
 
 ### Curriculum development
 
