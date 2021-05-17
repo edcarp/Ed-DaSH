@@ -42,12 +42,12 @@ This way can infuse HTML code into a markdown document and can apply CSS styling
 Learn more about [the project](project_overview.md).
 
 
-## Curriculum development
+### Curriculum development
 
 [Developed by Ed-DaSH](curricula_overview.md)   
 
 
-## Workshops
+### Workshops
 [Workshops overview](workshops.md)
 
 **Upcoming workshops**
@@ -59,12 +59,12 @@ Learn more about [the project](project_overview.md).
 * Reference page
 
 
-## Ed-DaSH Team
+### Ed-DaSH Team
 
 [Meet the Team](ed_dash_team.md).
 
 
-## Partners & Funding
+### Funding & Partners
 
 We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
 
