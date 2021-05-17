@@ -54,13 +54,57 @@ Programme Liaison (WP4.1, 4.2).
 
 ### Statistics
 
+<table>
+    <tr>
+        <th>Instance</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Repository</th>
+        <th>Webpage</th>
+        <th>Registration</th>
+    </tr>
+    {% for item in site.statistics %}
+    <tr> 
+       <td>{{ item.instance }}</td>
+       <td>{{ item.type }}</td>
+       <td>{{ item.date | "%B %Y" }}</td>
+       <td>[{{ item.repo }}]({{ item.repo }}){:target="_blank"}</td>
+       <td>[{{ item.lesson }}]({{ item.lesson }}){:target="_blank"}</td>
+       <td>[{{ item.registration }}]({{ item.registration }}){:target="_blank"}</td>
+    </tr>
+    {% endfor %}
+ </table>
 
-
+ 
+ <br><br>
 
 
 ### FAIR Principles in Action
 
 
+<table>
+    <tr>
+        <th>Instance</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Repository</th>
+        <th>Webpage</th>
+        <th>Registration</th>
+    </tr>
+    {% for datman in site.fair_data_management %}
+    <tr> 
+       <td>{{ datman.instance }}</td>
+       <td>{{ datman.type }}</td>
+       <td>{{ datman.date | "%B %Y" }}</td>
+       <td>[{{ datman.repo }}]({{ datman.repo }}){:target="_blank"}</td>
+       <td>[{{ datman.lesson }}]({{ datman.lesson }}){:target="_blank"}</td>
+       <td>[{{ datman.registration }}]({{ datman.registration }}){:target="_blank"}</td>
+    </tr>
+    {% endfor %}
+ </table>
+
+ 
+ <br><br>
 
 
 
