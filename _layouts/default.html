@@ -86,8 +86,11 @@
       	<h1><font color="#000066">{{ site.title }}</font></h1>
       	{% endif %}
       	
+	{% if page.logo %}
+	<div class="pagelogo">{{page.logo}}</div>
+	{% else %}
       	<h2 class="pagetitle">{{ page.title }}</h2>
-	      
+	{% endif %}
 	
       	
       <!-- MAIN CONTENT -->
