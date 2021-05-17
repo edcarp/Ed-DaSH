@@ -24,9 +24,9 @@ defined as the analysis of DNA and RNA sequencing, and of subcellular components
 RNA, proteins and metabolites) with training packages covering statistics, computation, and data
 management.  
 
-<br><br>
+<br>
 
-### {{ page.subsection_title }}
+### {{ page.subsection-title }}
 
 Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
 cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
