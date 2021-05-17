@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 theme: Home
 title: Ed-DaSH
 logo: ![Ed-DaSH white circle logo](/images/Ed_DaSH_white_circle.png "Ed-DaSH white circle logo")
