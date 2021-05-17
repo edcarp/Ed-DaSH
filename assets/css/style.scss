@@ -58,7 +58,8 @@ figure > img {
    margin: auto;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   //width: 50%;
+   padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
 }
 
 html, body {
