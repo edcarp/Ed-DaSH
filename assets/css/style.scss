@@ -46,15 +46,16 @@ figure > img {
 } 
 
 .mainlogo { // e.g. 460px x 460px
-   display: inline-block;
-   overflow: hidden;
-   line-height: 1;
+   display: block; //inline-block;
+   //overflow: hidden;
+   //line-height: 1;
    vertical-align: middle;
-   flex-shrink: 0;
+   //flex-shrink: 0;
    box-shadow: 0 0 0 1px var(--color-avatar-border);
    border-radius: 50% !important;
-   height: auto;
-   width: 100% !important;
+   //height: auto;
+   //width: 100% !important;
+   margin: auto;
 }
 
 html, body {
