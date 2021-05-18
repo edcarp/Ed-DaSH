@@ -77,7 +77,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-    background: 2f3133; // #ffffff
+    background: #2f3133; // #ffffff
 }
 
 a:hover, a:focus { 
@@ -115,7 +115,7 @@ a:hover, a:focus {
 }
 
 #main_content_wrap {
-  flex: 1 0 auto;
+  flex: 1 100% ;//1 0 auto;
   background: #f0f0f0; // #ffffff;
   border-top: none;
 
@@ -224,7 +224,7 @@ a:hover, a:focus {
     border-bottom: 2px solid transparent;
     //opacity:0;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 960px) {
       padding: 2px 10px;
       margin: 0 5px;
     }
