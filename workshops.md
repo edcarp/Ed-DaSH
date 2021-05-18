@@ -110,46 +110,646 @@ Programme Liaison (WP4.1, 4.2).
 
 
 
-| Block  | Workshop  | Duration (haf days)|  Repo |   |   |   |
-|---|---|---|---|---|---|---|
-|  Statistics | Introductory Statistics  |  4 |   |   |   |   |
-|   |  High Dimensional Statistics |  4? |   |   |   |   |
-|   |  Machine Learning | 4  |   |   |   |   |
-|  Open Science |  Hands-on |  4 |   |   |   |   |
-|   | Leadership  |  2 |   |   |   |   |
-|  Workflows |  Workflows w Snakemake |  6 |   |   |   |   |
-|   | Workflows w Nextflow  | 6  |   |   |   |   |
+<REMOVE ME: Below is a manually created HTML table>
+    
+<br>
+    
+## Data Science Workflows with Snakemake and Nextflow
 
-<br><br>
 
-| Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
-|---|---|---|---|---|
-|   |  [Unix Shell]({{ site.ws_unix_shell_lesson }}){:target="_blank"} |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
-|   |  Conda |  1 |   |  Ed-DaSH |
-|   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  [Snakemake]({{ site.ws_snakemake_lesson }}){:target="_blank"} |  4 | [{{ site.ws_snakemake }}]({{ site.ws_snakemake }}){:target="_blank"}  |  Ed-DaSH |
+<table>
+  <tr>
+   <td>Instance
+   </td>
+   <td>Tool
+   </td>
+   <td>Date
+   </td>
+   <td>Repository
+   </td>
+   <td>Webpage
+   </td>
+   <td>Registrations
+   </td>
+  </tr>
+  <tr>
+   <td>#1
+   </td>
+   <td>Snakemake
+   </td>
+   <td>12th-13th October 2021
+   </td>
+   <td>https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#2
+   </td>
+   <td>Nextflow
+   </td>
+   <td>November 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#3
+   </td>
+   <td>Snakemake
+   </td>
+   <td>February 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#4
+   </td>
+   <td>Nextflow
+   </td>
+   <td>March 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#5
+   </td>
+   <td>Snakemake
+   </td>
+   <td>May 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#6
+   </td>
+   <td>Nextflow
+   </td>
+   <td>June 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#7
+   </td>
+   <td>Snakemake
+   </td>
+   <td>September 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#8
+   </td>
+   <td>Nextflow
+   </td>
+   <td>October 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#9
+   </td>
+   <td>Snakemake
+   </td>
+   <td>November 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#10
+   </td>
+   <td>Nextflow
+   </td>
+   <td>January 2023
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#11
+   </td>
+   <td>TBC
+   </td>
+   <td>TBC
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 
-<br><br>
 
-| Workflows Workshops  | Lesson  | Duration (haf days)|  Repo |  Source of lesson |
-|---|---|---|---|---|
-|   |  [Unix Shell]({{ site.ws_unix_shell_lesson }}){:target="_blank"} |  2 | [{{ site.ws_unix_shell }}]({{ site.ws_unix_shell }}){:target="_blank"}  |  Software Carpentry |
-|   |  Conda |  1 |   |  Ed-DaSH |
-|   |  Good Practices |  1 |   |  Ed-DaSH |
-|   |  [Nextflow]({{ site.ws_nextflow_lesson }}){:target="_blank"} |  4 |  [{{ site.ws_nextflow }}]({{ site.ws_nextflow }}){:target="_blank"} |  Ed-DaSH |
+## Statistics
 
-<br><br>
 
-## Library of Ed-DaSH workshops  
+<table>
+  <tr>
+   <td>Instance
+   </td>
+   <td>Type
+   </td>
+   <td>Date
+   </td>
+   <td>Repository
+   </td>
+   <td>Webpage
+   </td>
+   <td>Registrations
+   </td>
+  </tr>
+  <tr>
+   <td>#1
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>September 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#2
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>October 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#3
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>November 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#4
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>February 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#5
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>Mar-Feb 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#6
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>March 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#7
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>May 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#8
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>May-Jun 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#9
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>June 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#10
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>July 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#11
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>Jul-Aug 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#12
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>August 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#13
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>September 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#14
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>Sept-Oct 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#15
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>October 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#16
+   </td>
+   <td>Introductory Statistics
+   </td>
+   <td>November 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#17
+   </td>
+   <td>High-dimensional Statistics
+   </td>
+   <td>January 2023
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#18
+   </td>
+   <td>Machine Learning
+   </td>
+   <td>February 2023
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 
-| Title |  Instance |  Short |   |   |   |   |
-|---|---|---|---|---|---|---|
-| Introductory Statistics |  #x+1 | Intro-Stats  |   |   |   |   |
-| High Dimensional Statistics | #x+1  | HD-Stats  |   |   |   |   |
-| Machine Learning | #x+1  | ML  |   |   |   |   |
-| Open Science Hand-on  | #x+1  | OS-Hand |   |   |   |   |
-| Open Science Leadership| #x+1  | OS-PI  |   |   |   |   |
-| Data Science Workflows with Snakemake | #x+1  | DSW-SM  |
-| Data Science Workflows with Nextflow  | #x+1  | DSW-NF  |
+
+## FAIR
+
+
+<table>
+  <tr>
+   <td>Instance
+   </td>
+   <td>Type
+   </td>
+   <td>Date
+   </td>
+   <td>Repository
+   </td>
+   <td>Webpage
+   </td>
+   <td>Registrations
+   </td>
+  </tr>
+  <tr>
+   <td>#1
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>October 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#2
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>November 2021
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#3
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>February 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#4
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>March 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#5
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>May 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#6
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>June 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#7
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>July 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#8
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>September 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#9
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>October 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#10
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>November 2022
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#11
+   </td>
+   <td>FAIR in Practice
+   </td>
+   <td>January 2023
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>#12
+   </td>
+   <td>FAIR for Leaders
+   </td>
+   <td>February 2023
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
 
 
