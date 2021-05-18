@@ -103,8 +103,8 @@ a:hover, a:focus {
 }
 
 #secondary_navigation ul {
-    margin: 0 auto;
-    width: $inner-width;
+    margin: 10px auto 20px;
+    width: 90% //$inner-width;
 }
 
 #secondary_navigation ul li.secondary_navigation_item {
