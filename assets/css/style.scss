@@ -104,7 +104,7 @@ a:hover, a:focus {
 
 #secondary_navigation ul {
     margin: 10px auto 20px;
-    width: 90% //$inner-width;
+    width: 90%; //$inner-width;
 }
 
 #secondary_navigation ul li.secondary_navigation_item {
@@ -168,7 +168,7 @@ a:hover, a:focus {
 }
 
 .inner {
-  max-width: $inner-width;
+  max-width: 90%; //$inner-width;
 }
 
 #posts {
