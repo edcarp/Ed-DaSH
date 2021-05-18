@@ -144,7 +144,9 @@ a:hover, a:focus {
   display: block;
   //margin-left: auto;
   //margin-right: auto;
-  margin: auto;
+  //margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   //width: 22%;
   //height: 15%; //80em;
   text-align: center;
@@ -197,9 +199,9 @@ a:hover, a:focus {
   z-index: 10;
   float: right;
   padding-top: 30px;
-  @media screen and (max-width: 480px) {
-    padding-top: 0;
-  }
+  //@media screen and (max-width: 480px) {
+  //  padding-top: 0;
+  //}
 
   .header-tab {
     //display: inline-block;
@@ -269,7 +271,7 @@ a:hover, a:focus {
 #header_wrap {
   .inner {
     padding: 5px;
-    background: url("/images/UKRI-Logo_Horiz-RGB.jpg") top center; /*  */
+    background: url("./images/UKRI-Logo_Horiz-RGB.jpg") top center; /*  */
     background-size: cover;
   }
   background-color: #262626;
