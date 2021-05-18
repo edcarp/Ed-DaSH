@@ -87,7 +87,7 @@ a:hover, a:focus {
 
 #secondary_navigation {
     //padding: 10px 0px 10px 0px;
-    background-color: #3a87d3; // #000000
+    background-color: 3a87d3; // #000000
     height: 45px;
     //border-bottom: 3px #7b22aa solid;
 
@@ -115,7 +115,7 @@ a:hover, a:focus {
 }
 
 #main_content_wrap {
-  flex: 1 100% ;//1 0 auto;
+  flex: 1 100% ;//equivalent to 1 0 auto;
   background: #f0f0f0; // #ffffff;
   border-top: none;
 
@@ -163,7 +163,7 @@ a:hover, a:focus {
 }
 
 #main_content {
-  padding: 0px 30px 20px 0;
+  padding: 0px 30px 20px 0;  /*top-right-bottom-left*/
   flex: 3;
 }
 
