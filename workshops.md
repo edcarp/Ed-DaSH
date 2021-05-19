@@ -100,7 +100,7 @@ Programme Liaison (WP4.1, 4.2).
 
 ### Data Science Workflows with Snakemake and Nextflow
 
-<table>
+<table class="center-cell-item">
     <tr>
         <th class="center-cell-item">Instance</th>
         <th class="center-cell-item">Tool</th>
