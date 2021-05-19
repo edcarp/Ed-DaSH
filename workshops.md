@@ -102,13 +102,13 @@ Programme Liaison (WP4.1, 4.2).
 
 <table>
     <tr>
-        <th>Instance</th>
-        <th>Tool</th>
-        <th>Date</th>
-        <th>Location</th>
-        <th>Repository</th>
-        <th>Webpage</th>
-        <th>Registration</th>
+        <th class="center-cell-item">Instance</th>
+        <th class="center-cell-item">Tool</th>
+        <th class="center-cell-item">Date</th>
+        <th class="center-cell-item">Location</th>
+        <th class="center-cell-item">Repository</th>
+        <th class="center-cell-item">Webpage</th>
+        <th class="center-cell-item">Registration</th>
     </tr>
     {% for workflow in page.data_sci_workflows %}
     <tr> 
