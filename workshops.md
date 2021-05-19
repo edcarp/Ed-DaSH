@@ -124,7 +124,7 @@ Programme Liaison (WP4.1, 4.2).
     <tr> 
        <td>{{ workflow.instance }}</td>
        <td>{{ workflow.tool }}</td>
-       <td><time datetime={{ workflow.date }}></td>
+       <td>{{ workflow.date | "%B %Y" }}</td>
        <td>{{ workflow.location }}</td>
        <td><a href="{{ workflow.repo }}" target="_blank"> {{ workflow.repo }} </a></td>
        <td><a href="{{ workflow.lesson }}" target="_blank"> {{ workflow.lesson }} </a></td>
