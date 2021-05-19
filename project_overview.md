@@ -3,6 +3,7 @@ title: "Overview of the Ed-DaSH project"
 subsection-title: "The motivation behind: addressing unmet data-skills needs"
 layout: page
 theme: "Project overview"
+permalink: /project_overview/
 show_heading: false
 ---  
 
