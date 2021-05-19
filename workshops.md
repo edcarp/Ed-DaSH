@@ -22,7 +22,8 @@ data_sci_workflows:
   registration: ""
 - instance: "#3" 
   tool: Snakemake 
-  date: 2022-02-01 
+  date: 2022-02-01
+  location: Online
   repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
   lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics
   registration: ""
