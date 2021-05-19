@@ -3,7 +3,6 @@ title: "Overview of the Ed-DaSH project"
 subsection-title: "The motivation behind: addressing unmet data-skills needs"
 layout: page
 theme: "Project overview"
-permalink: /project_overview/
 show_heading: false
 ---  
 
@@ -48,9 +47,7 @@ and skills of the scientific enterprise as a whole._” Demand for digital train
 
 
 
-
-
-
+<br><br>
 ---
 
 [fair]: https://www.nature.com/articles/sdata201618
