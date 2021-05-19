@@ -114,8 +114,15 @@ dev_data_man_FAIR_principles:
   affiliate: ""
   curriculum: Data management & FAIR principles
   social_handler: "@tzielins"
-  img:
-  orcid:
+  img: ""
+  orcid: ""
+- name: Ines Boehm
+  role: ""
+  affiliate: CMVM
+  curriculum: Data management & FAIR principles
+  social_handler: "@Boehmin"
+  img: ""
+  orcid: ""
 
 dev_statistics:
 - name: Catalina Vallejos
@@ -161,7 +168,7 @@ website_development:
   img:
   orcid:
 
- steering_group:
+steering_group:
 - name: Ailith Ewing
   role: Joint Statistics Lead
   affiliate: MRC Human Genetics Unit and CRUK Edinburgh Centre
