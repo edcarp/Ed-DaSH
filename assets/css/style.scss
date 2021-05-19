@@ -52,6 +52,15 @@ figure > img {
   border-radius: 25px;
 }
 
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 
 .mainlogo { // e.g. 460px x 460px
    //display: block; //inline-block;
