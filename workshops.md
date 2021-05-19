@@ -82,6 +82,218 @@ data_sci_workflows:
   lesson: "" 
   registration: ""
 
+statistics:
+- instance: "#1" 
+  type: Introductory Statistics 
+  date: 2021-09-01
+  location: Online
+  repo: ""
+  lesson: "" 
+  registration: ""
+- instance: "#2"
+  type: High-dimensional Statistics 
+  date: 2021-10-01
+  location: Online
+  repo: ""
+  lesson: "" 
+  registration: ""
+- instance: "#3"
+  type: Machine Learning
+  date: 2021-11-01
+  location: Online
+  repo: "" 
+  lesson: "" 
+  registration: ""
+- instance: "#4"
+  type: Introductory Statistics 
+  date: 2022-02-01
+  location: Online
+  repo: "" 
+  lesson: "" 
+  registration: ""
+- instance: "#5"
+  type: High-dimensional Statistics 
+  date: 2022-02-01
+  location: Online
+  repo: "" 
+  lesson: "" 
+  registration: ""
+- instance: "#6" 
+  type: Machine Learning 
+  date: 2022-03-01 
+  location: Online
+  repo: "" 
+  lesson: "" 
+  registration: ""
+- instance: "#7" 
+  type: Introductory Statistics 
+  date: 2022-05-01 
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#8" 
+  type: High-dimensional Statistics
+  date: 2022-05-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#9" 
+  type: Machine Learning 
+  date: 2022-06-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#10" 
+  type: Introductory Statistics
+  date: 2022-07-01 
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#11" 
+  type: High-dimensional Statistics
+  date: 2022-07-01 
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#12" 
+  type: Machine Learning 
+  date: 2022-08-01 
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#13" 
+  type: Introductory Statistics
+  date: 2022-09-01
+  location: Online
+  repo: ""
+  lesson: "" 
+  registration: ""
+- instance: "#14"
+  type: High-dimensional Statistics
+  date: 2022-09-01 
+  location: Online
+  repo: ""
+  lesson: "" 
+  registration: ""
+  instance: "#15" 
+  type: Machine Learning 
+  date: 2022-10-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#16"
+  type: Introductory Statistics
+  date: 2022-11-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#17"
+  type: High-dimensional Statistics
+  date: 2023-01-01
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#18"
+  type: Machine Learning
+  date: 2023-02-01
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+  
+fair_data_management:
+- instance: "#1"
+  type: FAIR in Practice
+  date: 2021-10-01
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#2"
+  type: FAIR for Leaders
+  date: 2021-11-01 
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#3" 
+  type: FAIR in Practice 
+  date: 2022-02-01
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#4"
+  type: FAIR for Leaders
+  date: 2022-03-01
+  location: Online
+  repo: "" 
+  lesson: "" 
+  registration: ""
+- instance: "#5"
+  type: FAIR in Practice
+  date: 2022-05-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#6"
+  type: FAIR for Leaders 
+  date: 2022-06-01 
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#7"
+  type: FAIR in Practice 
+  date: 2022-07-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#8"
+  type: FAIR for Leaders
+  date: 2022-09-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#9"
+  type: FAIR in Practice
+  date: 2022-10-01
+  location: Online
+  repo: "" 
+  lesson: ""
+  registration: ""
+- instance: "#10"
+  type: FAIR for Leaders
+  date: 2022-11-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#11"
+  type: FAIR in Practice
+  date: 2023-01-01
+  location: Online
+  repo: ""
+  lesson: ""
+  registration: ""
+- instance: "#12"
+  type: FAIR for Leaders
+  date: 2023-02-01 
+  repo: ""
+  lesson: ""
+  registration: ""
 
 show_heading: false  
 ---  
