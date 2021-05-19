@@ -2,6 +2,7 @@
 title: "Ed-DaSH Who's Who"
 theme: Team
 layout: page
+permalink: /ed_dash_team/
 show_heading: false
 ---
 
