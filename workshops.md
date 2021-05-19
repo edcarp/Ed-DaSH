@@ -3,6 +3,77 @@ title: "Workshop development & delivery"
 layout: page
 theme: Workshops
 permalink: /workshops/
+
+data_sci_workflows:
+
+- instance: #1
+  tool: Snakemake 
+  date: 2021-10-01 
+  repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
+  lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics
+  registration: ""
+- instance: #2 
+  tool: Nextflow 
+  date: 2021-11-01 
+  repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
+  lesson: https://carpentries-incubator.github.io/workflows-nextflow/
+  registration: ""
+- instance: #3 
+  tool: Snakemake 
+  date: 2022-02-01 
+  repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
+  lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics
+  registration: ""
+- instance: #4 
+  tool: Nextflow 
+  date: 2022-03-01 
+  repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
+  lesson: https://carpentries-incubator.github.io/workflows-nextflow/
+  registration: ""
+- instance: #5 
+  tool: Snakemake
+  date: 2022-05-01 
+  repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
+  lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
+  registration: ""
+- instance: #6 
+  tool: Nextflow
+  date: 2022-06-01 
+  repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
+  lesson: https://carpentries-incubator.github.io/workflows-nextflow/
+  registration: ""
+- instance: #7 
+  tool: Snakemake 
+  date: 2022-09-01 
+  repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
+  lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
+  registration: ""
+- instance: #8 
+  tool: Nextflow 
+  date: 2022-10-01 
+  repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
+  lesson: https://carpentries-incubator.github.io/workflows-nextflow/
+  registration: ""
+- instance: #9 
+  tool: Snakemake 
+  date: 2022-11-01 
+  repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
+  lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
+  registration: ""
+- instance: #10 
+  tool: Nextflow 
+  date: 2023-01-01
+  repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
+  lesson: https://carpentries-incubator.github.io/workflows-nextflow/ 
+  registration: ""
+- instance: #11
+  tool: TBC 
+  date: "" 
+  repo: "" 
+  lesson: "" 
+  registration: ""
+
+
 show_heading: false
 ---  
 
@@ -37,7 +108,7 @@ Programme Liaison (WP4.1, 4.2).
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
-    {% for workflow in site.data_sci_workflows %}
+    {% for workflow in page.data_sci_workflows %}
     <tr> 
        <td>{{ workflow.instance }}</td>
        <td>{{ workflow.tool }}</td>
