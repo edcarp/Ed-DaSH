@@ -15,7 +15,8 @@ data_sci_workflows:
   registration: ""
 - instance: #2 
   tool: Nextflow 
-  date: 2021-11-01 
+  date: 2021-11-01
+  location: Online
   repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/
   registration: ""
@@ -27,49 +28,57 @@ data_sci_workflows:
   registration: ""
 - instance: #4 
   tool: Nextflow 
-  date: 2022-03-01 
+  date: 2022-03-01
+  location: Online
   repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/
   registration: ""
 - instance: #5 
   tool: Snakemake
-  date: 2022-05-01 
+  date: 2022-05-01
+  location: Online
   repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
   lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
   registration: ""
 - instance: #6 
   tool: Nextflow
-  date: 2022-06-01 
+  date: 2022-06-01
+  location: Online
   repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/
   registration: ""
 - instance: #7 
   tool: Snakemake 
-  date: 2022-09-01 
+  date: 2022-09-01
+  location: Online
   repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
   lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
   registration: ""
 - instance: #8 
   tool: Nextflow 
-  date: 2022-10-01 
+  date: 2022-10-01
+  location: Online
   repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/
   registration: ""
 - instance: #9 
   tool: Snakemake 
-  date: 2022-11-01 
+  date: 2022-11-01
+  location: Online
   repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics 
   lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics 
   registration: ""
 - instance: #10 
   tool: Nextflow 
   date: 2023-01-01
+  location: Online
   repo: https://github.com/carpentries-incubator/workflows-nextflow/ 
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/ 
   registration: ""
 - instance: #11
   tool: TBC 
-  date: "" 
+  date: ""
+  location: ""
   repo: "" 
   lesson: "" 
   registration: ""
@@ -117,8 +126,8 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ workflow.date | "%B %Y" }}</td>
        <td>{{ workflow.location }}</td>
        <td><a href="{{ workflow.repo }}" target="_blank"> {{ workflow.repo }} </a></td>
-       <td>[{{ workflow.lesson }}]({{ workflow.lesson }}){:target="_blank"}</td>
-       <td>[{{ workflow.registration }}]({{ workflow.registration }}){:target="_blank"}</td>
+       <td><a href="{{ workflow.lesson }}" target="_blank"> {{ workflow.lesson }} </a></td>
+       <td><a href="{{ workflow.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
  </table>
