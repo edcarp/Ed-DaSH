@@ -155,7 +155,7 @@ Programme Liaison (WP4.1, 4.2).
     <tr> 
        <td>{{ item.instance }}</td>
        <td>{{ item.type }}</td>
-       <td>{{ item.date | "%B %Y" }}</td>
+       <td>{{ item.date | date: "%B %Y" }}</td>
        <td>{{ item.location }}</td>
        <td><a href="{{ item.repo }}" target="_blank"> {{ item.repo }} </a></td>
        <td><a href="{{ item.lesson }}" target="_blank"> {{ item.lesson }} </a></td>
@@ -186,7 +186,7 @@ Programme Liaison (WP4.1, 4.2).
     <tr> 
        <td>{{ datman.instance }}</td>
        <td>{{ datman.type }}</td>
-       <td>{{ datman.date | "%B %Y" }}</td>
+       <td>{{ datman.date | date: "%B %Y" }}</td>
        <td>{{ datman.location }}</td>
        <td><a href="{{ datman.repo }}" target="_blank"> {{ datman.repo }} </a></td>
        <td><a href="{{ datman.lesson }}" target="_blank"> {{ datman.lesson }} </a></td>
