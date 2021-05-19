@@ -113,7 +113,7 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ workflow.instance }}</td>
        <td>{{ workflow.tool }}</td>
        <td>{{ workflow.date | "%B %Y" }}</td>
-       <td><a href= "{{ workflow.repo }}" target="_blank"> {{ workflow.repo }} </a></td>
+       <td><a href="{{ workflow.repo }}" target="_blank"> {{ workflow.repo }} </a></td>
        <td>[{{ workflow.lesson }}]({{ workflow.lesson }}){:target="_blank"}</td>
        <td>[{{ workflow.registration }}]({{ workflow.registration }}){:target="_blank"}</td>
     </tr>
