@@ -162,7 +162,7 @@ dev_website:
   img:
   orcid:
 - name: Robert Nagy
-  role: website development
+  role: Website development
   affiliate: IGC ECRC & ECTU - Edinburgh Health Economics Group
   social_handler: ""
   img:
