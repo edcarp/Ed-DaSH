@@ -138,8 +138,10 @@ Programme Liaison (WP4.1, 4.2).
 
 
 ### Statistics
+
 <br>
-<table>
+
+<table class="center-cell-item">
     <tr>
         <th>Instance</th>
         <th>Type</th>
@@ -167,9 +169,10 @@ Programme Liaison (WP4.1, 4.2).
 
 
 ### FAIR Principles in Action
+
 <br>
 
-<table>
+<table class="center-cell-item">
     <tr>
         <th>Instance</th>
         <th>Type</th>
