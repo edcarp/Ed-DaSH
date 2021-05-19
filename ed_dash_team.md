@@ -308,10 +308,10 @@ show_heading: false
 
  <br><br>
  
- ## Development Teams
+## Development Teams
  <br>
  
- ### Computational workflows
+### Computational workflows
   <br>
   <table class="center-cell-item">
     <tr>
@@ -332,7 +332,7 @@ show_heading: false
  
  <br><br>
  
- ### Data management & FAIR principles
+### Data management & FAIR principles
  
  <br>
 <table class="center-cell-item">
@@ -377,7 +377,7 @@ show_heading: false
  
  <br><br>
  
- ### Website development
+### Website development
 <br>
 <table class="center-cell-item">
     <tr>
