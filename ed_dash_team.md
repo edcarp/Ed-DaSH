@@ -298,7 +298,7 @@ show_heading: false
     </tr>
     {% for team_member in page.co_investigators %}
     <tr> 
-       <td>{{ team_member.name }}</td>
+       <td><b>{{ team_member.name }}</b></td>
        <td>{{ team_member.role }}</td>
        <td>{{ team_member.affiliate }}</td>
        <td>{{ team_member.social_handler }}</td>
@@ -321,7 +321,7 @@ show_heading: false
     </tr>
     {% for member in page.dev_computational_workflows: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
@@ -343,7 +343,7 @@ show_heading: false
     </tr>
     {% for member in page.dev_data_man_FAIR_principles: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
@@ -366,7 +366,7 @@ show_heading: false
     </tr>
     {% for member in page.dev_statistics: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
@@ -387,7 +387,7 @@ show_heading: false
     </tr>
     {% for member in page.dev_website: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
@@ -408,7 +408,7 @@ show_heading: false
     </tr>
     {% for member in page.steering_group: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
@@ -428,7 +428,7 @@ show_heading: false
     </tr>
     {% for member in page.di_funded_members: %}
     <tr> 
-       <td>{{ member.name }}</td>
+       <td><b>{{ member.name }}</b></td>
        <td>{{ member.role }}</td>
        <td>{{ member.affiliate }}</td>
        <td>{{ member.social_handler }}</td>
