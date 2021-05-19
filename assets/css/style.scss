@@ -45,6 +45,24 @@ figure > img {
     display: block;
 } 
 
+/**
+ * Links
+ */
+a {
+    color: lighten(#1e4c89, 5%);
+    text-decoration: none;
+
+    &:visited {
+        color: darken(#1e4c89, 3%);
+    }
+
+    &:hover {
+        color: lighten(#1e4c89, 20%);
+    }
+}
+
+
+
 
 .footer-banner{
   border: 1px solid #b3b3b3;
