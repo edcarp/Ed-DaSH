@@ -2,7 +2,7 @@
 title: "Workshop development & delivery"
 layout: page
 theme: Workshops
-permalink: /workshops/
+
 
 data_sci_workflows:
 
