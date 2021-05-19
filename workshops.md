@@ -77,12 +77,14 @@ data_sci_workflows:
   lesson: https://carpentries-incubator.github.io/workflows-nextflow/ 
   registration: ""
 - instance: "#11"
-  tool: TBC 
+  tool: "TBC'd" 
   date: ""
   location: ""
   repo: "" 
   lesson: "" 
   registration: ""
+
+
 
 
 show_heading: false
@@ -106,19 +108,21 @@ Incubator (hosted on GitHub) for sharing, peer review, and archiving. Mr G Peru 
 Carpentries [EdCarp], Edinburgh Parallel Computing Centre [EPCC]) will facilitate this process as
 Programme Liaison (WP4.1, 4.2).  
 
-<br><br>
+<br>
 
 ### Data Science Workflows with Snakemake and Nextflow
 
+<br>
+
 <table class="center-cell-item">
     <tr>
-        <th class="center-cell-item">Instance</th>
-        <th class="center-cell-item">Tool</th>
-        <th class="center-cell-item">Date</th>
-        <th class="center-cell-item">Location</th>
-        <th class="center-cell-item">Repository</th>
-        <th class="center-cell-item">Webpage</th>
-        <th class="center-cell-item">Registration</th>
+        <th>Instance</th>
+        <th>Tool</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Repository</th>
+        <th>Webpage</th>
+        <th>Registration</th>
     </tr>
     {% for workflow in page.data_sci_workflows %}
     <tr> 
@@ -138,12 +142,13 @@ Programme Liaison (WP4.1, 4.2).
 
 
 ### Statistics
-
+<br>
 <table>
     <tr>
         <th>Instance</th>
         <th>Type</th>
         <th>Date</th>
+        <th>Location</th>
         <th>Repository</th>
         <th>Webpage</th>
         <th>Registration</th>
@@ -153,9 +158,10 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ item.instance }}</td>
        <td>{{ item.type }}</td>
        <td>{{ item.date | "%B %Y" }}</td>
-       <td>[{{ item.repo }}]({{ item.repo }}){:target="_blank"}</td>
-       <td>[{{ item.lesson }}]({{ item.lesson }}){:target="_blank"}</td>
-       <td>[{{ item.registration }}]({{ item.registration }}){:target="_blank"}</td>
+       <td>{{ item.location }}</td>
+       <td><a href="{{ item.repo }}" target="_blank"> {{ item.repo }} </a></td>
+       <td><a href="{{ item.lesson }}" target="_blank"> {{ item.lesson }} </a></td>
+       <td><a href="{{ item.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
  </table>
@@ -165,13 +171,14 @@ Programme Liaison (WP4.1, 4.2).
 
 
 ### FAIR Principles in Action
-
+<br>
 
 <table>
     <tr>
         <th>Instance</th>
         <th>Type</th>
         <th>Date</th>
+        <th>Location</th>
         <th>Repository</th>
         <th>Webpage</th>
         <th>Registration</th>
@@ -181,660 +188,15 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ datman.instance }}</td>
        <td>{{ datman.type }}</td>
        <td>{{ datman.date | "%B %Y" }}</td>
-       <td>[{{ datman.repo }}]({{ datman.repo }}){:target="_blank"}</td>
-       <td>[{{ datman.lesson }}]({{ datman.lesson }}){:target="_blank"}</td>
-       <td>[{{ datman.registration }}]({{ datman.registration }}){:target="_blank"}</td>
+       <td>{{ datman.location }}</td>
+       <td><a href="{{ datman.repo }}" target="_blank"> {{ datman.repo }} </a></td>
+       <td><a href="{{ datman.lesson }}" target="_blank"> {{ datman.lesson }} </a></td>
+       <td><a href="{{ datman.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
  </table>
 
  
  <br><br>
-
-
-
-
-
-<REMOVE ME: Below is a manually created HTML table>
-    
-<br>
-    
-## Data Science Workflows with Snakemake and Nextflow
-
-
-<table>
-  <tr>
-   <td>Instance
-   </td>
-   <td>Tool
-   </td>
-   <td>Date
-   </td>
-   <td>Repository
-   </td>
-   <td>Webpage
-   </td>
-   <td>Registrations
-   </td>
-  </tr>
-  <tr>
-   <td>#1
-   </td>
-   <td>Snakemake
-   </td>
-   <td>12th-13th October 2021
-   </td>
-   <td>https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#2
-   </td>
-   <td>Nextflow
-   </td>
-   <td>November 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#3
-   </td>
-   <td>Snakemake
-   </td>
-   <td>February 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#4
-   </td>
-   <td>Nextflow
-   </td>
-   <td>March 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#5
-   </td>
-   <td>Snakemake
-   </td>
-   <td>May 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#6
-   </td>
-   <td>Nextflow
-   </td>
-   <td>June 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#7
-   </td>
-   <td>Snakemake
-   </td>
-   <td>September 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#8
-   </td>
-   <td>Nextflow
-   </td>
-   <td>October 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#9
-   </td>
-   <td>Snakemake
-   </td>
-   <td>November 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#10
-   </td>
-   <td>Nextflow
-   </td>
-   <td>January 2023
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#11
-   </td>
-   <td>TBC
-   </td>
-   <td>TBC
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-## Statistics
-
-
-<table>
-  <tr>
-   <td>Instance
-   </td>
-   <td>Type
-   </td>
-   <td>Date
-   </td>
-   <td>Repository
-   </td>
-   <td>Webpage
-   </td>
-   <td>Registrations
-   </td>
-  </tr>
-  <tr>
-   <td>#1
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>September 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#2
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>October 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#3
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>November 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#4
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>February 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#5
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>Mar-Feb 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#6
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>March 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#7
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>May 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#8
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>May-Jun 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#9
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>June 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#10
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>July 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#11
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>Jul-Aug 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#12
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>August 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#13
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>September 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#14
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>Sept-Oct 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#15
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>October 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#16
-   </td>
-   <td>Introductory Statistics
-   </td>
-   <td>November 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#17
-   </td>
-   <td>High-dimensional Statistics
-   </td>
-   <td>January 2023
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#18
-   </td>
-   <td>Machine Learning
-   </td>
-   <td>February 2023
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-## FAIR
-
-
-<table>
-  <tr>
-   <td>Instance
-   </td>
-   <td>Type
-   </td>
-   <td>Date
-   </td>
-   <td>Repository
-   </td>
-   <td>Webpage
-   </td>
-   <td>Registrations
-   </td>
-  </tr>
-  <tr>
-   <td>#1
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>October 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#2
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>November 2021
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#3
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>February 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#4
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>March 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#5
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>May 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#6
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>June 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#7
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>July 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#8
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>September 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#9
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>October 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#10
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>November 2022
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#11
-   </td>
-   <td>FAIR in Practice
-   </td>
-   <td>January 2023
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>#12
-   </td>
-   <td>FAIR for Leaders
-   </td>
-   <td>February 2023
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
 
 
