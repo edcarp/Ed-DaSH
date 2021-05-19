@@ -3,7 +3,6 @@ title: "Workshop development & delivery"
 layout: page
 theme: Workshops
 
-
 data_sci_workflows:
 - instance: "#1"
   tool: Snakemake 
@@ -295,9 +294,10 @@ fair_data_management:
   repo: ""
   lesson: ""
   registration: ""
-
-show_heading: false
+  
+show_heading: false  
 ---  
+
 
 
 
