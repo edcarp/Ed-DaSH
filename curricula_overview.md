@@ -2,6 +2,7 @@
 title: "Overview of Ed-DaSH curricula: workshop materials"
 layout: page
 theme: "Curricula overview"
+permalink: /curricula_overview/
 show_heading: false
 ---  
 
