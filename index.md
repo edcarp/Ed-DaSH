@@ -2,7 +2,6 @@
 layout: landing
 theme: Home
 title: Ed-DaSH
-permalink: /index/
 logo: ![Ed-DaSH white circle logo](/images/Ed_DaSH_white_circle.png "Ed-DaSH white circle logo")
 subtitle: Edinburgh - Data Science Training in Health & Bioscience
 ---  
