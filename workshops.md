@@ -2,6 +2,7 @@
 title: "Workshop development & delivery"
 layout: page
 theme: Workshops
+permalink: /workshops/
 show_heading: false
 ---  
 
