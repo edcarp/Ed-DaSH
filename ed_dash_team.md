@@ -154,7 +154,7 @@ dev_statistics:
   img:
   orcid:
 
-website_development: 
+dev_website: 
 - name: Giacomo Peru
   role: Programme Coordinator
   affiliate: EPCC
@@ -289,14 +289,14 @@ show_heading: false
 
 ## Co-Investigators
 
- <table>
+ <table class="center-cell-item">
     <tr>
         <th>Name</th>
         <th>Role</th>
         <th>Affiliate</th>
         <th>Social</th>
     </tr>
-    {% for team_member in site.co_investigators %}
+    {% for team_member in page.co_investigators %}
     <tr> 
        <td>{{ team_member.name }}</td>
        <td>{{ team_member.role }}</td>
@@ -306,8 +306,140 @@ show_heading: false
     {% endfor %}
  </table>
 
+ <br><br>
+ 
+ ## Development Teams
+ <br>
+ 
+ ### Computational workflows
+  <br>
+  <table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.dev_computational_workflows: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
  
  <br><br>
+ 
+ ### Data management & FAIR principles
+ 
+ <br>
+<table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.dev_data_man_FAIR_principles: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+ 
+ <br><br>
+
+### Statistics
+
+<br>
+
+<table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.dev_statistics: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+ 
+ <br><br>
+ 
+ ### Website development
+<br>
+<table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.dev_website: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+ 
+ <br><br>
+
+## Steering Group
+<br>
+<table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.steering_group: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+ 
+ <br><br>
+## DI funded team members (timesheets for audit trail)
+<br>
+<table class="center-cell-item">
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Affiliate</th>
+        <th>Social</th>
+    </tr>
+    {% for member in page.di_funded_members: %}
+    <tr> 
+       <td>{{ member.name }}</td>
+       <td>{{ member.role }}</td>
+       <td>{{ member.affiliate }}</td>
+       <td>{{ member.social_handler }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+ 
+ <br><br>
+
+
 
 * Alison Meynert, Senior Research Fellow at MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager @ameynert
 * Alex Twyford, Lecturer in Botany, SBS, Academic Lead to Edinburgh Genomics
