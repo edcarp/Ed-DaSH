@@ -322,7 +322,7 @@ Programme Liaison (WP4.1, 4.2).
 
 <br>
 
-<table class="center-cell-item">
+ <table class="center-cell-item">
     <tr>
         <th>Instance</th>
         <th>Tool</th>
@@ -332,7 +332,7 @@ Programme Liaison (WP4.1, 4.2).
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
-    {% for workflow in page.data_sci_workflows: %}
+    {% for workflow in page.data_sci_workflows %}
     <tr> 
        <td>{{ workflow.instance }}</td>
        <td>{{ workflow.tool }}</td>
@@ -343,7 +343,7 @@ Programme Liaison (WP4.1, 4.2).
        <td><a href="{{ workflow.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
- </table>
+  </table>
 
  
  <br><br>
@@ -353,7 +353,7 @@ Programme Liaison (WP4.1, 4.2).
 
 <br>
 
-<table class="center-cell-item">
+ <table class="center-cell-item">
     <tr>
         <th>Instance</th>
         <th>Type</th>
@@ -374,7 +374,7 @@ Programme Liaison (WP4.1, 4.2).
        <td><a href="{{ item.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
- </table>
+  </table>
 
  
  <br><br>
@@ -384,7 +384,7 @@ Programme Liaison (WP4.1, 4.2).
 
 <br>
 
-<table class="center-cell-item">
+ <table class="center-cell-item">
     <tr>
         <th>Instance</th>
         <th>Type</th>
@@ -405,7 +405,7 @@ Programme Liaison (WP4.1, 4.2).
        <td><a href="{{ datman.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
- </table>
+  </table>
 
  
  <br><br>
