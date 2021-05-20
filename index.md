@@ -13,34 +13,34 @@ partners:
   logo_path:
   ref_url: https://www.ed.ac.uk/biology
 - name: School of Mathematics
-  logo_path: /images/partner_sponsor_logos/resized/uoe_mathematics_2_colour_small.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/uoe_mathematics_2_colour_small.jpg
   ref_url: https://www.maths.ed.ac.uk/
 - name: Medical School (CMVM)
-  logo_path: /images/partner_sponsor_logos/resized/edinburghmedicalschool_2col_cmyk_0.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburghmedicalschool_2col_cmyk_0.jpg
   ref_url: https://www.ed.ac.uk/medicine-vet-medicine/edinburgh-medical-school
 - name: MRC Human Genetics Unit
-  logo_path: /images/partner_sponsor_logos/resized/MRC_HGU_Edinburgh_colour_web.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/MRC_HGU_Edinburgh_colour_web.jpg
   ref_url: https://www.ed.ac.uk/mrc-human-genetics-unit
 - name: Edinburgh Genomics
-  logo_path: /images/partner_sponsor_logos/resized/edinburgh-genomics-logo_0.jpeg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburgh-genomics-logo_0.jpeg
   ref_url: https://genomics.ed.ac.uk/
 - name: The Carpentries
-  logo_path: /images/partner_sponsor_logos/resized/carpentries-hex-blue.svg 
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/carpentries-hex-blue.svg 
   ref_url: https://carpentries.org
 - name: Edinburgh Carpentries (EdCarp)
-  logo_path: /images/partner_sponsor_logos/resized/edcarp-logo.svg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edcarp-logo.svg
   ref_url: https://edcarp.github.io/
 - name: Edinburgh International Data Facility (EIDF)
-  logo_path: /images/partner_sponsor_logos/resized/eidf_web_banner_aw.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/eidf_web_banner_aw.jpg
   ref_url: https://www.ed.ac.uk/edinburgh-international-data-facility
 - name: The Data Lab
-  logo_path: /images/partner_sponsor_logos/resized/TheDataLab-Black-Logo-transparent.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheDataLab-Black-Logo-transparent.jpg
   ref_url: https://www.thedatalab.com/
 - name: Edinburgh Parallel Computing Centre (EPCC)
-  logo_path: /images/partner_sponsor_logos/resized/epcc_logo.jpeg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/epcc_logo.jpeg
   ref_url: https://www.epcc.ed.ac.uk/
 - name: The Software Sustainability Institute
-  logo_path: /images/partner_sponsor_logos/resized/SSILogo4Citations.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/SSILogo4Citations.jpg
   ref_url: https://www.software.ac.uk/
 
 
