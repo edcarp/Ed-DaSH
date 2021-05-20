@@ -191,10 +191,10 @@ a:hover, a:focus {
 
 logo-grid {
   clear: both;
-  margin-top: 10px;
+  //margin-top: 10px;
   text-align: center;
   background: #ffffff;
-  border: 1px solid #b3b3b3;
+  //border: 1px solid #b3b3b3;
   padding: 0px;
   border-radius: 25px;
 }
@@ -207,7 +207,8 @@ logo-grid-item {
   img {
     filter: grayscale(75%);
     -webkit-filter: grayscale(75%);
-    &:hover {
+
+   &:hover {
       filter: none;
       -webkit-filter: none;
     }
