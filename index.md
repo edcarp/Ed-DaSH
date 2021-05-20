@@ -119,7 +119,7 @@ We gratefully acknowledge funding from [funders]( {{ site.funders }}), under gra
 
 [Key stakeholders](  {{ site.stakeholders }} )
 
-<div class="logo-grid">
+<div class="logo-grid" markdown="1">
     {% for partner in page.partners: %}
       <a class="logo-grid-item" href="{{ partner.ref_url }}"><img src="{{ partner.logo_path }}"/></a>
     {% endfor %}
