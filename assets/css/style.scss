@@ -197,13 +197,13 @@ a:hover, a:focus {
   //border: 1px solid #b3b3b3;
   padding: 0px;
   border-radius: 25px;
+  max-width: 100%;
 }
 
 .logo-grid-item {
   display: inline-block;
   padding: 0px;
   width: 33%;
-  max-width: 100%;
   //min-width: 300px;
 	
   .partner-logo {
