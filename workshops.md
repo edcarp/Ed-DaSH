@@ -363,7 +363,7 @@ Programme Liaison (WP4.1, 4.2).
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
-    {% for item in site.statistics: %}
+    {% for item in page.statistics: %}
     <tr> 
        <td>{{ item.instance }}</td>
        <td>{{ item.type }}</td>
@@ -394,7 +394,7 @@ Programme Liaison (WP4.1, 4.2).
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
-    {% for datman in site.fair_data_management: %}
+    {% for datman in page.fair_data_management: %}
     <tr> 
        <td>{{ datman.instance }}</td>
        <td>{{ datman.type }}</td>
