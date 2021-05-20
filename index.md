@@ -72,58 +72,52 @@ to a diverse community of researchers in academia and industry across all career
 
 4. To train 30 new instructors to deliver these workshops, building a scalable training community.
 
-
-
-<div class="mainblock" id="blockname-firstblock" markdown="1">
-This way can infuse HTML code into a markdown document and can apply CSS styling on it.
-</div>
-
-
+<br>
 ---  
 
 
 Learn more about [the project](project_overview.md).
-
-<div class="hr-separator" id="blockname-firstblock" markdown="1">
-<hr/>
-</div>
+<br>
 
 ### Curriculum development
 
 [Developed by Ed-DaSH](curricula_overview.md)   
-
+<br>
 <hr style="width:40%">
 
 ### Workshops
+<br>
 [Workshops overview](workshops.md)
-
+<br>
 **Upcoming workshops**
 
 * Reference page
 
+<br>
 **Past workshops**
 
 * Reference page
 
 <hr style="width:40%">
-
+<br>
 ### Ed-DaSH Team
-
+<br>
 [Meet the Team](ed_dash_team.md).
 
 <hr style="width:40%">
-
+<br>
 ### Funding & Partners
-
+<br>
 We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
-
+<br>
 [Key stakeholders](  {{ site.stakeholders }} )
-
-<div class="logo-grid" markdown="1">
+<br>
+<div class="logo-grid">
     {% for partner in page.partners: %}
-      <a class="logo-grid-item" markdown="1" href="{{ partner.ref_url }}"><img src="{{ partner.logo_path }}"/></a>
+      <a class="logo-grid-item" href="{{ partner.ref_url }}"><img src="{{ partner.logo_path }}"/></a>
     {% endfor %}
 </div>
 
+<br>
 
 [fair]: https://www.nature.com/articles/sdata201618
