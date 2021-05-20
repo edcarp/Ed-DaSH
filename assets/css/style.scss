@@ -202,12 +202,12 @@ a:hover, a:focus {
 .logo-grid-item {
   display: inline-block;
   padding: 0px;
-  //width: 33%;
+  width: 33%;
   //min-width: 300px;
 	
   .partner-logo {
-    filter: grayscale(75%);
-    -webkit-filter: grayscale(75%);
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
 
    &:hover {
     filter: none;
