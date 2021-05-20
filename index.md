@@ -74,13 +74,11 @@ to a diverse community of researchers in academia and industry across all career
 
 <br>
 ---  
-
-
 Learn more about [the project](project_overview.md).
 <br>
 
 ### Curriculum development
-
+<br>
 [Developed by Ed-DaSH](curricula_overview.md)   
 <br>
 <hr style="width:40%">
