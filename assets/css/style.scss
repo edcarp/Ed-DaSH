@@ -189,7 +189,7 @@ a:hover, a:focus {
 
 // Logo grid
 
-logo-grid {
+.logo-grid {
   clear: both;
   //margin-top: 10px;
   text-align: center;
@@ -199,13 +199,13 @@ logo-grid {
   border-radius: 25px;
 }
 
-logo-grid-item {
+.logo-grid-item {
   display: inline-block;
   padding: 0px;
   //width: 33%;
   //min-width: 300px;
 	
-  img {
+  .partner-logo {
     filter: grayscale(75%);
     -webkit-filter: grayscale(75%);
 
