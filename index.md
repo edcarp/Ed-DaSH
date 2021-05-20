@@ -121,7 +121,7 @@ We gratefully acknowledge funding from [funders]( {{ site.funders }}), under gra
 
 <div class="logo-grid" markdown="1">
     {% for partner in page.partners: %}
-      <a class="logo-grid-item" href="{{ partner.ref_url }}"><img src="{{ partner.logo_path }}"/></a>
+      <a class="logo-grid-item" markdown="1" href="{{ partner.ref_url }}"><img src="{{ partner.logo_path }}"/></a>
     {% endfor %}
 </div>
 
