@@ -343,7 +343,7 @@ Programme Liaison (WP4.1, 4.2).
        <td><a href="{{ workflow.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
-  </table>
+ </table>
 
  
  <br><br>
@@ -374,7 +374,7 @@ Programme Liaison (WP4.1, 4.2).
        <td><a href="{{ item.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
-  </table>
+ </table>
 
  
  <br><br>
