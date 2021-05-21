@@ -110,12 +110,7 @@ We gratefully acknowledge funding from [funders]( {{ site.funders }}), under gra
 <br>
 [Key stakeholders](  {{ site.stakeholders }} )
 <br>
- <div class="logo-grid">
-  {% for partner in page.partners %}
-    <a class="logo-grid-item" href="{{ partner.ref_url }}"><img class="partner-logo" src="{{ partner.logo_path }}"/></a>
-  {% endfor %}
- </div>
 
-<br>
+
 
 [fair]: https://www.nature.com/articles/sdata201618
