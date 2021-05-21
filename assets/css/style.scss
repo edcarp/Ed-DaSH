@@ -195,7 +195,7 @@ a:hover, a:focus {
   text-align: center;
   background: #ffffff;
   //border: 1px solid #b3b3b3;
-  padding: 0px;
+  padding: 20px;
   border-radius: 25px;
   margin: auto;
   //margin-left: auto;
@@ -207,6 +207,12 @@ a:hover, a:focus {
   display: inline-block;
   padding: 10px;
   width: 33%;
+  //padding: none !important;
+  border: none !important;
+  background: none !important;
+  -moz-box-shadow: 0px 0px 0px transparent !important;
+  -webkit-box-shadow: 0px 0px 0px transparent !important;
+  box-shadow: 0px 0px 0px transparent !important;
   //max-height: 160px;
 	
   .partner-logo {
