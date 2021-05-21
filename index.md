@@ -7,32 +7,23 @@ logo: ![Ed-DaSH white circle logo](/images/Ed_DaSH_white_circle.png "Ed-DaSH whi
 
 partners:
 - name: UKRI
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/UKRI-Logo_Horiz-RGB.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/1200px-UKRI-Logo_Horiz-RGB.jpg
   ref_url: https://www.ukri.org
 - name: School of Biological Sciences
   logo_path:
   ref_url: https://www.ed.ac.uk/biology
 - name: School of Mathematics
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/uoe_mathematics_2_colour_small.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/uoe_mathematics_2_colour_small.jpg 
   ref_url: https://www.maths.ed.ac.uk/
 - name: Medical School (CMVM)
   logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburghmedicalschool_2col_cmyk_0.jpg
   ref_url: https://www.ed.ac.uk/medicine-vet-medicine/edinburgh-medical-school
-- name: MRC Human Genetics Unit
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/MRC_HGU_Edinburgh_colour_web.jpg
-  ref_url: https://www.ed.ac.uk/mrc-human-genetics-unit
 - name: Edinburgh Genomics
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburgh-genomics-logo_0.jpeg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburgh_genomics.jpg
   ref_url: https://genomics.ed.ac.uk/
 - name: The Carpentries
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/carpentries-hex-blue.svg 
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheCarpentries.jpg
   ref_url: https://carpentries.org
-- name: Edinburgh Carpentries (EdCarp)
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edcarp-logo.svg
-  ref_url: https://edcarp.github.io/
-- name: Edinburgh International Data Facility (EIDF)
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/eidf_web_banner_aw.jpg
-  ref_url: https://www.ed.ac.uk/edinburgh-international-data-facility
 - name: The Data Lab
   logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheDataLab-Black-Logo-transparent.jpg
   ref_url: https://www.thedatalab.com/
@@ -40,8 +31,17 @@ partners:
   logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/epcc_logo.jpeg
   ref_url: https://www.epcc.ed.ac.uk/
 - name: The Software Sustainability Institute
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/SSILogo4Citations.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/SSI_Big300dpi_transparent.jpg
   ref_url: https://www.software.ac.uk/
+- name: MRC Human Genetics Unit
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/MRC_HGU_Edinburgh_colour_web.jpg
+  ref_url: https://www.ed.ac.uk/mrc-human-genetics-unit
+- name: Edinburgh Carpentries (EdCarp)
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edcarp-logo.jpg
+  ref_url: https://edcarp.github.io/
+- name: Edinburgh International Data Facility (EIDF)
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/eidf_cropped.jpeg 
+  ref_url: https://www.ed.ac.uk/edinburgh-international-data-facility
 
 
 subtitle: Edinburgh - Data Science Training in Health & Bioscience
