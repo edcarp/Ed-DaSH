@@ -109,12 +109,6 @@ Learn more about [the project](project_overview.md).
 We gratefully acknowledge funding from [funders]( {{ site.funders }}), under grant number 'abc'.  
 <br>
 [Key stakeholders](  {{ site.stakeholders }} )
-<br>
- <div class="logo-grid">
-  {% for partner in page.partners %}
-    <a class="logo-grid-item" href="{{ partner.ref_url }}"><img class="partner-logo" src="{{ partner.logo_path }}"/></a>
-  {% endfor %}
- </div>
 
 <br>
 
