@@ -13,4 +13,9 @@ layout: default
             {% include latest_news.html %}
         </section>
     </div>
+    <div class="inner logo-grid">
+        {% for partner in page.partners %}
+        <a class="logo-grid-item" href="{{ partner.ref_url }}"><img class="partner-logo" src="{{ partner.logo_path }}"/></a>
+        {% endfor %}
+    </div>
 </div>
