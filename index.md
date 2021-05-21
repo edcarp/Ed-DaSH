@@ -22,10 +22,10 @@ partners:
   logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/edinburgh_genomics.jpg
   ref_url: https://genomics.ed.ac.uk/
 - name: The Carpentries
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheCarpentries.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheCarpentries.jpeg
   ref_url: https://carpentries.org
 - name: The Data Lab
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheDataLab-Black-Logo-transparent.jpg
+  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/TheDataLab-Black-Logo-transparent.jpeg
   ref_url: https://www.thedatalab.com/
 - name: Edinburgh Parallel Computing Centre (EPCC)
   logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/epcc_logo.jpeg
