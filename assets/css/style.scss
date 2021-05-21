@@ -16,9 +16,9 @@ $dark-gray: #a0a0a0;
 $dark-blue: #263959;
 $dark: #cfcfcf; // changed to a brighter hue
 
-* {
- box-sizing: border-box;
-}
+//* {
+// box-sizing: border-box;
+//}
 
 section {
   display: block;
@@ -197,7 +197,7 @@ a:hover, a:focus {
   //border: 1px solid #b3b3b3;
   padding: 0px;
   border-radius: 25px;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .logo-grid-item {
