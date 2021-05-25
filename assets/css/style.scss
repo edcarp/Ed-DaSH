@@ -530,6 +530,17 @@ footer {
     text-align: center;
     margin: 0;
     color: $dark;
+	 a:link { 
+		text-decoration: none; 
+	  }
+
+	  a:visited { text-decoration: none; }
+
+
+	  a:hover { text-decoration: none; }
+
+
+	  a:active { text-decoration: none; }
   }
 }
 
@@ -540,6 +551,17 @@ footer .copyright {
   text-align: center;
   color: $dark;
   margin: 0;
+	a:link { 
+		text-decoration: none; 
+	  }
+
+	  a:visited { text-decoration: none; }
+
+
+	  a:hover { text-decoration: none; }
+
+
+	  a:active { text-decoration: none; }
 }
 
 
