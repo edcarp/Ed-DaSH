@@ -533,19 +533,20 @@ footer {
        color: $dark;  
        &:link { 
 	  text-decoration: none; 
-	  }
+		}
 
        &:visited { 
 	   text-decoration: none; 
-	  }
+		}
 
        &:hover { 
 	   text-decoration: none; 
-	  }
+		}
 	    
-       &:active { text-decoration: none; 
-	  }
-  }
+       &:active { 
+	   text-decoration: none; 
+		}
+    }
 }
 
 
@@ -555,25 +556,25 @@ footer .copyright {
   text-align: center;
   color: $dark;
   margin: 0;
-	a {
+      a {
        color: $dark;  
        &:link { 
 	  text-decoration: none; 
-	  }
+	}
 
        &:visited { 
 	   text-decoration: none; 
-	  }
+	}
 
        &:hover { 
 	   text-decoration: none; 
-	  }
+	}
 	    
-       &:active { text-decoration: none; 
-	  }
-  }
-}
-
+       &:active { 
+	   text-decoration: none; 
+	}
+    }
+ }
 // Social
 
 .fa-twitter-square:before {
