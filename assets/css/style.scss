@@ -282,7 +282,7 @@ a:hover, a:focus {
 
 
 .inner-header {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 
@@ -316,7 +316,7 @@ a:hover, a:focus {
   float: right;
   padding-top: 30px;
   margin: 0 auto;
-  max-width: 100%; //100%90%;
+  max-width: 90%; //100%90%;
   //@media screen and (max-width: 480px) {
   //  padding-top: 0;
   //}
@@ -340,7 +340,7 @@ a:hover, a:focus {
     border-bottom: 1px solid transparent;
     //opacity:0;
 
-    @media screen and (max-width: 100%) { // was 90%
+    @media screen and (max-width: 90%) { // was 90%
       padding: 2px 10px;
       margin: 0 5px;
     }
