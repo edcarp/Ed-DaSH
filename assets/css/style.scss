@@ -181,11 +181,12 @@ a:hover, a:focus {
   font-weight: 400;
   font-size: 14px;
 	a {
-	text-align: center;
+	//text-align: center;
  	 /*width: 50%;*/
 	  color: $dark;
 	  font-weight: 400;
 	  font-size: 14px;
+		
 	 &:link { 
 	  	text-decoration: none; 
 		}
@@ -194,7 +195,7 @@ a:hover, a:focus {
 	   	text-decoration: none; 
 		}
 
-        &:hover { 
+         &:hover { 
 	   	text-decoration: none; 
 		}
 	    
