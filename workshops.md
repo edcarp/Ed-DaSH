@@ -328,7 +328,6 @@ Programme Liaison (WP4.1, 4.2).
         <th>Tool</th>
         <th>Date</th>
         <th>Location</th>
-        <th>Repository</th>
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
@@ -338,7 +337,6 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ workflow.tool }}</td>
        <td>{{ workflow.date | date: "%B %Y" }}</td>
        <td>{{ workflow.location }}</td>
-       <td><a href="{{ workflow.repo }}" target="_blank"> {{ workflow.repo }} </a></td>
        <td><a href="{{ workflow.lesson }}" target="_blank"> {{ workflow.lesson }} </a></td>
        <td><a href="{{ workflow.registration }}" target="_blank">Register here!</a></td>
     </tr>
@@ -359,7 +357,6 @@ Programme Liaison (WP4.1, 4.2).
         <th>Type</th>
         <th>Date</th>
         <th>Location</th>
-        <th>Repository</th>
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
@@ -369,7 +366,6 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ item.type }}</td>
        <td>{{ item.date | date: "%B %Y" }}</td>
        <td>{{ item.location }}</td>
-       <td><a href="{{ item.repo }}" target="_blank"> {{ item.repo }} </a></td>
        <td><a href="{{ item.lesson }}" target="_blank"> {{ item.lesson }} </a></td>
        <td><a href="{{ item.registration }}" target="_blank">Register here!</a></td>
     </tr>
@@ -390,7 +386,7 @@ Programme Liaison (WP4.1, 4.2).
         <th>Type</th>
         <th>Date</th>
         <th>Location</th>
-        <th>Repository</th>
+ 
         <th>Webpage</th>
         <th>Registration</th>
     </tr>
@@ -400,7 +396,6 @@ Programme Liaison (WP4.1, 4.2).
        <td>{{ datman.type }}</td>
        <td>{{ datman.date | date: "%B %Y" }}</td>
        <td>{{ datman.location }}</td>
-       <td><a href="{{ datman.repo }}" target="_blank"> {{ datman.repo }} </a></td>
        <td><a href="{{ datman.lesson }}" target="_blank"> {{ datman.lesson }} </a></td>
        <td><a href="{{ datman.registration }}" target="_blank">Register here!</a></td>
     </tr>
