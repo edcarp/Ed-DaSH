@@ -17,9 +17,9 @@ $dark-blue: #263959;
 $dark: #cfcfcf; // changed to a brighter hue
 $animate: all 0.2s ease-in-out;
 
-//* {
-// box-sizing: border-box;
-//}
+* {
+ box-sizing: border-box;
+}
 
 section {
   display: block;
