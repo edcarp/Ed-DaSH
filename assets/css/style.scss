@@ -383,7 +383,8 @@ a:hover, a:focus {
     }
     
     &:hover {
-      //cursor: pointer;
+      cursor: pointer;
+	    
      &:hover:before {
 	left: 50%;
 	    }
@@ -391,9 +392,9 @@ a:hover, a:focus {
         content: "";
         position: absolute;
         bottom: -10px;
-       width: 50%;//0px;
+       width: 100%;//0px;
 	right: 50%;
-       height: 5px;
+       height: 1px;
        margin: 5px 0 0;
       transition: $animate;
       transition-duration: 0.75s;
