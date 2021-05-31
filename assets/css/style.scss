@@ -382,26 +382,26 @@ a:hover, a:focus {
       
     }
     
-    //&:hover {
+    &:hover {
       //cursor: pointer;
-     // &:hover:before {
-	//left: 50%;
-	   // }
-      //&:hover:after {
-      //  content: "";
-       // position: absolute;
-      //  bottom: -10px;
-     //   width: 50%;//0px;
-	//right: 50%;
-       // height: 5px;
-       // margin: 5px 0 0;
-      //  transition: $animate;
-      //  transition-duration: 0.75s;
-     //   opacity: 1;
-	//color: $dark;
-       // background-color: darken($dark,10%);
-	//border-bottom: 1px solid $dark;
-    //  }
+     &:hover:before {
+	left: 50%;
+	    }
+      &:hover:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+       width: 50%;//0px;
+	right: 50%;
+       height: 5px;
+       margin: 5px 0 0;
+      transition: $animate;
+      transition-duration: 0.75s;
+     opacity: 1;
+	color: $dark;
+      background-color: darken($dark,10%);
+	border-bottom: 1px solid $dark;
+   }
  
 	  
 
