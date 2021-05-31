@@ -361,7 +361,7 @@ a:hover, a:focus {
     transition-delay:.2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    opacity: 0;
+    opacity: 1;
     //margin: 100px auto 0;
     //list-style: none; // NEW
     //display: flex; //NEW
@@ -397,7 +397,7 @@ a:hover, a:focus {
        // margin: 5px 0 0;
       //  transition: $animate;
       //  transition-duration: 0.75s;
-     //   opacity: 0;//1;
+     //   opacity: 1;
 	//color: $dark;
        // background-color: darken($dark,10%);
 	//border-bottom: 1px solid $dark;
@@ -431,7 +431,7 @@ a:hover, a:focus {
      color: $dark;
      transition-delay:.5s;
      transition: all .2s ease;
-     opacity:0;
+     opacity:1;
     }
   }
 }
