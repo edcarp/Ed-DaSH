@@ -375,7 +375,9 @@ a:hover, a:focus {
       // flex-direction: row; //NEW
     }
     
-    &::after {  // NEW section
+    //&::after 
+	  
+    &:hover {  // NEW section
   	content: "";
   	position: absolute;
 	bottom: 0;
