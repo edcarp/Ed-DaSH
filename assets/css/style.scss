@@ -333,7 +333,7 @@ a:hover, a:focus {
 }
 
 .header-tabs {
-  z-index: 10;
+  z-index: 99;
   
   float: right;
   padding-top: 30px;
@@ -356,17 +356,44 @@ a:hover, a:focus {
     //margin-left: 10px;
     float: right;
     transition: 0s background-color;
-    transition:all .2s ease;
+    transition: all .2s ease;
     transition-delay:.2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    //opacity:0;
+    // opacity:0;c
+    // margin: 100px auto 0;
+    list-style: none; // NEW
+    display: flex; //NEW
+    flex-direction: column; //NEW
+    justify-content: space-between; //NEW
+    text-align: center; //NEW
+    //padding: 0;     
+    //max-width: 600px;
 
     @media screen and (max-width: 90%) { // was 90%
       padding: 2px 10px;
       margin: 0 5px;
+      flex-direction: row; //NEW
     }
-
+    
+    a::after {  // NEW section
+  	content: "";
+  	position: absolute;
+	bottom: 0;
+	left: 50%;
+	display: block;
+	background: none repeat scroll 0 0 transparent;
+	height: 2px;
+	width: 0;
+	background: #fff;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    } 
+	  
+    a:hover::after { // NEW section
+    	width: 100%; 
+    	left: 0; 
+    }
+	  
     &:hover {
       /*background-color: $uom-purple-light;*/
       text-decoration: none;
