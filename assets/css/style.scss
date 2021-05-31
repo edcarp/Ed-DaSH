@@ -381,10 +381,10 @@ a:hover, a:focus {
       // flex-direction: row; //NEW
     }
     
-    .hover {
+    &:hover {
       cursor: pointer;
       &:before {
-	      left: 50%;
+	left: 50%;
 	    }
       &:after {
         content: "";
@@ -420,7 +420,7 @@ a:hover, a:focus {
   //  &:hover::after { // NEW section
    // 	width: 100%; 
   //  	left: 0; 
-    }
+   // }
 	  
     //&:hover {
      // text-decoration: none;
