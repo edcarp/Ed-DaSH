@@ -321,10 +321,6 @@ a:hover, a:focus {
 }
 
 
-
-
-
-
 .flex-wrapper {
   display: flex;
 
@@ -347,7 +343,7 @@ a:hover, a:focus {
     text-align: center;
     //margin: 0 auto;
     //padding: 0;
-    transition: $animate;
+    //transition: $animate;
     position: relative;
     //display: inline-block;
     color: #a1a1a1; // #5c5c5c; // #625d5d;// #3d3d3d;
@@ -360,12 +356,12 @@ a:hover, a:focus {
     margin: 0 20px;
     //margin-left: 10px;
     float: right;
-   // transition: 0s background-color;
-  //  transition: all .2s ease;
-   // transition-delay:.2s;
+    transition: 0s background-color;
+    transition: all .2s ease;
+    transition-delay:.2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    opacity:0;
+    opacity: 0;
     //margin: 100px auto 0;
     //list-style: none; // NEW
     //display: flex; //NEW
