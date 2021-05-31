@@ -15,6 +15,7 @@ $gray: #ecf0f1;
 $dark-gray: #a0a0a0;
 $dark-blue: #263959;
 $dark: #cfcfcf; // changed to a brighter hue
+$animate: all 0.2s ease-in-out;
 
 //* {
 // box-sizing: border-box;
@@ -354,9 +355,9 @@ a:hover, a:focus {
     margin: 0 20px;
     //margin-left: 10px;
     float: right;
-    transition: 0s background-color;
-    transition: all .2s ease;
-    transition-delay:.2s;
+   // transition: 0s background-color;
+  //  transition: all .2s ease;
+   // transition-delay:.2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     // opacity:0;c
@@ -375,28 +376,48 @@ a:hover, a:focus {
       // flex-direction: row; //NEW
     }
     
+    .hover {
+      cursor: pointer;
+      &:before {
+	      left: 50%;
+	    },
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 50%;//0px;
+	right: 50%;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: lighten($dark,10%);
+      }
+ 
+	  
+
     //&::after 
 	  
-    &:hover {  // NEW section
-  	content: "";
-  	position: absolute;
-	bottom: 0;
-	left: 50%;
-	display: block;
-	background: none repeat scroll 0 0 transparent;
-	height: 2px;
-	width: 0;
-	background: #f0f0f0; //#fff;
-	transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    } 
+    //&:hover {  // NEW section
+  //	content: "";
+  //	position: absolute;
+	//bottom: 0;
+	//left: 50%;
+	//display: block;
+	//background: none repeat scroll 0 0 transparent;
+	//height: 2px;
+	//width: 0;
+	//background: #f0f0f0; //#fff;
+	//transition: width 0.3s ease 0s, left 0.3s ease 0s;
+ //   } 
 	  
-    &:hover::after { // NEW section
-    	width: 100%; 
-    	left: 0; 
+  //  &:hover::after { // NEW section
+   // 	width: 100%; 
+  //  	left: 0; 
     }
 	  
     //&:hover {
-      /*background-color: $uom-purple-light;*/
      // text-decoration: none;
     //  border-bottom: 1px solid $dark; //#3d3d3d
     //  color: $dark;
