@@ -383,10 +383,10 @@ a:hover, a:focus {
     
     &:hover {
       cursor: pointer;
-      &:before {
+      &:hover:before {
 	left: 50%;
 	    }
-      &:after {
+      &:hover:after {
         content: "";
         position: absolute;
         bottom: -10px;
@@ -429,7 +429,7 @@ a:hover, a:focus {
       //transition-delay:.5s;
     //  transition: all .2s ease;
 	    //opacity:1;
-   // }
+    }
   }
 }
 
