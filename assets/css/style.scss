@@ -353,7 +353,7 @@ a:hover, a:focus {
     color: #a1a1a1; // #5c5c5c; // #625d5d;// #3d3d3d;
     /*background-color: $uom-purple;*/
     font-size: 18px;
-    //box-shadow: 0 0 10px #111;
+    box-shadow: 0 0 10px #111;
     //border-bottom-left-radius: 2px;
     //border-bottom-right-radius: 2px;
     padding: 2px;
@@ -365,8 +365,8 @@ a:hover, a:focus {
    // transition-delay:.2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    // opacity:0;c
-    // margin: 100px auto 0;
+    opacity:0;
+    //margin: 100px auto 0;
     //list-style: none; // NEW
     //display: flex; //NEW
     //flex-direction: column; //NEW
@@ -374,19 +374,24 @@ a:hover, a:focus {
     //text-align: center; //NEW
     //padding: 0;     
     //max-width: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 0 45px;
 	  
     @media screen and (max-width: 90%) { // was 90%
       padding: 2px 10px;
       margin: 0 5px;
       // flex-direction: row; //NEW
+      
     }
     
     &:hover {
       cursor: pointer;
-      &:hover:before {
-	left: 50%;
-	    }
-      &:hover:after {
+     // &:hover:before {
+	//left: 50%;
+	   // }
+      //&:hover:after {
         content: "";
         position: absolute;
         bottom: -10px;
@@ -397,8 +402,10 @@ a:hover, a:focus {
         transition: $animate;
         transition-duration: 0.75s;
         opacity: 0;
-        background-color: lighten($dark,10%);
-      }
+	color: $dark;
+        background-color: darken($dark,10%);
+	border-bottom: 1px solid $dark;
+    //  }
  
 	  
 
