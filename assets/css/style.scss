@@ -374,7 +374,7 @@ a:hover, a:focus {
     //text-align: center; //NEW
     //padding: 0;     
     //max-width: 600px;
-    display: flex;
+    ///display: flex;
     flex-flow: row nowrap;
     align-items: center;
     //margin: 0 0 45px;
@@ -401,7 +401,7 @@ a:hover, a:focus {
         margin: 5px 0 0;
         transition: $animate;
         transition-duration: 0.75s;
-        opacity: 1;
+        opacity: 0;//1;
 	color: $dark;
         background-color: darken($dark,10%);
 	border-bottom: 1px solid $dark;
