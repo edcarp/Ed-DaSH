@@ -386,25 +386,25 @@ a:hover, a:focus {
       
     }
     
-    &:hover {
-      cursor: pointer;
+    //&:hover {
+      //cursor: pointer;
      // &:hover:before {
 	//left: 50%;
 	   // }
       //&:hover:after {
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        width: 50%;//0px;
-	right: 50%;
-        height: 5px;
-        margin: 5px 0 0;
-        transition: $animate;
-        transition-duration: 0.75s;
-        opacity: 0;//1;
-	color: $dark;
-        background-color: darken($dark,10%);
-	border-bottom: 1px solid $dark;
+      //  content: "";
+       // position: absolute;
+      //  bottom: -10px;
+     //   width: 50%;//0px;
+	//right: 50%;
+       // height: 5px;
+       // margin: 5px 0 0;
+      //  transition: $animate;
+      //  transition-duration: 0.75s;
+     //   opacity: 0;//1;
+	//color: $dark;
+       // background-color: darken($dark,10%);
+	//border-bottom: 1px solid $dark;
     //  }
  
 	  
@@ -429,14 +429,14 @@ a:hover, a:focus {
   //  	left: 0; 
    // }
 	  
-    //&:hover {
-     // text-decoration: none;
-    //  border-bottom: 1px solid $dark; //#3d3d3d
-    //  color: $dark;
-      //transition-delay:.5s;
-    //  transition: all .2s ease;
-	    //opacity:1;
-    }
+   &:hover {
+     text-decoration: none;
+     border-bottom: 1px solid $dark; //#3d3d3d
+     color: $dark;
+     transition-delay:.5s;
+     transition: all .2s ease;
+     opacity:1;
+ //   }
   }
 }
 
