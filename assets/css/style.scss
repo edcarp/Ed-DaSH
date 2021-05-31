@@ -344,6 +344,11 @@ a:hover, a:focus {
   //}
 
   .header-tab {
+    text-align: center;
+    //margin: 0 auto;
+    //padding: 0;
+    transition: $animate;
+    position: relative;
     //display: inline-block;
     color: #a1a1a1; // #5c5c5c; // #625d5d;// #3d3d3d;
     /*background-color: $uom-purple;*/
@@ -362,11 +367,11 @@ a:hover, a:focus {
     border-bottom: 1px solid transparent;
     // opacity:0;c
     // margin: 100px auto 0;
-    list-style: none; // NEW
-    display: flex; //NEW
-    flex-direction: column; //NEW
-    justify-content: space-between; //NEW
-    text-align: center; //NEW
+    //list-style: none; // NEW
+    //display: flex; //NEW
+    //flex-direction: column; //NEW
+    //justify-content: space-between; //NEW
+    //text-align: center; //NEW
     //padding: 0;     
     //max-width: 600px;
 	  
