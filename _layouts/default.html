@@ -86,11 +86,11 @@
       
      
       	<!--center> {% include banner.html %} </center-->
-      	<center>
-      	{% if page.show_heading %}
-      		<h1><font color="#000066">{{ site.title }}</font></h1>
-      	{% endif %}
-	 </center>
+      	<div class="pagetitle">
+      		{% if page.show_heading %}
+      			<h1><font color="#000066">{{ site.title }}</font></h1>
+      		{% endif %}
+	 </div>
       	<br>
 	<!--{% if page.logo %}-->
 	      <!--center-->
