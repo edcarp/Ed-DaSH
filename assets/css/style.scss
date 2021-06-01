@@ -226,6 +226,24 @@ a:hover, a:focus {
 }
 
 
+.main-logo-align {
+  display: block;
+  //margin-left: auto;
+  //margin-right: auto;
+  margin: 10px auto 20px;
+  //margin-top: 25px;
+  //margin-bottom: 25px;
+  //width: 22%;
+  //height: 15%; //80em;
+  text-align: left; //center;
+  vertical-align: middle;
+  border-radius: 50%;
+  //margin: 20px;
+  padding: 0px;
+  border: 1px solid #e0e0e0;
+  //padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
+}
+
 // Logo grid
 
 .logo-grid {
