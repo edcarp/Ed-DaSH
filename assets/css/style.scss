@@ -235,9 +235,12 @@ a:hover, a:focus {
   //margin-bottom: 25px;
   //width: 22%;
   //height: 15%; //80em;
+  position: absolute;
+  left:0;
+  top:0;
   text-align: left; //center;
   vertical-align: middle;
-  border-radius: 50%;
+  border-radius: 25%;
   //margin: 20px;
   padding: 0px;
   border: 1px solid #e0e0e0;
