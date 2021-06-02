@@ -16,6 +16,12 @@ $dark-gray: #a0a0a0;
 $dark-blue: #263959;
 $dark: #cfcfcf; // changed to a brighter hue
 $animate: all 0.2s ease-in-out;
+$color2: #80c9dd;
+$color3: #d5eaf0;
+$color1: #62bbd3;
+
+
+
 
 * {
  box-sizing: border-box;
@@ -114,7 +120,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-    background: #373737; //#ffffff; // # //#2f3133
+  //background: #373737; //#ffffff; // # //#2f3133
 }
 
 a:hover, a:focus { 
