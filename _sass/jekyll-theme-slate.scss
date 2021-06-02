@@ -80,7 +80,7 @@ $stripe:  stripeShadow(1000);
   height: $borderWeight;
   box-shadow: $border;
 }
-  &:after{
+ after{
     content: "";
     position: absolute;
     width: $borderWeight;
