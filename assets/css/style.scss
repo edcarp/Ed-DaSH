@@ -483,7 +483,7 @@ a:hover, a:focus {
           }
         }
       }    
-	    
+    }    
 	    
 	    
 	    
@@ -531,8 +531,8 @@ a:hover, a:focus {
           }
         }
       }
-    }*/
-   }
+    }
+   }*/
 	  
 
     //&::after 
@@ -555,7 +555,7 @@ a:hover, a:focus {
   //  	left: 0; 
    // }
 	  
-   &:hover {
+   /*&:hover {
      text-decoration: none;
      border-bottom: 1px solid $dark; //#3d3d3d
      color: $dark;
@@ -564,7 +564,7 @@ a:hover, a:focus {
      opacity:1;
     }
   }
-}
+}*/
 
 /*.main-nav{
   position:fixed;
