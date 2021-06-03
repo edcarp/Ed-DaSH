@@ -7,33 +7,33 @@ co_investigators:
 - name: Alison Meynert 
   role: Senior Research Fellow & IGC Bioinformatics Analysis Core Manager 
   affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
-  img: images/profiles/alison_meynert.jpeg
+  img: alison_meynert.jpeg
   url: https://www.ed.ac.uk/profile/dr-alison-meynert
 - name: Alex Twyford 
   role: Lecturer in Botany & Academic Lead to Edinburgh Genomics
   affiliation: School of Biological Sciences
-  img: images/profiles/alex_twyford.jpeg
+  img: alex_twyford.jpeg
   url: http://twyford.bio.ed.ac.uk/
 - name: Catalina Vallejos
   role: Chancellor’s Fellow & Fellow of the Turing Institute
   affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
-  img: images/profiles/catalina_vallejos.jpeg
+  img: catalina_vallejos.jpeg
   url: https://www.ed.ac.uk/profile/catalinavallejos
 - name: Edward Wallace
   role: Sir Henry Dale Fellow 
   affiliation: School of Biological Sciencs
-  img: images/profiles/edward_wallace.jpeg
+  img: edward_wallace.jpeg
   url: https://www.ed.ac.uk/profile/dr-edward-wallace
 
 edcarp_coordination:
 - name: Giacomo Peru 
   role: Programme Coordinator
   affiliation: EPCC
-  img: images/profiles/giacomo_peru.jpeg
+  img: giacomo_peru.jpeg
 - name: Flic Anderson
   role: Development Assistant 
   affiliation: School of Biological Sciences
-  img: images/profiles/flic_anderson.jpeg
+  img: flic_anderson.jpeg
   
 dev_computational_workflows:
 - name: Alison Meynert, Co-Lead
@@ -137,7 +137,7 @@ show_heading: false
 <table class="center-cell-item">
     {% for member in page.co_investigators %}
     <tr>
-      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
@@ -150,7 +150,7 @@ show_heading: false
 <table class="center-cell-item">
     {% for member in page.dev_computational_workflows: %}
     <tr> 
-      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
@@ -161,7 +161,7 @@ show_heading: false
 <table class="center-cell-item">
     {% for member in page.dev_data_man_FAIR_principles: %}
     <tr> 
-      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
@@ -172,7 +172,7 @@ show_heading: false
 <table class="center-cell-item">
     {% for member in page.dev_statistics: %}
     <tr> 
-      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
@@ -185,7 +185,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
 <table class="center-cell-item">
     {% for member in page.steering_group: %}
     <tr> 
-      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
