@@ -133,16 +133,21 @@ show_heading: false
 
 ## Co-Investigators
 
-{% for team_member in page.co_investigators %}
-* **[{{ team_member.name }}]({{ team_member.url }})**: {{ team_member.role }}, {{ team_member.affiliation }}
+<table class="center-cell-item">
+    {% for member in page.co_investigators %}
+    <tr> 
+      <td>![member.name](member.img)</td>
+      <td>[{{ member.name }}]({{ member.url }})</td>
+      <td>{{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+</table>
 
- <br><br>
- 
 ## Development Teams
-<br>
+
 ### Computational workflows
-  <br>
-  <table class="center-cell-item">
+
+<table class="center-cell-item">
     <tr>
         <th>Name</th>
         <th>Role</th>
@@ -157,11 +162,8 @@ show_heading: false
     {% endfor %}
  </table>
  
- <br><br>
- 
 ### Data management & FAIR principles
- 
- <br>
+
 <table class="center-cell-item">
     <tr>
         <th>Name</th>
@@ -177,11 +179,7 @@ show_heading: false
     {% endfor %}
  </table>
  
- <br><br>
-
 ### Statistics
-
-<br>
 
 <table class="center-cell-item">
     <tr>
@@ -197,11 +195,8 @@ show_heading: false
     </tr>
     {% endfor %}
  </table>
- 
- <br><br>
 
 ## Steering Group
-<br>
 
 The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the development teams, along with representation from across the University of Edinburgh.
 
