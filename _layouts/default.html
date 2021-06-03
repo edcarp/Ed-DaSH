@@ -63,7 +63,12 @@
 				 <!-- <li> -->
 				{% for item in site.data.pagelist.docs %}
       					{% if page.theme != item.title %}
-						<a class="header-tab" href="{{ item.url }}">{{ item.title }}</a>
+						<!--a class="header-tab" href="{{ item.url }}">{{ item.title }}</a-->
+						<div class="header-tab">
+							<span class="hover hover-3">
+								<a class="header-tab" href="{{ item.url }}">{{ item.title }}</a>
+							</span>
+						</div>
 					{% endif %}
    				{% endfor %}
 				  <!-- <a class="header-tab" href="{{ '/contact' | relative_url }}">Contact</a>
