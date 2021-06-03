@@ -132,6 +132,7 @@ steering_group:
 show_heading: false
 ---
 
+Our team brings together subject-matter expertise in ’omics, statistics, and computation, with strengths in research data management and the UK’s largest Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and sustainable network of health and bioscience data science training for the UK.
 
 ## Co-Investigators
 
