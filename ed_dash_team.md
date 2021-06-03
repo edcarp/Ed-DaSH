@@ -73,6 +73,7 @@ dev_data_man_FAIR_principles:
 - name: Andrew Romanowski
   role: RoleTBD
   affiliation: Biological Research Data Management Team, School of Biological Sciences
+  img: no_profile_photo.png
 - name: Tomasz Zielinski
   role: RoleTBD
   affiliation: Biological Research Data Management Team, School of Biological Sciences
@@ -110,7 +111,7 @@ steering_group:
 - name: Malcolm Macleod
   role: Professor of Neurology and Translational Neuroscience & University of Edinburgh Academic Lead for Research Improvement and Research Integrity
   affiliation: Centre for Clinical Brain Sciences
-  img: malcolm_mcleod.jpeg
+  img: malcolm_macleod.jpeg
 - name: Mick Watson
   role: Professor of Bioinformatics and Computational Biology
   affiliation: The Roslin Institute
