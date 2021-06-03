@@ -282,7 +282,7 @@ show_heading: false
 ## Co-Investigators
 
 {% for team_member in page.co_investigators %}
-* <a href="{{ team_member.url }}"><strong>{{ team_member.name }}</strong></a>: {{ team_member.role }}, {{ team_member.affiliation }}
+* **[{{ team_member.name }}]({{ team_member.url }})**: {{ team_member.role }}, {{ team_member.affiliation }}
 
  <br><br>
  
