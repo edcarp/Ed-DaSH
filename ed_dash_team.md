@@ -136,10 +136,9 @@ show_heading: false
 
 <table class="center-cell-item">
     {% for member in page.co_investigators %}
-    <tr> 
-      <td><img src="{{ member.img }}" width=80 alt="{{ member.name }}"></td>
-      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a></td>
-      <td>{{ member.role }}, {{ member.affiliation }}</td>
+    <tr>
+      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
 </table>
@@ -149,16 +148,10 @@ show_heading: false
 ### Computational workflows
 
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliation</th>
-    </tr>
     {% for member in page.dev_computational_workflows: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliation }}</td>
+      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
@@ -166,16 +159,10 @@ show_heading: false
 ### Data management & FAIR principles
 
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliation</th>
-    </tr>
     {% for member in page.dev_data_man_FAIR_principles: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliation }}</td>
+      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
@@ -183,16 +170,10 @@ show_heading: false
 ### Statistics
 
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliation</th>
-    </tr>
     {% for member in page.dev_statistics: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliation }}</td>
+      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
@@ -202,16 +183,10 @@ show_heading: false
 The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the development teams, along with representation from across the University of Edinburgh.
 
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliation</th>
-    </tr>
     {% for member in page.steering_group: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliation }}</td>
+      <td><img src="{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
