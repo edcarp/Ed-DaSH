@@ -86,6 +86,7 @@ dev_data_man_FAIR_principles:
 
 dev_statistics:
 - name: Catalina Vallejos, Co-Lead
+  role: Chancellor’s Fellow & Fellow of the Turing Institute
   affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
   img: catalina_vallejos.jpeg
 - name: Ailith Ewing, Co-Lead
@@ -136,8 +137,8 @@ show_heading: false
 <table class="center-cell-item">
     {% for member in page.co_investigators %}
     <tr> 
-      <td>![member.name](member.img)</td>
-      <td>[{{ member.name }}]({{ member.url }})</td>
+      <td><img src="{{ member.img }}" width=80 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a></td>
       <td>{{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
