@@ -117,8 +117,8 @@ steering_group:
   affiliation: The Roslin Institute
   img: mick_watson.jpeg
 - name: Neil Chue Hong
-  role: Director, Software Sustainability Institute & Senior Research Fellow, EPCC
-  affiliation: 
+  role: Director, Software Sustainability Institute & Senior Research Fellow
+  affiliation: EPCC
   img: neil_chue_hong.jpeg
 - name: Nicola Cuthbert
   role: Researcher Development Manager
