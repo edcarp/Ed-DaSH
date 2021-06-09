@@ -5,49 +5,34 @@ layout: page
 theme: "Project overview"
 show_heading: false
 ---  
+# Executive summary
 
+We aim to develop and deliver workshops that help health and bioscience researchers – in academia, industry and society as a whole – to be both competent and confident in working with their data.
 
-## Scientific Value and Quality of Training  
+# Project overview
 
-The currency of modern health and bioscience is big, complex data: diverse in origin and
-format, large in volume, and fluid over time and place. Researchers at all career stages are finding
-they require new skills in statistics, data management, and computation to operate successfully in
-this rapidly changing environment. Complex data analysis requires a solid command of statistics,
-from the fundamentals through to high dimensional statistics and machine learning. Datasets
-themselves must be carefully and securely managed throughout their life cycles, both by data
-producers and consumers. Computational analysis of large datasets must be portable, scalable
-and reproducible, which calls for virtual environments and workflow management systems.
-Intersecting these requirements is a move towards open science, exemplified by the [FAIR
-principles][fair]{:target="_blank"} (_Findable-Accessible-Interoperable-Reproducible_). Our proposed training programme
-will develop and deliver workshops to disseminate best practices for data science in ‘omics (here
-defined as the analysis of DNA and RNA sequencing, and of subcellular components such as
-RNA, proteins and metabolites) with training packages covering statistics, computation, and data
-management.  
+Biological and medical research has changed radically in the last 30 years due to new technologies that measure thousands of different molecular components in cells at the same time. For example, it is now routine to measure entire human genomes, all the proteins making up living cells, or DNA from all the microbes in a sample of soil. All this generates huge amounts of data that come in different formats and often at different times and places. So, today all biological researchers need to be good at managing and analyzing data – it is no longer the remit of the specialist. This is not just a UK challenge: international studies show the same trend. The demand for data science training far outstrips supply.
 
-<br>
+Life science industries are equally dependent on bioscience and health data, across pharmaceutical manufacturers, diagnostic providers, vaccine developers, and agricultural and environmental service providers. New moves towards precision medicine (drugs tailored to the patient) and precision agriculture (tailoring crop management) depend on access to, and accurate interpretation of, high quality data. Many careers in industry, government and society need good data management and analysis skills.
 
-### {{ page.subsection-title }}
+Importantly, the public needs confidence in data and data intensive research – for trust in the scientific process and for harnessing the benefits of data for science and society. Data sharing (Open Access Data) between researchers is important for scientific progress, for all-important reproducibility, and to derive best value for investment in publicly funded research.
 
-Life sciences research, in particular ‘omics technologies needed for analysis of genomes and
-cellular components that generate ‘big data’ sets, has moved at an astonishing speed. In just eight
-years, the fraction of data-rich science in research grant applications to BBSRC has grown from
-20% to over 50%, according to the BBSRC Review Data-Intensive Bioscience (chaired by Prof A
-Millar, Nov 2020), which made bioscience data training its Recommendation. This reflects that
-many researchers across all career stages continue to feel poorly equipped to analyze, interpret,
-manage, visualize, integrate, store, source and share the resulting ‘big data’ sets. This need for
-enhanced biosciences data skills was reported in 2015, when the BBSRC and MRC Joint Review
-of Vulnerable Skills and Capabilities (updated 2017) identified Mathematics, Statistics and
-Computational Biology as priority areas for further investment and development, with data analytics
-and bioinformatics especially vulnerable. The NERC Environmental Omics: A Community Vision
-report (2019) also highlighted the need for bioinformatics training to maximize the uses of new
-genomics technologies to solve major environmental issues. This is not just a UK challenge: A
-recent OECD report noted: _“The COVID-19 pandemic ... has underscored the critical importance of
-data-intensive science and the need for strategic approaches to strengthening the digital capacity
-and skills of the scientific enterprise as a whole._” Demand for digital training far outstrips supply.
+In such a data-intensive environment for bioscience and health, it’s important that everyone – whatever their career stage or role – can manage, analyse, store and share their data. This is what we hope to achieve through this project.
 
+## Programme aims
 
+We have focused training on areas where we know there is a particular need among health and bioscience researchers.
+* Analyzing data – A good grounding in statistics is needed to analyze large and complex data sets, using modern methods such as machine learning.
+* Managing data – Driving an understanding of how to move data securely around virtual ‘storage’ spaces in ways that information can be retrieved.
+* Sharing data – Understanding and adhering to the [FAIR
+principles][fair]{:target="_blank"} (_Findable-Accessible-Interoperable-Reproducible_) ensures open access to data.
+* Designing portable analysis – Writing complex analysis workflows in a manner that is easily transferred between different computing systems, so other researchers can use them too.
 
-<br><br>
+We will deliver these training workshops (online) using a well-established community platform called [The Carpentries][carpentries]{:target="_blank"}. This is an inclusive open-access platform that trains people in data and coding skills and encourages learners to become first helpers, and then trainers, as their own expertise develops. Open-access teaching materials mean that small improvements can be suggested every time a workshop is delivered, leading to a constant improvement in quality. It also means that anyone with an internet connection can use the materials for self-study, so work put into developing materials has wider impact. Edinburgh has the largest Carpentries affiliate in the UK, which is keen to extend the reach of its training.
+
+Our programme will help level-up data skills across the UK and develop a growing cohort of confident practitioners across all career stages and industries. This will help meet the growing demand for data-savvy health and bioscience researchers in academia and industry.
+
 ---
 
 [fair]: https://www.nature.com/articles/sdata201618
+[carpentries]: https://carpentries.org
