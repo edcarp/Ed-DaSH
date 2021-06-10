@@ -44,7 +44,7 @@ partners:
   ref_url: https://www.ed.ac.uk/edinburgh-international-data-facility
 
 
-subtitle: Edinburgh - Data Science Training in Health & Bioscience
+subtitle: The University of Edinburgh - Data Science Training in Health & Bioscience
 ---  
 
 # Overview

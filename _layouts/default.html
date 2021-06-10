@@ -45,7 +45,11 @@
 </head>
    
 <body>
-   
+
+<!--BACKGROUND_instantiation-->
+
+#grid	
+
 <!-- HEADER -->
 	
   <font face = "arial">
@@ -59,7 +63,10 @@
 				 <!-- <li> -->
 				{% for item in site.data.pagelist.docs %}
       					{% if page.theme != item.title %}
-						<a class="header-tab" href="{{ item.url }}">{{ item.title }}</a>
+						<!--a class="header-tab" href="{{ item.url }}">{{ item.title }}</a-->
+						<div class="header-tab">
+							<span class="hover hover-3" href="{{ item.url }}">{{ item.title }}</span>
+						</div>
 					{% endif %}
    				{% endfor %}
 				  <!-- <a class="header-tab" href="{{ '/contact' | relative_url }}">Contact</a>
@@ -71,8 +78,13 @@
 				<!-- </ul> -->
 
            		 </nav>
+			  
 		</div>
+		
          </div>
+	 	<a href="https://edcarp.github.io/Ed_DaSH_website_prototyping/">
+            		<img src="./images/Ed_DaSH_blue_circle.png" alt="Ed-DaSH blue circle logo" width="148px" height="148px" class="main-logo-align" />
+		</a>
       </header>
     </div>
     
@@ -80,27 +92,39 @@
       <!--span style="margin-left:50px; padding:10x, 20px, 20px, 50px; width=80%"-->
       
       
-      <div>
+     
       	<!--center> {% include banner.html %} </center-->
+      	<div class="center">
+		<br>
+      		{% if page.show_heading %}
+			
+      			<!--h1><font color="#000066">{{ site.title }}</font></h1-->
+			<h3>{{ site.title }}</h3>
+			
+      		{% endif %}
+		<br><br><br><br>
+	 </div>
       	
-      	{% if page.show_heading %}
-      	<h1><font color="#000066">{{ site.title }}</font></h1>
-      	{% endif %}
-      	<br>
-	{% if page.logo %}
-	      <center>
-		<img src="./images/Ed_DaSH_blue_circle.png" alt="Ed-DaSH blue circle logo" width="160px" height="160px" class="center-img" />
-	      </center>
-	{% else %}
-      		<h2 class="pagetitle">{{ page.title }}</h2>
-	{% endif %}
+	<!--{% if page.logo %}-->
+	      <!--center-->
+	      
+	<!--a href="https://edcarp.github.io/Ed_DaSH_website_prototyping/"-->
+            <!--img src="./images/Ed_DaSH_blue_circle.png" alt="Ed-DaSH blue circle logo" width="148px" height="148px" class="main-logo-align" /-->
+	<!--/a-->
+	      <!--/center-->
 	
+	      
+	<!--{% else %}-->
+      	<h3 class="pagetitle">{{ page.title }}</h3>
+	<br>
+	<!--{% endif %}-->
+  
       	
       <!-- MAIN CONTENT -->
       
       <div class="content">
 	{% if page.subtitle %}
-	<h3 class="pagetitle">{{ page.subtitle }}</h3>
+		<h3 class="pagetitle">{{ page.subtitle }}</h3>
 	{% endif %}
 	      <textcontent>
          	    {{ content }}
@@ -120,8 +144,8 @@
             <center>
                <table style="width:100%">
                   <tr>
-                     <th> </th>
-                     <th> </th>
+                     <th style="display: none; visibility: collapse;"></th>
+                     <th style="display: none; visibility: collapse;"></th>
                   </tr>
                   <tr>
                      <td>{% include contact.html %}</td>

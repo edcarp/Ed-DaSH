@@ -15,10 +15,17 @@ $gray: #ecf0f1;
 $dark-gray: #a0a0a0;
 $dark-blue: #263959;
 $dark: #cfcfcf; // changed to a brighter hue
+$animate: all 0.2s ease-in-out;
+$color2: #80c9dd;
+$color3: #d5eaf0;
+$color1: #62bbd3;
 
-//* {
-// box-sizing: border-box;
-//}
+
+
+
+* {
+ box-sizing: border-box;
+}
 
 section {
   display: block;
@@ -32,6 +39,13 @@ img {
 .pagetitle {
   text-align: center;
   color: $dark;
+  //max-width: 60%;
+  margin: auto;//50%;
+  //margin-left: 200px;
+  //margin-right: 160px;
+  width: 600px;
+  position: relative;
+  padding: 0px 1px 0px 1px;  /*top-right-bottom-left*/
 }
 
 .hr-separator{
@@ -106,7 +120,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-    background: #373737; //#ffffff; // # //#2f3133
+  //background: #373737; //#ffffff; // # //#2f3133
 }
 
 a:hover, a:focus { 
@@ -151,7 +165,7 @@ a:hover, a:focus {
   .inner {
     background: #f0f0f0; // #fff;
     /*padding: 10px 30px;*/
-    height: 100%;
+    height: 100%;// 90%; //
   }
 }
 
@@ -224,6 +238,28 @@ a:hover, a:focus {
   //padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
 }
 
+
+.main-logo-align {
+  display: block;
+  //margin-left: auto;
+  //margin-right: auto;
+  //margin: 20px auto 20px 20px;
+  //margin-top: 25px;
+  //margin-bottom: 25px;
+  //width: 22%;
+  //height: 15%; //80em;
+  position: absolute;
+  left:0;
+  top:0;
+  text-align: left; //center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 20px;
+  //margin: auto;
+  padding: 2px;
+  border: 1px solid #e0e0e0;
+  //padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
+}
 
 // Logo grid
 
@@ -320,10 +356,6 @@ a:hover, a:focus {
 }
 
 
-
-
-
-
 .flex-wrapper {
   display: flex;
 
@@ -333,10 +365,9 @@ a:hover, a:focus {
 }
 
 .header-tabs {
-  z-index: 10;
-  
+  z-index: 99;
   float: right;
-  padding-top: 30px;
+  padding: 30px 0px 0px 160px;  /*top-right-bottom-left*/
   margin: 0 auto;
   max-width: 90%; //100%90%;
   //@media screen and (max-width: 480px) {
@@ -344,6 +375,11 @@ a:hover, a:focus {
   //}
 
   .header-tab {
+    text-align: center;
+    //margin: 0 auto;
+    //padding: 0;
+    //transition: $animate;
+    position: relative;
     //display: inline-block;
     color: #a1a1a1; // #5c5c5c; // #625d5d;// #3d3d3d;
     /*background-color: $uom-purple;*/
@@ -356,28 +392,187 @@ a:hover, a:focus {
     //margin-left: 10px;
     float: right;
     transition: 0s background-color;
-    transition:all .2s ease;
-    transition-delay:.2s;
+    transition: all .2s ease;
+    transition-delay: .2s;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    //opacity:0;
-
+    opacity: 1;
+    //margin: 100px auto 0;
+    //list-style: none; // NEW
+    //display: flex; //NEW
+    //flex-direction: column; //NEW
+    //justify-content: space-between; //NEW
+    //text-align: center; //NEW
+    //padding: 0;     
+    //max-width: 600px;
+    ///display: flex;
+    //flex-flow: row nowrap;
+    //align-items: center;
+    //margin: 0 0 45px;
+	  
     @media screen and (max-width: 90%) { // was 90%
       padding: 2px 10px;
       margin: 0 5px;
+      // flex-direction: row; //NEW
+      
     }
-
-    &:hover {
-      /*background-color: $uom-purple-light;*/
+    
+   /* &:hover {
+      cursor: pointer;
+	    
+     &:hover:before {
+	left: 50%;
+	    }
+      &:hover:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+       width: 50%;//0px;
+	right: 50%;
+       height: 1px;
+       margin: 5px 0 0;
+      transition: $animate;
+      transition-duration: 0.75s;
+     opacity: 1;
+	color: $dark;
+      background-color: darken($dark,10%);
+	border-bottom: 1px solid $dark;
+     }*/
+     
+         
+    .hover {
+      //font-size: 36px;
+      text-align: center;
+      //margin: 0 auto;
+      //padding: 0;
+      transition: $animate;
+      position: relative;
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken($dark,10%);
+      }
+      &.hover-3 {
+        &:before {
+          left: 50%;
+        }
+        &:after {
+          right: 50%;
+        }
+      }
+      &:hover {
+      cursor: pointer;
       text-decoration: none;
       border-bottom: 1px solid $dark; //#3d3d3d
       color: $dark;
-      //transition-delay:.5s;
-      transition:all .2s ease;
-	    //opacity:1;
+      transition-delay:.5s;
+      transition: all .2s ease;
+      opacity:1;
+      .hover {
+        &:before,
+        &:after {
+          width: 100%;
+          opacity: 1;
+        }
+        &.hover-3 {
+          &:before,
+          &:after {
+            width: 50%;
+          }
+        }
+      }    
+    }    
+  }	    
+}	
+}
+
+	    
+   /* .hover {
+      font-size: 36px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      transition: $animate;
+      position: relative;
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken(orange,5%);
+      }
+      &.hover-3 {
+        &:before {
+          left: 50%;
+        }
+        &:after {
+          right: 50%;
+        }
+      }
+      &:hover {
+      cursor: pointer;
+      .hover {
+        &:before,
+        &:after {
+          width: 100%;
+          opacity: 1;
+        }
+        &.hover-3,
+        &.hover-4 {
+          &:before,
+          &:after {
+            width: 50%;
+          }
+        }
+      }
+    }
+   }*/
+	  
+
+    //&::after 
+	  
+    //&:hover {  // NEW section
+  //	content: "";
+  //	position: absolute;
+	//bottom: 0;
+	//left: 50%;
+	//display: block;
+	//background: none repeat scroll 0 0 transparent;
+	//height: 2px;
+	//width: 0;
+	//background: #f0f0f0; //#fff;
+	//transition: width 0.3s ease 0s, left 0.3s ease 0s;
+ //   } 
+	  
+  //  &:hover::after { // NEW section
+   // 	width: 100%; 
+  //  	left: 0; 
+   // }
+	  
+   /*&:hover {
+     text-decoration: none;
+     border-bottom: 1px solid $dark; //#3d3d3d
+     color: $dark;
+     transition-delay:.5s;
+     transition: all .2s ease;
+     opacity:1;
     }
   }
-}
+}*/
 
 /*.main-nav{
   position:fixed;
@@ -411,7 +606,7 @@ a:hover, a:focus {
 
 #header_wrap {
   .inner {
-    padding: 5px;
+    padding: 20px;//5px;
     //background: url('..Ed_DaSH_website_prototyping/images/UKRI-Logo_Horiz-RGB.jpg') top center; /*  */
     background-size: cover;
   }
