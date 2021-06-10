@@ -1,439 +1,216 @@
 ---
-title: "Ed-DaSH Who's Who"
+title: "Ed-DaSH Team"
 theme: Team
 layout: page
 
 co_investigators:
 - name: Alison Meynert 
   role: Senior Research Fellow & IGC Bioinformatics Analysis Core Manager 
-  affiliate: MRC Human Genetics Unit
-  img:
-  orcid:
-  social_handler: "@ameynert"
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: alison_meynert.jpeg
+  url: https://www.ed.ac.uk/profile/dr-alison-meynert
 - name: Alex Twyford 
   role: Lecturer in Botany & Academic Lead to Edinburgh Genomics
-  affiliate: SBS
-  social_handler: ""
-  img:
-  orcid:
+  affiliation: School of Biological Sciences
+  img: alex_twyford.jpeg
+  url: http://twyford.bio.ed.ac.uk/
 - name: Catalina Vallejos
   role: Chancellor’s Fellow & Fellow of the Turing Institute
-  affiliate: MRC Human Genetics Unit
-  social_handler: "@catavallejos"
-  img:
-  orcid:
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: catalina_vallejos.jpeg
+  url: https://www.ed.ac.uk/profile/catalinavallejos
 - name: Edward Wallace
   role: Sir Henry Dale Fellow 
-  affiliate: SBS 
-  social_handler: "@ewallace"
-  img:
-  orcid:
+  affiliation: School of Biological Sciencs
+  img: edward_wallace.jpeg
+  url: https://www.ed.ac.uk/profile/dr-edward-wallace
 
 edcarp_coordination:
 - name: Giacomo Peru 
   role: Programme Coordinator
-  affiliate: EPCC
-  social_handler: "@gperu"
-  img:
-  orcid:
+  affiliation: EPCC
+  img: giacomo_peru.jpeg
 - name: Flic Anderson
   role: Development Assistant 
-  affiliate: SBS
-  social_handler: ""
-  img:
-  orcid:
+  affiliation: School of Biological Sciences
+  img: flic_anderson.jpeg
   
 dev_computational_workflows:
-- name: Alison Meynert
-  role: Lead
-  affiliate: MRC Human Genetics Unit, IGMM Bioinformatics Analysis Core Manager
-  curriculum: Snakemake & Nextflow curricula
-  social_handler: "@ameynert"
-  img:
-  orcid:
-- name: Alex Twyford
-  role: Lead
-  affiliate: ""
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
+- name: Alison Meynert, Co-Lead
+  role: Senior Research Fellow & IGC Bioinformatics Analysis Core Manager 
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: alison_meynert.jpeg
+- name: Alex Twyford, Co-Lead
+  role: Lecturer in Botany & Academic Lead to Edinburgh Genomics
+  affiliation: School of Biological Sciences
+  img: alex_twyford.jpeg
 - name: Tim Booth
-  role: ""
-  affiliate: Edinburgh Genomics
-  curriculum: Snakemake curriculum
-  social_handler: "@tbooth"
-  img:
-  orcid:
+  role: Bioinformatician/Programmer
+  affiliation: Edinburgh Genomics
+  img: tim_booth.jpeg
 - name: Nathan Medd
-  role: ""
-  affiliate: Edinburgh Genomics
-  curriculum: Snakemake curriculum
-  social_handler: ""
-  img:
-  orcid:
+  role: Training and Outreach Manager
+  affiliation: Edinburgh Genomics
+  img: nathan_medd.jpeg
 - name: Graeme Grimes
-  role: ""
-  affiliate: MRC HGU
-  curriculum: Nextflow curriulum
-  social_handler: "@ggrimes"
-  img:
-  orcid:
+  role: Bioinformatician & IGC Bioinformatics Training Coordinator
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: graeme_grimes.jpeg
 - name: Flic Anderson
-  role: ""
-  affiliate: SBS
-  curriculum: Nextflow curriculum
-  social_handler: ""
-  img:
-  orcid:
+  role: Research Assistant in Bioinformatics
+  affiliation: School of Biological Sciencs
+  img: flic_anderson.jpeg
 
 dev_data_man_FAIR_principles:
-- name: Edward Wallace
-  role: Lead
-  affiliate: ""
-  curriculum: Data management & FAIR principles curricula
-  social_handler: ""
-  img:
-  orcid:
-- name: Andrew Millar
+- name: Edward Wallace, Co-Lead
+  role: Sir Henry Dale Fellow
+  affiliation: School of Biological Sciences
+  img: edward_wallace.jpeg
+- name: Andrew Millar, Co-Lead
   role: Chair of Systems Biology & Business Owner of University Research Data Service
-  affiliate: SBS
-  curriculum: Data management & FAIR principles curricula
-  social_handler: ""
-  img:
-  orcid:
+  affiliation: School of Biological Sciences, SynthSys
+  img: andrew_millar.jpeg
 - name: Andrew Romanowski
-  role: SBS 
-  affiliate: ""
-  curriculum: Data management & FAIR principles
-  social_handler: "@aromanowski"
-  img:
-  orcid:
+  role: Research Data Manager
+  affiliation: Biological Research Data Management Team, School of Biological Sciences
+  img: andrew_romanowski.jpeg
 - name: Tomasz Zielinski
-  role: SBS
-  affiliate: ""
+  role: RoleTBD
+  affiliation: Biological Research Data Management Team, School of Biological Sciences
   curriculum: Data management & FAIR principles
-  social_handler: "@tzielins"
-  img: ""
-  orcid: ""
+  img: no_profile_photo.png
 - name: Ines Boehm
-  role: ""
-  affiliate: CMVM
+  role: Research Consenter/Processor
+  affiliation: CRUK-Tissue Group, MRC Institute of Genetics and Cancer and Royal Infirmary Edinburgh
   curriculum: Data management & FAIR principles
-  social_handler: "@Boehmin"
-  img: ""
-  orcid: ""
+  img: ines_boehm.jpeg
 
 dev_statistics:
-- name: Catalina Vallejos
-  role: Lead
-  affiliate: MRC Human Genetics Unit
-  curriculum: High-dimensional statistics curriculum
-  social_handler: "@catavallejos"
-  img:
-  orcid:
-- name: Ailith Ewing
-  role: Chancellor's Fellow & Joint Lead
-  affiliate: MRC Human Genetics Unit and CRUK Edinburgh Centre
-  curriculum: High-dimensional statistics curriculum
-  social_handler: ""
-  img:
-  orcid:
+- name: Catalina Vallejos, Co-Lead
+  role: Chancellor’s Fellow & Fellow of the Turing Institute
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: catalina_vallejos.jpeg
+- name: Ailith Ewing, Co-Lead
+  role: Chancellor's Fellow
+  affiliation: MRC Human Genetics Unit and Cancer Research UK Edinburgh Centre, MRC Institute of Genetics and Cancer
+  img: ailith_ewing.jpeg
 - name: Alan O'Callaghan
-  role: ""
-  affiliate: MRC Human Genetics Unit
-  curriculum: High-dimensional statistics curriculum
-  social_handler: "@Alanocallaghan"
-  img:
-  orcid:
+  role: PhD student, Vallejos Group
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: alan_ocallaghan.jpeg
 - name: Gail Robertson
-  role: ""
-  affiliate: Statistical Consultancy Unit
-  curriculum: High-dimensional statistics curriculum
-  social_handler: ""
-  img:
-  orcid:
-
-dev_website: 
-- name: Giacomo Peru
-  role: Programme Coordinator
-  affiliate: EPCC
-  social_handler: "@gperu"
-  img:
-  orcid:
-- name: Robert Nagy
-  role: Website prototyping
-  affiliate: IGC ECRC & ECTU - Edinburgh Health Economics Group
-  social_handler: ""
-  img:
-  orcid:
+  role: RoleTBD
+  affiliation: Statistical Consultancy Unit, School of Mathematics
+  img: no_profile_photo.png
 
 steering_group:
-- name: Ailith Ewing
-  role: Joint Statistics Lead
-  affiliate: MRC Human Genetics Unit and CRUK Edinburgh Centre
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Giacomo Peru
-  role: Programme Coordinator
-  affiliate: EPCC
-  social_handler: "@gperu"
-  img:
-  orcid:
-- name: Neil Chue Hong
-  role: Director
-  affiliate: The Software Sustainability Institute
-  curriculum: ""
-  social_handler: "@npch"
-  img:
-  orcid:
-- name: Mick Watson
-  role: Professor of Bioinformatics and Computational Biology
-  affiliate: The Roslin Institute
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
 - name: Karen Halliday
   role: Dean of Systematic Inclusion & Professor and Chair of Systems Physiology
-  affiliate: The College of Science and Engineering
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
+  affiliation: The College of Science and Engineering
+  img: karen_halliday.jpeg
 - name: Malcolm Macleod
-  role: Professor of Neurology and Translational Neuroscience & UoE Academic Lead for Research Improvement and Research Integrity
-  affiliate: ""
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
+  role: Professor of Neurology and Translational Neuroscience & University of Edinburgh Academic Lead for Research Improvement and Research Integrity
+  affiliation: Centre for Clinical Brain Sciences
+  img: malcolm_macleod.jpeg
+- name: Mick Watson
+  role: Professor of Bioinformatics and Computational Biology
+  affiliation: The Roslin Institute
+  img: mick_watson.jpeg
+- name: Neil Chue Hong
+  role: Director, Software Sustainability Institute & Senior Research Fellow
+  affiliation: EPCC
+  img: neil_chue_hong.jpeg
 - name: Nicola Cuthbert
   role: Researcher Development Manager
-  affiliate: Institute for Academic Development
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-
-di_funded_members:
-- name: Flic Anderson
-  role: ""
-  affiliate: SBS
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Andrew Romanowski
-  role: ""
-  affiliate: SBS
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Tomasz Zielinski
-  role: ""
-  affiliate: SBS
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Tim Booth
-  role: ""
-  affiliate: Edinburgh Genomics
-  curriculum: "" 
-  social_handler: ""
-  img:
-  orcid:
-- name: Nathan Medd
-  role: ""
-  affiliate: Edinburgh Genomics
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Graeme Grimes
-  role: ""
-  affiliate: IGC
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Alan O'Callaghan
-  role: ""
-  affiliate: IGC
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-- name: Giacomo Peru
+  affiliation: Institute for Academic Development
+  img: no_profile_photo.png
+- name: Teresa Ironside
+  role: Director of Data Science Education
+  affiliation: Bayes Centre
+  img: teresa_ironside.jpeg
+  
+web_development:
+- name: Giacomo Peru 
   role: Programme Coordinator
-  affiliate: EPCC
-  social_handler: "@gperu"
-  img:
-  orcid:
-- name: Gail Robertson
-  role: ""
-  affiliate: School of Mathematics/ SCU
-  curriculum: ""
-  social_handler: ""
-  img:
-  orcid:
-
+  affiliation: EPCC
+  img: giacomo_peru.jpeg
+- name: Robert Nagy
+  role: PhD student, Edinburgh Health Economics Group
+  affiliation: MRC IGC CRUK Edinburgh Centre
+  img: robert_nagy_eddash.jpeg
 
 show_heading: false
 ---
 
+Our team brings together subject-matter expertise in ’omics, statistics, and computation, with strengths in research data management and the UK’s largest Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and sustainable network of health and bioscience data science training for the UK.
 
 ## Co-Investigators
 
- <table class="center-cell-item">
+<table class="center-cell-item">
+    {% for member in page.co_investigators %}
     <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
-    {% for team_member in page.co_investigators %}
-    <tr> 
-       <td><strong>{{ team_member.name }}</strong></td>
-       <td>{{ team_member.role }}</td>
-       <td>{{ team_member.affiliate }}</td>
-       <td>{{ team_member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
- </table>
+</table>
 
- <br><br>
- 
 ## Development Teams
-<br>
+
 ### Computational workflows
-  <br>
-  <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
+
+<table class="center-cell-item">
     {% for member in page.dev_computational_workflows: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
- 
- <br><br>
  
 ### Data management & FAIR principles
- 
- <br>
+
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
     {% for member in page.dev_data_man_FAIR_principles: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
  
- <br><br>
-
 ### Statistics
 
-<br>
-
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
     {% for member in page.dev_statistics: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
- 
- <br><br>
- 
+
 ### Website development
-<br>
+
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
-    {% for member in page.dev_website: %}
+    {% for member in page.web_development: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
  
- <br><br>
 
 ## Steering Group
-<br>
+
+The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the development teams, along with representation from across the University of Edinburgh.
+
 <table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
     {% for member in page.steering_group: %}
     <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
- 
- <br><br>
-## DI funded team members (timesheets for audit trail)
-<br>
-<table class="center-cell-item">
-    <tr>
-        <th>Name</th>
-        <th>Role</th>
-        <th>Affiliate</th>
-        <th>Social</th>
-    </tr>
-    {% for member in page.di_funded_members: %}
-    <tr> 
-       <td><strong>{{ member.name }}</strong></td>
-       <td>{{ member.role }}</td>
-       <td>{{ member.affiliate }}</td>
-       <td>{{ member.social_handler }}</td>
-    </tr>
-    {% endfor %}
- </table>
- 
- <br><br>

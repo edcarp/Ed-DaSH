@@ -5,26 +5,45 @@ theme: "Curricula overview"
 show_heading: false
 ---  
 
+# Ed-DaSH Curricula composition
+Ed-DaSH uses three sets of lessons, mainly developed following the [Carpentries Development Handbook](https://cdh.carpentries.org/).  
 
-## Links to materials' repositories
+## Lessons developed by [Ed-DaSH Teams](/ed_dash_team.md)
 
-### Workflows - Nextflow
+### Nextflow
+[Lesson overview](/ed-dash_lessons/nextflow.md)  
+[Lesson on the Carpentries Incubator](https://carpentries-incubator.github.io/workflows-nextflow/)  
 
-* [Carpentries Incubator](https://carpentries-incubator.github.io/workflows-nextflow/){:target="_blank"} 
-* [Source training material here RNA-Seq](https://seqera.io/training/#training_material){:target="_blank"} 
+### Conda
+[Lesson overview](/ed-dash_lessons/conda.md)  
+[Lesson on the Carpentries Incubator](TBC)  
 
-<br>
+### Snakemake
+[Lesson overview](/ed-dash_lessons/snakemake.md)  
+[Lesson on the Carpentries Incubator](https://carpentries-incubator.github.io/snakemake-novice-bioinformatics/)  
 
-### Workflows - Snakemake
+### FAIR Research Data Management
+#### FAIR in (bio) Practice
+[Lesson overview](/ed-dash_lessons/FAIR-practice.md)  
+[Lesson on the Carpentries Incubator](https://carpentries-incubator.github.io/fair-bio-practice/)  
 
-* [Carpentries Incubator](https://github.com/carpentries-incubator/snakemake-novice-bioinformatics){:target="_blank"} 
+#### FAIR for Leaders
+[Lesson overview](/ed-dash_lessons/FAIR-leaders.md)  
+[Lesson on the Carpentries Incubator]  
 
-<br>
+### Good Enough Practice in Scientific Computing
+[Overview]  
+[Lesson on the Carpentries Incubator](https://github.com/carpentries-incubator/good-enough-practices)  
 
-### Data managment
+### High-dmensional Statistics
+[Lesson overview](/ed-dash_lessons/conda.md)  
+[Lesson on the Carpentries Incubator](TBC)  
 
-* [Carpentries Incubator](https://github.com/carpentries-incubator/good-enough-practices){:target="_blank"} 
-* [Carpentries Incubator](https://github.com/carpentries-incubator/fair-bio-practice){:target="_blank"} 
+## Lessons developed by other teams
+### Introductory Statistics
+### Machine Learning
 
-<br>
+## Software Carpentry lessons
+
+
 

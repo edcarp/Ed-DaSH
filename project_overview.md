@@ -5,8 +5,6 @@ layout: page
 theme: "Project overview"
 show_heading: false
 ---  
-
-
 # Executive summary
 
 We aim to develop and deliver workshops that help health and bioscience researchers – in academia, industry and society as a whole – to be both competent and confident in working with their data.
