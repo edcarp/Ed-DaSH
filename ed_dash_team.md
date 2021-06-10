@@ -71,17 +71,17 @@ dev_data_man_FAIR_principles:
   affiliation: School of Biological Sciences, SynthSys
   img: andrew_millar.jpeg
 - name: Andrew Romanowski
-  role: RoleTBD
+  role: Research Data Manager
   affiliation: Biological Research Data Management Team, School of Biological Sciences
-  img: no_profile_photo.png
+  img: andrew_romanowski.jpeg
 - name: Tomasz Zielinski
   role: RoleTBD
   affiliation: Biological Research Data Management Team, School of Biological Sciences
   curriculum: Data management & FAIR principles
   img: no_profile_photo.png
 - name: Ines Boehm
-  role: PhD student, Gillingwater Group
-  affiliation: Centre for Discovery Brain Sciences
+  role: Research Consenter/Processor
+  affiliation: CRUK-Tissue Group, MRC Institute of Genetics and Cancer and Royal Infirmary Edinburgh
   curriculum: Data management & FAIR principles
   img: ines_boehm.jpeg
 
