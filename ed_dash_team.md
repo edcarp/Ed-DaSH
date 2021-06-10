@@ -47,7 +47,7 @@ dev_computational_workflows:
 - name: Tim Booth
   role: Bioinformatician/Programmer
   affiliation: Edinburgh Genomics
-  img: no_profile_photo.png
+  img: tim_booth.jpeg
 - name: Nathan Medd
   role: Training and Outreach Manager
   affiliation: Edinburgh Genomics
