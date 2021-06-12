@@ -7,7 +7,7 @@ logo: ![Ed-DaSH white circle logo](/images/Ed_DaSH_white_circle.png "Ed-DaSH whi
 
 partners:
 - name: UKRI
-  logo_path: /Ed_DaSH_website_prototyping/images/partner_sponsor_logos/resized/1200px-UKRI-Logo_Horiz-RGB_xs.jpeg
+  logo_path: Ed_DaSH/images/partner_sponsor_logos/resized1200px-UKRI-Logo_Horiz-RGB_xs.jpeg
   ref_url: https://www.ukri.org
 - name: School of Biological Sciences
   logo_path:
