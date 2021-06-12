@@ -196,7 +196,7 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
     {% for member in page.web_development: %}
     <tr> 
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
-      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
+      <td><b>{{ member.name }}</b>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
  </table>
