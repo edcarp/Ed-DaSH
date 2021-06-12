@@ -65,9 +65,9 @@
 					{% for item in site.data.pagelist.docs %}
       						{% if page.theme != item.title %}
 						<!--a class="header-tab" href="{{ item.url }}">{{ item.title }}</a-->
-						<div class="header-tab">
-							<span class="hover hover-3" href="{{ item.url }}">{{ item.title }}</span>
-						</div>
+							<div class="header-tab">
+								<span class="hover hover-3" onclick="window.location.href='{{ item.url }}';">{{ item.title }}</span>
+							</div>
 						{% endif %}
    					{% endfor %}
 				
