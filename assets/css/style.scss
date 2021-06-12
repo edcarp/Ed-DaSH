@@ -114,15 +114,7 @@ a {
    //margin-right: auto;
    //width: 25%;
    //padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
-  img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    transition: transform 0.35s;
-    &:hover {
-      transform: scale3d(0.90,0.90,1);
-    }
-  }
+  
 }
 
 html, body {
@@ -274,6 +266,15 @@ a:hover, a:focus {
   //margin: auto;
   padding: 2px;
   border: 1px solid #e0e0e0;
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.35s;
+    &:hover {
+      transform: scale3d(0.90,0.90,1);
+    }
+  }
   //padding: 20px 0px 10px 0px; /*top-right-bottom-left*/
 }
 
