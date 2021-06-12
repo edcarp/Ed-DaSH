@@ -37,7 +37,7 @@ partners:
   logo_path: /Ed_DaSH/images/partner_sponsor_logos/resized/MRC_HGU_Edinburgh_colour_web_xs.jpeg
   ref_url: https://www.ed.ac.uk/mrc-human-genetics-unit
 - name: Edinburgh Carpentries (EdCarp)
-  logo_path: /Ed_DaSH/images/partner_sponsor_logos/resized/resized/edcarp-logo_xs.jpeg
+  logo_path: /Ed_DaSH/images/partner_sponsor_logos/resized/edcarp-logo_xs.jpeg
   ref_url: https://edcarp.github.io/
 - name: Edinburgh International Data Facility (EIDF)
   logo_path: /Ed_DaSH/images/partner_sponsor_logos/resized/eidf_cropped_xs.jpeg 
