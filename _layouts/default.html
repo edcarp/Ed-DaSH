@@ -61,16 +61,16 @@
 		    
 			      <!-- <ul> -->
 				 <!-- <li> -->
-				<div class="header-tab">
+				
 					{% for item in site.data.pagelist.docs %}
       						{% if page.theme != item.title %}
 						<!--a class="header-tab" href="{{ item.url }}">{{ item.title }}</a-->
-						
+						<div class="header-tab">
 							<span class="hover hover-3" href="{{ item.url }}">{{ item.title }}</span>
-						
+						</div>
 						{% endif %}
    					{% endfor %}
-				</div>
+				
 				  <!-- <a class="header-tab" href="{{ '/contact' | relative_url }}">Contact</a>
 				  <!-- a class="header-tab" href="/Ed_DaSH_website_prototyping">Home</a> -->
 				  <!-- a class="header-tab" href="/Ed_DaSH_website_prototyping/media.html">Publicity</a -->
