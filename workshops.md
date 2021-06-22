@@ -6,7 +6,7 @@ theme: Workshops
 data_sci_workflows:
 - instance: "#1"
   tool: Snakemake 
-  date: 2021-10-01 
+  date: 2021-10-11
   location: Online
   repo: https://github.com/carpentries-incubator/snakemake-novice-bioinformatics
   lesson: https://carpentries-incubator.github.io/snakemake-novice-bioinformatics
