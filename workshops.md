@@ -307,14 +307,7 @@ community-based project that is a global leader in teaching data and coding skil
 paradigm of open access training leads participants on a skills development path, first as a learner,
 then helping an experienced instructor, finally leading instruction themselves. The Carpentries’
 success and sustainability is driven by its inclusive and collaborative approach, broadening the
-base of people actively engaged in learning, applying, and teaching data skills. It is a financially
-sound initiative receiving generous support from major donors (e.g. Chan Zuckerberg Initiative,
-Alfred P. Sloan Foundation, Gordon and Betty Moore Foundation, California Digital Library, and
-Mozilla Open Source Support Program) and further financed by membership subscriptions. All
-workshops will be in Carpentries format, with open-source materials deposited in The Carpentries
-Incubator (hosted on GitHub) for sharing, peer review, and archiving. Mr G Peru (Edinburgh
-Carpentries [EdCarp], Edinburgh Parallel Computing Centre [EPCC]) will facilitate this process as
-Programme Liaison (WP4.1, 4.2).  
+base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
