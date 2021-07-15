@@ -160,7 +160,7 @@ di_funded_members:  [
 
 # Build settings
 
-markdown: cmark-gfm # kramdown # GFM # cmark-gfm # cmark
+markdown: kramdown # cmark-gfm # GFM # cmark-gfm # cmark
 theme: minima # Jekyll them is overwritten by HTML
 future: true
 show_downloads: false
