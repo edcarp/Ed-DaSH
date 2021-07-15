@@ -15,11 +15,11 @@ uoe-web: "https://www.ed.ac.uk"
 author: Ed-DaSH # add your name
 # author-img: Ed_DaSH_blue_circle.svg # add your photo
 about-author: Data driven life science skills development - equipping society for the future. # add description
-social-twitter: # add your Twitter handle
+social-twitter: "@eddash_training" # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: edcarp # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: "team@carpentries.org" # add your Email address
+social-email: "ed-dash@ed.ac.uk" # "team@carpentries.org" # add your Email address
 
 # Workshop lessons
 
