@@ -1,5 +1,5 @@
 
-Please note that this repo is for prototyping the final 'production version' of Ed-DaSH website.
+Please note that this repo is for prototyping the final ('production') version of Ed-DaSH website.
 
 ----
 
