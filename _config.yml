@@ -154,8 +154,8 @@ di_funded_members:  [
 
 # Web navi:
 
- baseurl: "/Ed_DaSH_website_prototyping/" # the subpath of your site, e.g. /blog
- url: "https://edcarp.github.io/Ed_DaSH_website_prototyping/" # the base hostname & protocol for your site, e.g. http://example.com
+ baseurl: /Ed-DaSH/ # "/Ed_DaSH_website_prototyping/" # the subpath of your site, e.g. /blog
+ url: https://edcarp.github.io/Ed-DaSH/ # "https://edcarp.github.io/Ed_DaSH_website_prototyping/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
