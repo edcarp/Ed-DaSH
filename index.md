@@ -61,10 +61,13 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
 * Statistics
   * Basic and intermediate statistical skills <sup>1</sup> (2 days)
   * High dimensional statistics (2 days)
-  * <sup id="a1">[1](#f1)</sup>Machine learning <sup>1</sup> <sup>(U+00B9)</sup> (2 days)
+  * Machine learning <sup id="fnref:1"><a class="footnote" href="#fn:1">1</a></sup> <sup>1</sup> <sup>(U+00B9)</sup> (2 days)
 
 
 1. <small id="f1"> Developed by teams funded by the [Software Sustainability Institute][ssi]{:target="_blank"} </small> [↩](#a1)
+1. <li id="fn:1"> Developed by teams funded by the [Software Sustainability Institute][ssi]{:target="_blank"} <a class="reversefootnote" href="#fnref:1">↩</a></li>
+
+
 
 <sup>1</sup> Developed by teams funded by the [Software Sustainability Institute][ssi]{:target="_blank"}
 
