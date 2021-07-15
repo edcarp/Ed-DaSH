@@ -61,8 +61,10 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
 * Statistics
   * Basic and intermediate statistical skills <sup>1</sup> (2 days)
   * High dimensional statistics (2 days)
-  * Machine learning <sup> 1 U+00B9</sup> (2 days)
-  * Superscript SUPERSCRIPT ONE U+00B9 [^1]
+  * Machine learning <sup> 1 (U+00B9</sup)> (2 days)
+
+<sup id="a1">[1](#f1)</sup>
+ 1. <small id="f1"> Some footnote.  </small> [↩](#a1)
 
 <sup>1</sup> Developed by teams funded by the [Software Sustainability Institute][ssi]{:target="_blank"}
 
