@@ -9,7 +9,7 @@
     
 # Misc
 
-repository: https://github.com/edcarp/Ed_DaSH_website_prototyping
+repository: https://github.com/edcarp/Ed_DaSH # https://github.com/edcarp/Ed_DaSH_website_prototyping
 uoe-web: "https://www.ed.ac.uk"
 # Author Settings
 author: Ed-DaSH # add your name
