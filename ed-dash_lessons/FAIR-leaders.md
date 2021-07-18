@@ -5,7 +5,7 @@ layout: page
 show_heading: false
 ---  
 
-# Overivew of FAIR for Leaders
+
 How FAIR adoption reshapes research
 
 ## Target audience
