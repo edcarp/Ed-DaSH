@@ -1,10 +1,8 @@
-
 ---
-title: "High-dimensional statistics overview"
+title: "High-Dimensional Statistics - Lesson Overview"
 layout: page
 show_heading: false
 --- 
-
 
 
 # Overview
