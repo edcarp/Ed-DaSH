@@ -1,3 +1,10 @@
+---
+title: "Bioinformatics workflows with Snakemake"
+layout: page
+show_heading: false
+--- 
+
+
 # Bioinformatics workflows with Snakemake
 
 ## Contributors
