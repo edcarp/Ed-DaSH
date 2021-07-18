@@ -1,4 +1,9 @@
-# Introduction to Bioinformatics workflows with Nextflow and nf-core
+---
+title: "Introduction to Bioinformatics workflows with Nextflow and nf-core"
+layout: page
+show_heading: false
+---  
+
 
 ## Overview
 Nextflow is  a workflow management system, similar to Snakemake but written in Groovy.  
