@@ -1,3 +1,12 @@
+
+---
+title: "High-dimensional statistics overview"
+layout: page
+show_heading: false
+--- 
+
+
+
 # Overview
 A 2-day workshop on statistical methods for high-dimensional datasets. Covering “modern” methods but not “basic stats” or “machine learning”. 
 Also not a programming course..
