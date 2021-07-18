@@ -1,6 +1,6 @@
 ---
 title: "Overivew of FAIR for Leaders"
-layout: default
+layout: page
 show_heading: false
 ---  
 
