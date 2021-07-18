@@ -1,7 +1,7 @@
 ---
 title: "Overivew of FAIR for Leaders"
 layout: page
-theme: "Curricula overview"
+
 show_heading: false
 ---  
 
