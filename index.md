@@ -59,7 +59,7 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
   * FAIR in practice (2 days)
   * FAIR for leaders (1 day)
 * Statistics
-  * Basic and intermediate statistical skills <sup>1</sup> (2 days)
+  * Basic and intermediate statistical skills <sup id="fnref:1"><a class="footnote" href="#fn:1">[1]</a></sup> (2 days)
   * High dimensional statistics (2 days)
   * Machine learning <sup id="fnref:1"><a class="footnote" href="#fn:1">[1]</a></sup> (2 days)
 <br><br><br><br>
