@@ -5,7 +5,6 @@ show_heading: false
 --- 
 
 
-# Bioinformatics workflows with Snakemake
 
 ## Contributors
 Tim Booth, Nathan Medd, Hywel Dunn-Davies, Katie Emelianova, Frances Turner.
