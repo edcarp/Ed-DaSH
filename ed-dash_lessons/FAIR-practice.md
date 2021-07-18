@@ -1,4 +1,10 @@
-# Overview of the FAIR in (biological) practice lesson
+---
+title: "Overview of the FAIR in (biological) practice lesson"
+layout: page
+show_heading: false
+---  
+
+
 This course is covered in four half days.  
 
 ## Target audience
