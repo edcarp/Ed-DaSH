@@ -318,16 +318,14 @@ base of people actively engaged in learning, applying, and teaching data skills.
  <!--table class="center-cell-item"-->
  <table class="table table-striped">
     <tr>
-        <th>Instance</th>
         <th>Tool</th>
         <th>Date</th>
         <th>Location</th>
-        <th>Webpage</th>
+        <th>Workshop website</th>
         <th>Registration</th>
     </tr>
     {% for workflow in page.data_sci_workflows %}
     <tr> 
-       <td>{{ workflow.instance }}</td>
        <td>{{ workflow.tool }}</td>
        <td>{{ workflow.date | date: "%B %Y" }}</td>
        <td>{{ workflow.location }}</td>
