@@ -926,7 +926,7 @@ footer .copyright {
 
 
 table {
-  background-color: white;//transparent;
+  background-color: transparent; // white;//
   border-collapse: collapse;
 }
 table col[class*="col-"] {
@@ -984,10 +984,10 @@ th { // Header text adjustment
 }
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
-  background-color: white;
+  background-color: #fff; // white;
 }
 .table .table {
-  background-color: white;//#fff;
+  background-color: #fff; // white;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
