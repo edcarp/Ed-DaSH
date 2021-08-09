@@ -1,5 +1,5 @@
 ---
-title: "Overivew of FAIR for Leaders"
+title: "Overview of FAIR for Leaders"
 layout: page
 show_heading: false
 ---  
