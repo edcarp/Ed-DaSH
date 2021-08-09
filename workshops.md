@@ -315,7 +315,8 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
- <table class="center-cell-item">
+ <!--table class="center-cell-item"-->
+ <table class="table table-striped">
     <tr>
         <th>Instance</th>
         <th>Tool</th>
