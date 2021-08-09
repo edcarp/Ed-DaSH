@@ -1011,6 +1011,7 @@ th { // Header text adjustment
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
   border-bottom-width: 2px;
+  
 }
 .table-striped > tbody{
   background-color: white;
@@ -1020,8 +1021,9 @@ th { // Header text adjustment
 .table-striped > thead > tr > td {
   border-bottom-width: 2px;
   border-bottom: 2px solid #ddd;
-  border-right: none;
-  border-left: none;
+  border-collapse: collapse;
+ // border-right: none;
+ // border-left: none;
   //background-color: white;//
 }
 
