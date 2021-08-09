@@ -8,10 +8,11 @@ layout: default
         <section id="main_content">
             {{ content }}
         </section>
-       
+       {% if page.theme != "Workshops" %}
 	<section id="posts">
             {% include latest_news.html %}
         </section>
+	{% endif %}
     </div>
 </div>
 
