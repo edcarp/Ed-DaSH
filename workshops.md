@@ -3,6 +3,44 @@ title: "Workshop development & delivery"
 layout: page
 theme: Workshops
 
+upcoming_workshops:
+- title: "Introduction to statistics with R" 
+  start_date: 2021-09-20
+  end_date: 2021-09-23
+  website: https://edcarp.github.io/Ed-DaSH-intro-stats-template/
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+- title: "" 
+  start_date: 2021-10-11
+  end_date:
+  website:
+  registration: ""
+
+
 data_sci_workflows:
 - instance: "#1"
   tool: Snakemake 
