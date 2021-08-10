@@ -9,43 +9,43 @@ workshops:
   start_date: 2021-09-20
   end_date: 2021-09-23
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=957093e0935f3ebc942b6d19728e4d5b
 - title: "Data Science workflows with Snakemake" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=190ca10d6095c8167867731132afda0d
 - title: "High-dimensional statistics" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: "coming soon"
-  registration: "to be announced"
-- title: "FAIR in biological practice" 
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=51df16d90017f294bf99c557c5e3a7b2
+- title: "FAIR in (bio) practice" 
   when: 12 - 15 October 2021
   start_date: 2021-10-12
   end_date: 2021-10-15
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=cd700a3a4581a288f5987e48365d0664
 - title: "FAIR for leaders" 
   when: 10 November 2021
   start_date: 2021-11-10
   end_date:
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=b1c611ed8a2a05210fa36530bb92fdc0
 - title: "Machine learning" 
   when: November 2021 (TBC'd)
   start_date: 
   end_date:
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=af76af4fb982ca9e18fb80dfb5ae3faa
 - title: "Data Science workflows with Nextflow" 
   when: 22 - 25 November 2021
   start_date: 2021-11-22
   end_date: 2021-11-25
   website: "coming soon"
-  registration: "to be announced"
+  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=f431844b6ae1a6c79b3cdc701c297f0c
 
 
 data_sci_workflows:
