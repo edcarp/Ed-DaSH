@@ -9,34 +9,34 @@ workshops:
   end_date: 2021-09-23
   website: "coming soon"
   registration: ""
-- title: "" 
+- title: "Data Science workflows with Snakemake" 
   start_date: 2021-10-11
+  end_date: 2021-10-14
+  website: "coming soon"
+  registration: ""
+- title: "High-dimensional statistics" 
+  start_date: 2021-10-11
+  end_date: 2021-10-14
+  website: "coming soon"
+  registration: ""
+- title: "FAIR in biological practice" 
+  start_date: 2021-10-12
+  end_date: 2021-10-15
+  website: "coming soon"
+  registration: ""
+- title: "FAIR for Leaders" 
+  start_date: 2021-11-10
   end_date:
   website: "coming soon"
   registration: ""
-- title: "" 
-  start_date: 2021-10-11
+- title: "Machine learning" 
+  start_date: 
   end_date:
   website: "coming soon"
   registration: ""
-- title: "" 
-  start_date: 2021-10-11
-  end_date:
-  website: "coming soon"
-  registration: ""
-- title: "" 
-  start_date: 2021-10-11
-  end_date:
-  website: "coming soon"
-  registration: ""
-- title: "" 
-  start_date: 2021-10-11
-  end_date:
-  website: "coming soon"
-  registration: ""
-- title: "" 
-  start_date: 2021-10-11
-  end_date:
+- title: "Data Science workflows with Nextflow" 
+  start_date: 2021-11-22
+  end_date: 2021-11-25
   website: "coming soon"
   registration: ""
 
@@ -361,12 +361,12 @@ base of people actively engaged in learning, applying, and teaching data skills.
         <th>Workshop website</th>
         <th>Registration</th>
     </tr>
-    {% for workshops in page.workshops %}
+    {% for workshop in page.workshops %}
     <tr>
-       <td>{{ workshops.start_date | start_date: "%B %Y" }}</td>
-       <td>{{ workshops.title }}</td>
-       <td><a href="{{ workshops.website }}" target="_blank">Workshop's website</a></td>
-       <td><a href="{{ workshops.registration }}" target="_blank">Register here!</a></td>
+       <td>{{ workshop.start_date | start_date: "%B %Y" }}</td>
+       <td>{{ workshop.title }}</td>
+       <td><a href="{{ workshop.website }}" target="_blank">Workshop's website</a></td>
+       <td><a href="{{ workshop.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
  </table>
