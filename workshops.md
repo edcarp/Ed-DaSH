@@ -5,40 +5,47 @@ theme: Workshops
 
 workshops:
 - title: "Introduction to statistics with R" 
+  when: 20 - 23 September 2021
   start_date: 2021-09-20
   end_date: 2021-09-23
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 - title: "Data Science workflows with Snakemake" 
+  when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 - title: "High-dimensional statistics" 
+  when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 - title: "FAIR in biological practice" 
+  when: 12 - 15 October 2021
   start_date: 2021-10-12
   end_date: 2021-10-15
   website: "coming soon"
-  registration: ""
-- title: "FAIR for Leaders" 
+  registration: "to be announced"
+- title: "FAIR for leaders" 
+  when: 10 November 2021
   start_date: 2021-11-10
   end_date:
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 - title: "Machine learning" 
+  when: November 2021 (TBC'd)
   start_date: 
   end_date:
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 - title: "Data Science workflows with Nextflow" 
+  when: 22 - 25 November 2021
   start_date: 2021-11-22
   end_date: 2021-11-25
   website: "coming soon"
-  registration: ""
+  registration: "to be announced"
 
 
 data_sci_workflows:
@@ -356,14 +363,15 @@ base of people actively engaged in learning, applying, and teaching data skills.
  <!--table class="center-cell-item"-->
  <table class="table table-striped">
     <tr>
-        <th>Date</th>
-        <th>Title</th>
+        <th>When?</th>
+        <th>Theme</th>
         <th>Workshop website</th>
         <th>Registration</th>
     </tr>
     {% for workshop in page.workshops %}
     <tr>
-       <td>{{ workshop.start_date | start_date: "%B %Y" }}</td>
+       <!--td>{{ workshop.start_date | start_date: "%B %Y" }}</td-->
+       <td>{{ workshop.when }}</td>
        <td>{{ workshop.title }}</td>
        <td><a href="{{ workshop.website }}" target="_blank">Workshop's website</a></td>
        <td><a href="{{ workshop.registration }}" target="_blank">Register here!</a></td>
