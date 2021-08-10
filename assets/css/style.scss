@@ -967,6 +967,7 @@ th { // Header text adjustment
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
+  text-align: center;
   border-top: 2px solid #ddd;
   //border: 1px solid #ddd;
 }
@@ -986,9 +987,11 @@ th { // Header text adjustment
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
   background-color: #fff; // white;
+  text-align: center;
 }
 .table .table {
   background-color: #fff; // white;
+  text-align: center;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -1023,6 +1026,7 @@ th { // Header text adjustment
   border-bottom-width: 2px;
   border-bottom: 2px solid #ddd;
   border-collapse: collapse;
+  text-align: center;
  // border-right: none;
  // border-left: none;
   //background-color: white;//
