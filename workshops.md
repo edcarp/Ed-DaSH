@@ -349,7 +349,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
-### Data Science Workflows with Snakemake and Nextflow
+### Upcoming and past workshops
 
 <br>
 
