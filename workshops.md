@@ -3,41 +3,41 @@ title: "Workshop development & delivery"
 layout: page
 theme: Workshops
 
-upcoming_workshops:
+workshops:
 - title: "Introduction to statistics with R" 
   start_date: 2021-09-20
   end_date: 2021-09-23
-  website: https://edcarp.github.io/Ed-DaSH-intro-stats-template/
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 - title: "" 
   start_date: 2021-10-11
   end_date:
-  website:
+  website: "coming soon"
   registration: ""
 
 
@@ -356,81 +356,21 @@ base of people actively engaged in learning, applying, and teaching data skills.
  <!--table class="center-cell-item"-->
  <table class="table table-striped">
     <tr>
-        <th>Tool</th>
         <th>Date</th>
-        <th>Location</th>
+        <th>Title</th>
         <th>Workshop website</th>
         <th>Registration</th>
     </tr>
     {% for workflow in page.data_sci_workflows %}
-    <tr> 
-       <td>{{ workflow.tool }}</td>
-       <td>{{ workflow.date | date: "%B %Y" }}</td>
-       <td>{{ workflow.location }}</td>
-       <td><a href="{{ workflow.lesson }}" target="_blank"> {{ workflow.lesson }} </a></td>
-       <td><a href="{{ workflow.registration }}" target="_blank">Register here!</a></td>
+    <tr>
+       <td>{{ workshops.start_date | date: "%B %Y" }}</td>
+       <td>{{ workshops.title }}</td>
+       <td><a href="{{ workshops.website }}" target="_blank">Workshop's website</a></td>
+       <td><a href="{{ workshops.registration }}" target="_blank">Register here!</a></td>
     </tr>
     {% endfor %}
  </table>
 
- 
- <br><br>
-
-
-### Statistics
-
-<br>
-
- <table class="center-cell-item">
-    <tr>
-        <th>Instance</th>
-        <th>Type</th>
-        <th>Date</th>
-        <th>Location</th>
-        <th>Webpage</th>
-        <th>Registration</th>
-    </tr>
-    {% for item in page.statistics: %}
-    <tr> 
-       <td>{{ item.instance }}</td>
-       <td>{{ item.type }}</td>
-       <td>{{ item.date | date: "%B %Y" }}</td>
-       <td>{{ item.location }}</td>
-       <td><a href="{{ item.lesson }}" target="_blank"> {{ item.lesson }} </a></td>
-       <td><a href="{{ item.registration }}" target="_blank">Register here!</a></td>
-    </tr>
-    {% endfor %}
- </table>
-
- 
- <br><br>
-
-
-### FAIR Principles in Action
-
-<br>
-
- <table class="center-cell-item">
-    <tr>
-        <th>Instance</th>
-        <th>Type</th>
-        <th>Date</th>
-        <th>Location</th>
- 
-        <th>Webpage</th>
-        <th>Registration</th>
-    </tr>
-    {% for datman in page.fair_data_management: %}
-    <tr> 
-       <td>{{ datman.instance }}</td>
-       <td>{{ datman.type }}</td>
-       <td>{{ datman.date | date: "%B %Y" }}</td>
-       <td>{{ datman.location }}</td>
-       <td><a href="{{ datman.lesson }}" target="_blank"> {{ datman.lesson }} </a></td>
-       <td><a href="{{ datman.registration }}" target="_blank">Register here!</a></td>
-    </tr>
-    {% endfor %}
-  </table>
 
  
  <br><br>
