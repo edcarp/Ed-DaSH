@@ -28,13 +28,13 @@ workshops:
   end_date: 2021-10-15
   website: "coming soon"
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=cd700a3a4581a288f5987e48365d0664
-- title: "FAIR for leaders" 
+- title: "FAIR for Leaders" 
   when: 10 November 2021
   start_date: 2021-11-10
   end_date:
   website: "coming soon"
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=b1c611ed8a2a05210fa36530bb92fdc0
-- title: "Machine learning" 
+- title: "Machine Learning" 
   when: November 2021 (TBC'd)
   start_date: 
   end_date:
