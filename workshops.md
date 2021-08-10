@@ -361,9 +361,9 @@ base of people actively engaged in learning, applying, and teaching data skills.
         <th>Workshop website</th>
         <th>Registration</th>
     </tr>
-    {% for workflow in page.data_sci_workflows %}
+    {% for workshops in page.workshops %}
     <tr>
-       <td>{{ workshops.start_date | date: "%B %Y" }}</td>
+       <td>{{ workshops.start_date | start_date: "%B %Y" }}</td>
        <td>{{ workshops.title }}</td>
        <td><a href="{{ workshops.website }}" target="_blank">Workshop's website</a></td>
        <td><a href="{{ workshops.registration }}" target="_blank">Register here!</a></td>
