@@ -8,25 +8,25 @@ workshops:
   when: 20 - 23 September 2021
   start_date: 2021-09-20
   end_date: 2021-09-23
-  website: "coming soon"
+  website: https://edcarp.github.io/2021-09-20_ed-dash_intro-statistics/
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=957093e0935f3ebc942b6d19728e4d5b
 - title: "Data Science workflows with Snakemake" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
-  website: "coming soon"
+  website: https://edcarp.github.io/2021-10-11_ed-dash_workflows-snakemake/
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=190ca10d6095c8167867731132afda0d
 - title: "High-dimensional statistics" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
-  website: "coming soon"
+  website: https://edcarp.github.io/2021-10-14_ed-dash_high-dimensional-stats/
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=51df16d90017f294bf99c557c5e3a7b2
-- title: "FAIR in (bio) practice" 
+- title: "FAIR in (biological) practice" 
   when: 12 - 15 October 2021
   start_date: 2021-10-12
   end_date: 2021-10-15
-  website: "coming soon"
+  website: https://edcarp.github.io/2021-10-12_ed-dash_fair-bio-practice/
   registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=cd700a3a4581a288f5987e48365d0664
 - title: "FAIR for Leaders" 
   when: 10 November 2021
