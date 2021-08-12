@@ -358,11 +358,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
-**
-
-<br>
-
-## Before workshop registration please read our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.
+**Before workshop registration please read our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.**
 
 <br>
 
@@ -382,7 +378,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
        <td><a href="{{ workshop.website }}" target="_blank">Workshop's website</a></td>
       {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %} <!--Check if workshop's date is passed: in this case display 'Registration closed'-->
       {% capture workshoptime %}{{page.start_date | date: '%s'}}{% endcapture %}
-      {% if workshoptime < nowunix %}
+      {% if workshoptime > nowunix %}
       <td><a style="color: #8f8f8f; ">Registration closed</a></td>
       {% else %}
       <td><a href="{{ workshop.registration }}" target="_blank">Register here!</a></td> <!-- Alternatively: Registration closed!-->
