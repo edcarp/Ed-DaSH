@@ -395,7 +395,4 @@ base of people actively engaged in learning, applying, and teaching data skills.
  
  <br><br>
 
-<!--Check if workshop's date is passed: in this case display 'Registration closed', ref. URL: https://stackoverflow.com/questions/7087376/comparing-dates-in-liquid -->
-      <!--{% assign nowunix = nowunix | plus: 0 %}-->
-      <!--{% assign nowunix = nowunix | plus: 604800 %}-->
 {% comment %}{% capture workshoptime %}{{page.start_date | date: '%s' |  minus: 604800}}{% endcapture %}{% endcomment %}
