@@ -381,7 +381,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
        <td>{{ workshop.title }}</td>
        <td><a href="{{ workshop.website }}" target="_blank">Workshop's website</a></td>
       {% capture nowunix %}{{'now' | date: '%s' }}{% endcapture %} <!--Check if workshop's date is passed: in this case display 'Registration closed', ref. URL: https://stackoverflow.com/questions/7087376/comparing-dates-in-liquid -->
-      {% assign nowunix = nowunix | plus: 0 %}
+      <!--{% assign nowunix = nowunix | plus: 0 %}-->
       <!--{% assign nowunix = nowunix | plus: 604800 %}-->
       {% capture workshoptime %}{{page.start_date | date: '%s' |  minus: 604800}}{% endcapture %} <!-- alternative syntax: https://github.com/cityoffortworth/jekyll-date_logic -->
       {% if workshoptime >= nowunix %} 
