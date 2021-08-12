@@ -362,6 +362,10 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
+## Workshop Registration
+
+<br>
+
  <!--table class="center-cell-item"-->
  <table class="table table-striped">
     <tr>
