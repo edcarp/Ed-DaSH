@@ -340,6 +340,8 @@ fair_data_management:
   lesson: ""
   registration: ""
 
+regulations_url: https://www.ed.ac.uk/files/atoms/files/university_computing_regulations_ay21-22_golden.pdf
+
 show_heading: false  
 ---  
 
@@ -356,7 +358,11 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 <br>
 
-### Upcoming and past workshops
+**
+
+<br>
+
+## Before workshop registration please read our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.
 
 <br>
 
