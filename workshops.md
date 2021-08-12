@@ -383,7 +383,8 @@ base of people actively engaged in learning, applying, and teaching data skills.
       {% capture nowunix %}{{'now' | date: '%s' | plus : 604800}}{% endcapture %} <!--Check if workshop's date is passed: in this case display 'Registration closed', ref. URL: https://stackoverflow.com/questions/7087376/comparing-dates-in-liquid -->
       {% capture workshoptime %}{{page.start_date | date: '%s'}}{% endcapture %} <!-- alternative syntax: https://github.com/cityoffortworth/jekyll-date_logic -->
       {% if workshoptime <= nowunix %} 
-      {% assign nowunix = nowunix | plus: 0 %} <!-- Captured numbers may act as strings, not numbers, so need a hack -->
+      <!-- {% assign nowunix = nowunix | plus: 0 %} --> 
+      <!-- Captured numbers may act as strings, not numbers, so need a hack -->
       <td><a style="color: #8f8f8f; ">Registration closed</a></td>
       {% else %}
       <td><a href="{{ workshop.registration }}" target="_blank">Register here!</a></td> <!-- Alternatively: Registration closed!-->
