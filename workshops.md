@@ -32,7 +32,7 @@ workshops:
   when: 10 November 2021
   start_date: 2021-11-10
   end_date:
-  website: "coming soon"
+  website: https://edcarp.github.io/2021-11-10_ed-dash_fair-leaders/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-for-leaders
 - title: "Machine Learning" 
   when: November 2021 (TBC'd)
