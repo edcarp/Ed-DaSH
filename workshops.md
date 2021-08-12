@@ -360,7 +360,6 @@ base of people actively engaged in learning, applying, and teaching data skills.
 
 ## Workshop Registration
 
-<br>
 
 **Before workshop registration please read our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.**
 
