@@ -9,43 +9,43 @@ workshops:
   start_date: 2021-09-20
   end_date: 2021-09-23
   website: https://edcarp.github.io/2021-09-20_ed-dash_intro-statistics/
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=957093e0935f3ebc942b6d19728e4d5b
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/introductory-statistics
 - title: "Data Science workflows with Snakemake" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: https://edcarp.github.io/2021-10-11_ed-dash_workflows-snakemake/
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=190ca10d6095c8167867731132afda0d
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-snakemake
 - title: "High-dimensional statistics" 
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: https://edcarp.github.io/2021-10-11_ed-dash_high-dimensional-stats/
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=51df16d90017f294bf99c557c5e3a7b2
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
 - title: "FAIR in (biological) practice" 
   when: 12 - 15 October 2021
   start_date: 2021-10-12
   end_date: 2021-10-15
   website: https://edcarp.github.io/2021-10-12_ed-dash_fair-bio-practice/
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=cd700a3a4581a288f5987e48365d0664
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-bio-practice
 - title: "FAIR for Leaders" 
   when: 10 November 2021
   start_date: 2021-11-10
   end_date:
   website: "coming soon"
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=b1c611ed8a2a05210fa36530bb92fdc0
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-for-leaders
 - title: "Machine Learning" 
   when: November 2021 (TBC'd)
   start_date: 
   end_date:
   website: "coming soon"
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=af76af4fb982ca9e18fb80dfb5ae3faa
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/machine-learning
 - title: "Data Science workflows with Nextflow" 
   when: 22 - 25 November 2021
   start_date: 2021-11-22
   end_date: 2021-11-25
   website: "coming soon"
-  registration: https://www.epay.ed.ac.uk/browse/product-selection?product-token=f431844b6ae1a6c79b3cdc701c297f0c
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-nextflow
 
 
 data_sci_workflows:
