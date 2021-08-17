@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Workshops posts
-theme: Workshop_posts
----
+title: Workshop posts
+theme: Workshop_posts 
+--- 
+
 
 <h3>Upcoming and past workshops</h3>
 <ul class="post-list">
