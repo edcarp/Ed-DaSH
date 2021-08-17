@@ -361,7 +361,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
 ## Workshop Registration
 
 
-**Before workshop registration please read our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.**
+**Before workshop registration please consider reading our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.**
 
 <br>
 
