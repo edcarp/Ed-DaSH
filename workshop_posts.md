@@ -5,6 +5,7 @@ theme: Workshop_posts
 --- 
 
 
+
 <h3>Upcoming and past workshops</h3>
 <ul class="post-list">
     {% for post in site.posts %}
