@@ -10,7 +10,7 @@ theme: Workshop_posts
     {% for post in site.posts %}
     {% if post.type == 'workshop_announcement' %}
     <li>
-        <a class="post-link" href="{{ post.website }}">{{ post.when }}, {{ post.title }}</a>
+        <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.when }}, {{ post.title }}</a>
     </li>
     {% endif %}
     {% endfor %}
