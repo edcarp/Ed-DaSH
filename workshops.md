@@ -361,7 +361,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
 ## Workshop Registration
 
 
-**Before workshop registration please consider reading our [Terms and Conditions]({{ page.regulations_url }}){:target="_blank"}.**
+**By registering to our workshops, you agree to respect the [Computing Regulations University of Edinburgh]({{ page.regulations_url }}){:target="https://www.ed.ac.uk/files/atoms/files/university_computing_regulations_ay21-22_golden.pdf"}.**
 
 <br>
 
