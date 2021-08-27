@@ -16,18 +16,18 @@ workshops:
   end_date: 2021-10-14
   website: https://edcarp.github.io/2021-10-11_ed-dash_workflows-snakemake/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-snakemake
-- title: "High-dimensional statistics" 
-  when: 18 - 21 October 2021
-  start_date: 2021-10-18
-  end_date: 2021-10-21
-  website: https://edcarp.github.io/2021-10-18_ed-dash_high-dimensional-stats/
-  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
 - title: "FAIR in (biological) practice" 
   when: 12 - 15 October 2021
   start_date: 2021-10-12
   end_date: 2021-10-15
   website: https://edcarp.github.io/2021-10-12_ed-dash_fair-bio-practice/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-bio-practice
+- title: "High-dimensional statistics" 
+  when: 18 - 21 October 2021
+  start_date: 2021-10-18
+  end_date: 2021-10-21
+  website: https://edcarp.github.io/2021-10-18_ed-dash_high-dimensional-stats/
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
 - title: "FAIR for Leaders" 
   when: 10 November 2021
   start_date: 2021-11-10
