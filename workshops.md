@@ -28,12 +28,6 @@ workshops:
   end_date: 2021-10-21
   website: https://edcarp.github.io/2021-10-18_ed-dash_high-dimensional-stats/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
-- title: "FAIR for Leaders" 
-  when: 10 November 2021
-  start_date: 2021-11-10
-  end_date:
-  website: https://edcarp.github.io/2021-11-10_ed-dash_fair-leaders/
-  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-for-leaders
 - title: "Machine Learning" 
   when: November 2021 (TBC'd)
   start_date: 
@@ -46,6 +40,12 @@ workshops:
   end_date: 2021-11-25
   website: "https://edcarp.github.io/2021-11-22_ed-dash_workflows-nextflow/"
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-nextflow
+- title: "FAIR for Leaders" 
+  when: 2022 (TBC'd)
+  start_date:
+  end_date:
+  website: https://edcarp.github.io/2021-11-10_ed-dash_fair-leaders/
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-for-leaders
 
 
 data_sci_workflows:
