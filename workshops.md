@@ -20,7 +20,7 @@ workshops:
   when: 11 - 14 October 2021
   start_date: 2021-10-11
   end_date: 2021-10-14
-  website: https://edcarp.github.io/2021-10-11_ed-dash_high-dimensional-stats/
+  website: https://edcarp.github.io/2021-10-18_ed-dash_high-dimensional-stats/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
 - title: "FAIR in (biological) practice" 
   when: 12 - 15 October 2021
