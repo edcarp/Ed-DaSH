@@ -56,11 +56,11 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
 * Computational workflows
   * Unix, Conda, Nextflow/Snakemake (4 days)
 * Open science, [FAIR principles][fair]{:target="_blank"} [_Findable, Accessible, Interoperable and Reusable_], and data management
-  * FAIR in practice (2 days)
+  * FAIR in practice (4 half days)
   * FAIR for leaders (1 day)
 * Statistics
-  * Basic and intermediate statistical skills <sup id="fnref:1"><a class="footnote" href="#fn:1">[1]</a></sup> (2 days)
-  * High dimensional statistics (2 days)
+  * Basic and intermediate statistical skills <sup id="fnref:1"><a class="footnote" href="#fn:1">[1]</a></sup> (4 half days)
+  * High dimensional statistics (4 half days)
   * Machine learning <sup id="fnref:1"><a class="footnote" href="#fn:1">[1]</a></sup> (2 days)
 <br><br><br><br>
 <sup id="fn:1"><a class="footnote">1</a></sup> Developed by teams funded by the [Software Sustainability Institute][ssi]{:target="_blank"} <a class="reversefootnote" href="#fnref:1">↩</a>
