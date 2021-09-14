@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workshop posts
+title: Workshop announcements
 theme: Workshop_posts 
 permalink: /workshop_posts/
 --- 
