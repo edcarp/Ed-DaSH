@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Workshop posts
 theme: Workshop_posts 
 permalink: /workshop_posts/
