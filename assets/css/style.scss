@@ -318,6 +318,12 @@ img {
     -webkit-filter: none;
     }
   }
+  img {
+    transition: transform 0.35s;
+    &:hover {
+      transform: scale3d(0.90,0.90,1);
+    }
+  }
 }
 
 // Button to the top of the page
