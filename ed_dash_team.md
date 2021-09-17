@@ -161,6 +161,17 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
     {% endfor %}
 </table>
 
+## Programme Coordination
+
+<table class="center-cell-item">
+    {% for member in page.programme_coordination: %}
+    <tr> 
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+
 ## Development Teams
 
 ### Computational workflows
