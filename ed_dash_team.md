@@ -27,13 +27,13 @@ co_investigators:
   
 programme_coordination:
 - name: Giacomo Peru 
-  role: Programme Coordinator
+  role: Coordinator
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
 
 edcarp_coordination:
 - name: Giacomo Peru 
-  role: Programme Coordinator
+  role: Coordinator
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
 - name: Flic Anderson
@@ -137,7 +137,7 @@ steering_group:
   
 web_development:
 - name: Giacomo Peru 
-  role: Programme Coordinator
+  role: Coordinator
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
 - name: Robert Nagy
@@ -172,7 +172,7 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
     {% endfor %}
  </table>
 
-## Development Teams
+## Team
 
 ### Computational workflows
 
