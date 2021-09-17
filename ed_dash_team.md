@@ -166,7 +166,7 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
 <table class="center-cell-item">
     {% for member in page.programme_coordination: %}
     <tr> 
-      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=80 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
@@ -212,7 +212,7 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
 <table class="center-cell-item">
     {% for member in page.web_development: %}
     <tr> 
-      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=80 alt="{{ member.name }}"></td>
       <td><b>{{ member.name }}</b>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
