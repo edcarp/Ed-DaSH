@@ -24,12 +24,18 @@ co_investigators:
   affiliation: School of Biological Sciencs
   img: edward_wallace.jpeg
   url: https://www.ed.ac.uk/profile/dr-edward-wallace
+  
+programme_coordination:
+- name: Giacomo Peru 
+  role: Programme Coordinator
+  affiliation: EPCC
+  img: giacomo_peru_2.jpeg
 
 edcarp_coordination:
 - name: Giacomo Peru 
   role: Programme Coordinator
   affiliation: EPCC
-  img: giacomo_peru.jpeg
+  img: giacomo_peru_2.jpeg
 - name: Flic Anderson
   role: Development Assistant 
   affiliation: School of Biological Sciences
@@ -133,7 +139,7 @@ web_development:
 - name: Giacomo Peru 
   role: Programme Coordinator
   affiliation: EPCC
-  img: giacomo_peru.jpeg
+  img: giacomo_peru_2.jpeg
 - name: Robert Nagy
   role: PhD student, Cancer Informatics Group
   affiliation: MRC IGC CRUK Edinburgh Centre
