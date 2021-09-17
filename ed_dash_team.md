@@ -141,7 +141,7 @@ web_development:
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
 - name: Robert Nagy
-  role: PhD student, Cancer Informatics Group
+  role: PhD Candidate, Cancer Informatics Group
   affiliation: MRC IGC CRUK Edinburgh Centre
   img: robert_nagy_eddash_2.jpeg
 
