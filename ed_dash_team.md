@@ -143,7 +143,7 @@ web_development:
 - name: Robert Nagy
   role: PhD student, Cancer Informatics Group
   affiliation: MRC IGC CRUK Edinburgh Centre
-  img: robert_nagy_eddash.jpeg
+  img: robert_nagy_eddash_2.jpeg
 
 show_heading: false  
 ---  
@@ -166,7 +166,7 @@ Our team brings together subject-matter expertise in ’omics, statistics, and c
 <table class="center-cell-item">
     {% for member in page.programme_coordination: %}
     <tr> 
-      <td><img src="images/profiles/{{ member.img }}" width=80 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
