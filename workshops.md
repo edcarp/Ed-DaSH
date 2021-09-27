@@ -386,7 +386,7 @@ base of people actively engaged in learning, applying, and teaching data skills.
        {% if workshop.registration contains "https://www.epay.ed.ac.uk" %} 
        <td><a href="{{ workshop.registration }}" target="_blank">Register here!</a></td> <!-- Alternatively: Registration closed!-->
        {% else %}
-       <td><a style="color: #8f8f8f; ">workshop.registration</a></td>
+       <td><a style="color: #8f8f8f; ">{{ workshop.registration }}</a></td>
        {% endif %}
     </tr>
     {% endfor %}
