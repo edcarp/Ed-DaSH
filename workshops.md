@@ -27,7 +27,7 @@ workshops:
   start_date: 2021-10-19
   end_date: 2021-10-22
   website: https://edcarp.github.io/2021-10-19_ed-dash_fair-bio-practice/
-  registration: "Registration not yet open"
+  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice
 - title: "FAIR for Leaders" 
   when: 10 November 2021
   start_date: 2021-11-10
