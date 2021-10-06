@@ -27,13 +27,13 @@ workshops:
   start_date: 2021-10-26
   end_date: 2021-10-29
   website: https://edcarp.github.io/2021-10-26_ed-dash_high-dimensional-stats/
-  registration: "Registration not yet open
+  registration: "Registration not yet open"
 - title: "Data Science Workflows with Nextflow" 
   when: 22 - 25 November 2021
   start_date: 2021-11-22
   end_date: 2021-11-25
   website: "https://edcarp.github.io/2021-11-22_ed-dash_workflows-nextflow/"
-  registration: "Registration not yet open""
+  registration: "Registration not yet open"
 - title: "Machine Learning" 
   when: November 2021 (TBC'd)
   start_date: 
