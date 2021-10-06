@@ -16,35 +16,29 @@ workshops:
   end_date: 2021-10-14
   website: https://edcarp.github.io/2021-10-11_ed-dash_workflows-snakemake/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-snakemake
-- title: "High-Dimensional Statistics" 
-  when: 18 - 21 October 2021
-  start_date: 2021-10-18
-  end_date: 2021-10-21
-  website: https://edcarp.github.io/2021-10-18_ed-dash_high-dimensional-stats/
-  registration: "Registration not yet open"
 - title: "FAIR in (Biological) Practice" 
   when: 19 - 22 October 2021
   start_date: 2021-10-19
   end_date: 2021-10-22
   website: https://edcarp.github.io/2021-10-19_ed-dash_fair-bio-practice/
   registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice
-- title: "FAIR for Leaders" 
-  when: 10 November 2021
-  start_date: 2021-11-10
-  end_date: 2021-11-10
-  website: https://edcarp.github.io/2021-11-10_ed-dash_fair-leaders/
-  registration: Registration not yet open
-- title: "Machine Learning" 
-  when: November 2021 (TBC'd)
-  start_date: 
-  end_date:
-  website: "coming soon"
-  registration: "Registration not yet open"
+- title: "High-Dimensional Statistics" 
+  when: 26 - 29 October 2021
+  start_date: 2021-10-26
+  end_date: 2021-10-29
+  website: https://edcarp.github.io/2021-10-26_ed-dash_high-dimensional-stats/
+  registration: "Registration not yet open
 - title: "Data Science Workflows with Nextflow" 
   when: 22 - 25 November 2021
   start_date: 2021-11-22
   end_date: 2021-11-25
   website: "https://edcarp.github.io/2021-11-22_ed-dash_workflows-nextflow/"
+  registration: "Registration not yet open""
+- title: "Machine Learning" 
+  when: November 2021 (TBC'd)
+  start_date: 
+  end_date:
+  website: "coming soon"
   registration: "Registration not yet open"
 
 
