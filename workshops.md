@@ -15,19 +15,19 @@ workshops:
   start_date: 2021-10-11
   end_date: 2021-10-14
   website: https://edcarp.github.io/2021-10-11_ed-dash_workflows-snakemake/
-  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/data-science-workflows-with-snakemake
+  registration: "Registration closed"
 - title: "FAIR in (Biological) Practice" 
   when: 19 - 22 October 2021
   start_date: 2021-10-19
   end_date: 2021-10-22
   website: https://edcarp.github.io/2021-10-19_ed-dash_fair-bio-practice/
-  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice
+  registration: "Registration closed"
 - title: "High-Dimensional Statistics" 
   when: 26 - 29 October 2021
   start_date: 2021-10-26
   end_date: 2021-10-29
   website: https://edcarp.github.io/2021-10-26_ed-dash_high-dimensional-stats/
-  registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/highdimensional-statistics
+  registration: "Registration closed"
 - title: "Data Science Workflows with Nextflow" 
   when: 22 - 25 November 2021
   start_date: 2021-11-22
