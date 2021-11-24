@@ -1,27 +1,14 @@
 <!-- This is the column on the right -->
 
-<h2>Workshops and Events (Coming soon)</h2>
-<ul class="post-list">
-    {% for post in site.posts limit:5 %}
-    {% if post.type == 'event_announcement' %}
-    <li>
-        <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.when }}, {{ post.title }}, {{ post.location }}</a>
-    </li>
+<h2>Workshops </h2>
 
-    {% endif %}
-    {% endfor %}
-</ul>
-<a class="post-link" href="events/">See all events (Coming soon!)</a>
-
-<h3>Workshops</h3>
 <ul class="post-list">
     {% for post in site.posts limit:5 %}
     {% if post.type == 'workshop_announcement' %}
     <li>
-        <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.when }}, {{ post.title }}</a>
+        {{ post.when }}, <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.title }}</a>, Sign Up <a class="post-link" href="{{ post.registration }}" target="_blank"> HERE </a>
     </li>
     {% endif %}
     {% endfor %}
 </ul>
-<!--a class="post-link" href="https://edcarp.github.io/Ed-DaSH/workshop_posts.html" target="_blank">See all workshops</a-->
-<a class="post-link" href="workshop_posts/" target="_blank">See all workshops</a>
+<a class="post-link" href="workshops" target="_blank">See all workshops</a>
