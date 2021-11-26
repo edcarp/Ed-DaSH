@@ -1,12 +1,21 @@
 <!-- This is the column on the right -->
+{% assign today_date = "today" | date: "%Y-%m-%d" %}
 
 <h2>Workshops </h2>
 
 <ul class="post-list">
     {% for post in site.posts limit:5 %}
     {% if post.type == 'workshop_announcement' %}
+    {% assign workshop_start_date = post.start_date | date: "%Y-%m-%d" %}
+    {% if post.registration contains "https://www.epay.ed.ac.uk" and workshop_start_date > today_date %}
+    {%- capture registration_link -%}
+    , Sign Up <a class="post-link" href="{{ post.registration }}" target="_blank"> HERE </a>
+    {%- endcapture -%}
+    {% else %}
+    {% assign registration_link = "" %}
+    {% endif %}
     <li>
-        {{ post.when }}, <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.title }}</a>, Sign Up <a class="post-link" href="{{ post.registration }}" target="_blank"> HERE </a>
+        {{ post.when }}, <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.title }}</a>{{registration_link}}
     </li>
     {% endif %}
     {% endfor %}
