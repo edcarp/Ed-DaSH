@@ -8,7 +8,7 @@ regulations_url: https://www.ed.ac.uk/files/atoms/files/university_computing_reg
 show_heading: false
 ---  
 
-
+{% assign today_date = "today" | date: "%Y-%m-%d" %}
 
 Our workshops will teach a mix of existing and new content, including new material developed
 in parallel by other initiatives, to address the skills gaps most frequently identified by health and
@@ -40,11 +40,12 @@ base of people actively engaged in learning, applying, and teaching data skills.
     {{ site.posts.title }}
     {% for post in site.posts %}
     {% if post.type == 'workshop_announcement' %}
+    {% assign workshop_start_date = post.start_date | date: "%Y-%m-%d" %}
     <tr> 
     	<td>{{ post.when }}</td>
         <td>{{ post.title }}</td>
         <td><a href="{{ post.website }}" target="_blank">Workshop's website</a></td>
-        {% if post.registration contains "https://www.epay.ed.ac.uk" %} 
+        {% if post.registration contains "https://www.epay.ed.ac.uk" and workshop_start_date > today_date %} 
        <td><a href="{{ post.registration }}" target="_blank">Register here</a></td>
        {% else %}
        <td><a style="color: #8f8f8f; "> Registration closed </a></td>
