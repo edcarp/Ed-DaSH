@@ -39,15 +39,25 @@ Lesson on the Carpentries Incubator (TBC)
 ### Good Enough Practice in Scientific Computing
 Overview (TBC)
 
-[Lesson on the Carpentries Incubator](https://github.com/carpentries-incubator/good-enough-practices)
+[Lesson on the Carpentries Incubator](https://carpentries-incubator.github.io/good-enough-practices)
 
-### High-dmensional Statistics
+### High-dimensional Statistics
+
 [Lesson overview](ed-dash_lessons/high-dimensional-stats.md)
 
-Lesson on the Carpentries Incubator(TBC)
+[Lesson on the Carpentries Incubator](https://carpentries-incubator.github.io/high-dimensional-stats-r)
+
 
 ## Lessons developed by other teams
+
 ### Introductory Statistics
+
+Course components:
+- [Statistical thinking for public health](https://carpentries-incubator.github.io/statistical-thinking-public-health)
+- [Simple linear regression for public health](https://carpentries-incubator.github.io/simple-linear-regression-public-health/)
+- [Multiple linear regression for public health](https://carpentries-incubator.github.io/multiple-linear-regression-public-health/)
+- [Logistic regression for public health](https://carpentries-incubator.github.io/logistic-regression-public-health/)
+
 ### Machine Learning
 
 ## Software Carpentry lessons
