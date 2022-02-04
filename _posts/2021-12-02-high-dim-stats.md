@@ -1,5 +1,5 @@
 ---
-title: "High Dimensional Statistics" 
+title: "High-Dimensional Statistics" 
 when: "15 - 18 February 2022"
 start_date: 2022-02-15
 end_date: 2022-02-18
