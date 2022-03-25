@@ -1,6 +1,6 @@
 ---
 title: "Workflows with Snakemake" 
-when: "7 - 9 July 2022"
+when: "7 - 9 June 2022"
 start_date: 2022-07-07
 end_date: 2022-07-09
 website: https://edcarp.github.io/2022-07-07_ed-dash_workflows-snakemake/
