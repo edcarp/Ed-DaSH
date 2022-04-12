@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Statistics with R" 
-when: "3 May - 6 May 2022"
+when: "3 - 6 May 2022"
 start_date: 2022-05-03
 end_date: 2022-05-06
 website: https://edcarp.github.io/2022-05-03_ed-dash_intro-statistics/
