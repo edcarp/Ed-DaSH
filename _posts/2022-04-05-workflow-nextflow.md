@@ -1,6 +1,6 @@
 ---
 title: "Workflows with Nextflow" 
-when: "04 Oct - 06 Oct 2022"
+when: "4 - 6 October 2022"
 start_date: 2022-10-04
 end_date: 2022-10-06
 website: https://edcarp.github.io/2022-10-04_ed-dash_workflows-nextflow/
