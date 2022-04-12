@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Machine Learning with Python" 
-when: "24 May - 27 May 2022"
+when: "24 - 27 May 2022"
 start_date: 2022-05-24
 end_date: 2022-05-27
 website: https://edcarp.github.io/2022-05-24_ed-dash_machine-learning/
