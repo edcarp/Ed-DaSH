@@ -1,6 +1,6 @@
 ---
 title: "High-Dimensional Statistics with R" 
-when: "17 May - 20 May 2022"
+when: "17 - 20 May 2022"
 start_date: 2022-05-17
 end_date: 2022-05-20
 website: https://edcarp.github.io/2022-05-17_ed-dash_high-dim-stats/
