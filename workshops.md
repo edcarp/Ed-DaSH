@@ -54,9 +54,13 @@ base of people actively engaged in learning, applying, and teaching data skills.
     {% endif %}
     {% endfor %}
  </table>
-
-
  
+ <button id="clickButton">Click the button to add the input into the
+below Text Box</button>
+<br/><br />
+<input id="readTheInput" />
+<script src="{{ base.url | prepend: site.url }}/assets/javascript/script-1.js"></script>
+
  <br><br>
 
 {% comment %}{% capture workshoptime %}{{page.start_date | date: '%s' |  minus: 604800}}{% endcapture %}{% endcomment %}
