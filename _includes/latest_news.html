@@ -1,27 +1,30 @@
 <!-- This is the column on the right -->
+{% assign today_date = "today" | date: "%Y-%m-%d" %}
 
-<h2>Workshops and Events (Coming soon)</h2>
+<h2>Workshops </h2>
+
 <ul class="post-list">
-    {% for post in site.posts limit:5 %}
-    {% if post.type == 'event_announcement' %}
-    <li>
-        <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.when }}, {{ post.title }}, {{ post.location }}</a>
-    </li>
-
-    {% endif %}
+    {% assign i = 0 %}
+    {% for post in site.posts reversed %}
+      {% if i > 4 %}
+        {% break %}
+      {% endif %}
+      {% if post.type == 'workshop_announcement' %}
+        {% assign workshop_start_date = post.start_date | date: "%Y-%m-%d" %}
+        {% if workshop_start_date > today_date %}
+          {% if post.registration contains "https://www.epay.ed.ac.uk" %}
+            {%- capture registration_link -%}
+              , Sign Up <a class="post-link" href="{{ post.registration }}" target="_blank"> HERE </a>
+            {%- endcapture -%}
+          {% else %}
+            {% assign registration_link = "" %}
+          {% endif %}
+          <li>
+              {{ post.when }}, <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.title }}</a>{{registration_link}}
+          </li>
+          {% assign  i = i | plus:1 %}
+        {% endif %} 
+      {% endif %}
     {% endfor %}
 </ul>
-<a class="post-link" href="events/">See all events (Coming soon!)</a>
-
-<h3>Workshops</h3>
-<ul class="post-list">
-    {% for post in site.posts limit:5 %}
-    {% if post.type == 'workshop_announcement' %}
-    <li>
-        <a class="post-link" href="{{ post.website }}" target="_blank">{{ post.when }}, {{ post.title }}</a>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
-<!--a class="post-link" href="https://edcarp.github.io/Ed-DaSH/workshop_posts.html" target="_blank">See all workshops</a-->
-<a class="post-link" href="workshop_posts/" target="_blank">See all workshops</a>
+<a class="post-link" href="workshops" target="_blank">See all workshops</a>

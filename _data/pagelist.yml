@@ -3,16 +3,16 @@ docs_list_title: Pages
 docs:
 
 - title: Home
-  url: https://edcarp.github.io/Ed-DaSH/index.html
+  url: index.html
 
 - title: Project overview
-  url: https://edcarp.github.io/Ed-DaSH/project_overview.html
+  url: project_overview.html
 
-- title: Curricula overview
-  url: https://edcarp.github.io/Ed-DaSH/curricula_overview.html
+- title: Lesson overview
+  url: lesson_overview.html
   
 - title: Workshops
-  url: https://edcarp.github.io/Ed-DaSH/workshops.html
+  url: workshops.html
   
 - title: Team
-  url: https://edcarp.github.io/Ed-DaSH/ed_dash_team.html
+  url: ed_dash_team.html
