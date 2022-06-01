@@ -54,7 +54,6 @@ base of people actively engaged in learning, applying, and teaching data skills.
     {% endif %}
     {% endfor %}
  </table>
-
  <br><br>
 
 {% comment %}{% capture workshoptime %}{{page.start_date | date: '%s' |  minus: 604800}}{% endcapture %}{% endcomment %}
