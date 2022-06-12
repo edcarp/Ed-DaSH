@@ -1,5 +1,5 @@
 ---
-title: "High-Dimensional Statistics with R" 
+title: "High-Dimensional Statistics with R"
 when: "17 - 20 May 2022"
 start_date: 2022-05-17
 end_date: 2022-05-20
@@ -8,4 +8,4 @@ registration: https://www.epay.ed.ac.uk/conferences-and-events/college-of-medici
 
 categories: jekyll update
 type: workshop_announcement
---- 
+---
