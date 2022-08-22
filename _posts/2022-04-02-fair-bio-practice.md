@@ -1,5 +1,5 @@
 ---
-title: "FAIR in (biological) practice"
+title: "CANCELLED - Please check later dates | FAIR in (biological) practice"
 when: "13 - 16 September 2022"
 start_date: 2022-09-13
 end_date: 2022-09-16
