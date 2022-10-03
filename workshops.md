@@ -17,7 +17,7 @@ community-based project that is a global leader in teaching data and coding skil
 paradigm of open access training leads participants on a skills development path, first as a learner,
 then helping an experienced instructor, finally leading instruction themselves. The Carpentries’
 success and sustainability is driven by its inclusive and collaborative approach, broadening the
-base of people actively engaged in learning, applying, and teaching data skills.
+base of people actively engaged in learning, applying, and teaching data skills. 
 
 <br>
 
